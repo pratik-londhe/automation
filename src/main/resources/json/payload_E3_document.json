@@ -1,0 +1,21 @@
+{
+   "channel":101287,
+   "status":1,
+   "archived":false,
+   "base_language":"en",
+   "created_by":12946,
+   "created_at":"2022-03-16T12:02:09.816Z",
+   "modified_by":null,
+   "modified_at":null,
+   "document":9964,
+   "original_name":"sample-pdf-file.pdf",
+   "location":"https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads//uploads/101287/documents/d98b5ee0-cd51-4087-8e0b-ff6a5471cfe1/sample-pdf-file.pdf",
+   "thumbnail":"https://assets.brandnot.live/uploads//uploads/101287/documents/d98b5ee0-cd51-4087-8e0b-ff6a5471cfe1/sample-pdf-file.jpg",
+   "thumbnail_status":2,
+   "filesize":146367,
+   "cloud_convert_id":"549d437f-96ef-48de-823c-6e0ce19a0dec",
+   "display_name":{
+      "base":"Sample Document"
+   },
+   "module_id":33207
+}

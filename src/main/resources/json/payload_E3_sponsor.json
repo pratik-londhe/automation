@@ -1,0 +1,29 @@
+   {
+      "channel":101287,
+      "status":1,
+      "archived":false,
+      "base_language":"en",
+      "created_by":13112,
+      "created_at":"2022-04-30T12:48:32.263Z",
+      "modified_by":null,
+      "modified_at":null,
+      "sponsor":596,
+      "name":"Sponsor",
+      "description":{
+         "base":"",
+         "changed":""
+      },
+      "image":"https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads/101287/1836970e-9d41-4ae9-966b-8afa7135c39a/1651322899138_w225_h225.png",
+      "enable_cta":false,
+      "module_id":33769,
+      "call_to_action":{
+         "type":2,
+         "content":{
+            
+         },
+         "button_name":{
+            "base":"Learn More",
+            "changed":""
+         }
+      }
+   }

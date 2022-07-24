@@ -1,0 +1,53 @@
+{
+  "channels": {
+    "events_channels": [
+      {
+        "channel": 1410,
+        "uuid": "34a51611-2171-4a03-8eb5-4220c8faa7ee",
+        "name": "Brandlive QA",
+        "url": "qa.brand.live",
+        "logos": {
+          "gray": null,
+          "color": "https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads/1410/5f2659e1-8291-4507-a1b9-980bd58a6cae/1633550278103_w175_h72.png",
+          "white": null,
+          "favicon": null,
+          "watermark": null
+        },
+        "logo_white": null,
+        "logo_color": "https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads/1410/5f2659e1-8291-4507-a1b9-980bd58a6cae/1633550278103_w175_h72.png"
+      },
+      {
+        "channel": 67,
+        "uuid": "8d9baae8-eebc-423c-a534-da0854976d50",
+        "name": "Brandlive QA Automation I",
+        "url": "qauto1.brand.live",
+        "logos": {
+          "gray": null,
+          "color": null,
+          "white": null,
+          "favicon": null,
+          "watermark": null
+        },
+        "logo_white": null,
+        "logo_color": null
+      },
+      {
+        "channel": 515,
+        "uuid": "1eff0fee-158f-4607-b65e-3c66efa9a6be",
+        "name": "Brandlive QA Old",
+        "url": "qa-old.brand.live",
+        "logos": {
+          "gray": null,
+          "color": "https://cdn.brnd.live/assets/images/client_logos/color/theme_marmot_logo1.png",
+          "white": null,
+          "favicon": null,
+          "watermark": null
+        },
+        "logo_white": null,
+        "logo_color": "https://cdn.brnd.live/assets/images/client_logos/color/theme_marmot_logo1.png"
+      }
+    ],
+    "events_legacy_channels": [],
+    "gr_channels": []
+  }
+}

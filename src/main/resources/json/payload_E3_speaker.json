@@ -1,0 +1,36 @@
+   {
+      "channel":101287,
+      "status":1,
+      "archived":false,
+      "base_language":"en",
+      "created_by":13112,
+      "created_at":"2022-04-30T12:54:18.538Z",
+      "modified_by":null,
+      "modified_at":null,
+      "speaker":1784,
+      "description":{
+         "en":"",
+         "base":"",
+         "changed":""
+      },
+      "image":"https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads/101287/5f9c4d0b-22aa-4857-ba0a-c4d88f4325a9/1651323231577_w176_h176.jpg",
+      "original_image":"https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads/101287/ac9c9404-a145-4aea-b5c6-4e7c8a0cc388/1651323228524_w275_h183.jpeg",
+      "module_id":33770,
+      "first_name":"Ann",
+      "last_name":"Kim",
+      "link_social":false,
+      "social_links":[
+         {
+            "url":"",
+            "platform":""
+         }
+      ],
+      "job_title":{
+         "en":"Sales Manager",
+         "base":"Sales Manager",
+         "changed":""
+      },
+      "attributes":[
+         
+      ]
+   }

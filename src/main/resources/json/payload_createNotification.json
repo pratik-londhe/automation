@@ -1,0 +1,21 @@
+{
+   "notification": {
+      "meeting": 0,
+      "sending_user": 491,
+      "channel": 0,
+      "created": "start_time",
+      "type": "invite-presenter",
+      "receiving_emails": [
+         "brandlive.automation1@gmail.com"
+      ],
+      "receiving_users": [],
+      "data": {
+         "message": "**%%notification_sender%%** invited you as a presenter on **%%notification_meeting%%**",
+         "meeting_slug": "meeting_slug",
+         "meeting_name": "meeting_name",
+         "first_name": "Brandlive",
+         "last_name": "Automation1",
+         "wallpaper": ""
+      }
+   }
+}

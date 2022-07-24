@@ -1,0 +1,630 @@
+{
+   "teleprompter_id":0,
+   "section_data":{
+      "section_title":"Intro",
+      "shotObject":{
+         "shot_id":0,
+         "meeting":0,
+         "shot_data":{
+            "forcedLayout":"single cover",
+            "shotTitle":"Intro",
+            "videoTitlesOn":false,
+            "shotFeeds":[
+               {
+                  "media":0,
+                  "presenter":null,
+                  "email":null,
+                  "screenshare":null,
+                  "feedType":"media",
+                  "position":0
+               }
+            ],
+            "shotDuration":153,
+            "order":0,
+            "cue":"",
+            "note":"",
+            "shotGraphics":[
+               
+            ]
+         },
+         "shot_style":{
+            "applied":{
+               "gap":1,
+               "layout":"single cover",
+               "backgroundColor":"#000000",
+               "defaultPreviewLayouts":[
+                  "single cover",
+                  "vertical two cover",
+                  "vertical three cover",
+                  "grid four",
+                  "stack five four-by-three cover",
+                  "grid six",
+                  "grid seven",
+                  "grid eight"
+               ],
+               "selectedLayouts":[
+                  "single cover",
+                  "vertical two cover",
+                  "vertical three cover",
+                  "grid four",
+                  "stack five four-by-three cover",
+                  "grid six",
+                  "grid seven",
+                  "grid eight"
+               ],
+               "previewLayout":"single cover",
+               "wallpaperType":"color",
+               "wallpaperColor":"#000000",
+               "wallpaperImage":"",
+               "wallpaperScale":100,
+               "backgroundType":"color",
+               "backgroundImage":"",
+               "backgroundVideo":"",
+               "backgroundScale":100,
+               "backgroundFill":"cover",
+               "spacingLinked":false,
+               "topSpacing":0,
+               "bottomSpacing":0,
+               "sideSpacing":0,
+               "innerSpacing":0,
+               "presenterVideoBorderOn":true,
+               "presenterVideoBorderPosition":"outside",
+               "presenterVideoBorderColor":"#ffffff",
+               "presenterVideoBorderOpacity":1,
+               "presenterVideoBorderSize":2,
+               "presenterVideoRadius":0,
+               "titlesOn":false,
+               "titlesUseName":true,
+               "titlesUseTitle":true,
+               "titlesUseLocation":true,
+               "titlesAnimation":"none",
+               "titlesDuration":null,
+               "titlesPosition":"bottom-left",
+               "titlesFontColor1":"#ffffff",
+               "titlesFontColor2":"#ffffff",
+               "titlesBackgroundColor1":"#000000",
+               "titlesBackgroundColor2":"#2b2b2b",
+               "titlesBackgroundColor3":"#5b5b5b",
+               "titlesScale":100,
+               "titlesSelectedCard":1,
+               "layoutSpacingPresets":[
+                  {
+                     "layout":"half cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"vertical two cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack two right contain",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"horizontal two contain",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"vertical three cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack three top",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack three left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack three right",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid four",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"vertical four cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"spiral four",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five four-by-three cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five right",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five top-left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five two-left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five four-top",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid six",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack six right",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack six left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack six random",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid seven",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack seven center",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid eight",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  }
+               ]
+            },
+            "queue":{
+               "gap":1,
+               "layout":"single cover",
+               "backgroundColor":"#000000",
+               "defaultPreviewLayouts":[
+                  "single cover",
+                  "vertical two cover",
+                  "vertical three cover",
+                  "grid four",
+                  "stack five four-by-three cover",
+                  "grid six",
+                  "grid seven",
+                  "grid eight"
+               ],
+               "selectedLayouts":[
+                  "single cover",
+                  "vertical two cover",
+                  "vertical three cover",
+                  "grid four",
+                  "stack five four-by-three cover",
+                  "grid six",
+                  "grid seven",
+                  "grid eight"
+               ],
+               "previewLayout":"single cover",
+               "wallpaperType":"color",
+               "wallpaperColor":"#000000",
+               "wallpaperImage":"",
+               "wallpaperScale":100,
+               "backgroundType":"color",
+               "backgroundImage":"",
+               "backgroundVideo":"",
+               "backgroundScale":100,
+               "backgroundFill":"cover",
+               "spacingLinked":false,
+               "topSpacing":0,
+               "bottomSpacing":0,
+               "sideSpacing":0,
+               "innerSpacing":0,
+               "presenterVideoBorderOn":true,
+               "presenterVideoBorderPosition":"outside",
+               "presenterVideoBorderColor":"#ffffff",
+               "presenterVideoBorderOpacity":1,
+               "presenterVideoBorderSize":2,
+               "presenterVideoRadius":0,
+               "titlesOn":false,
+               "titlesUseName":true,
+               "titlesUseTitle":true,
+               "titlesUseLocation":true,
+               "titlesAnimation":"none",
+               "titlesDuration":null,
+               "titlesPosition":"bottom-left",
+               "titlesFontColor1":"#ffffff",
+               "titlesFontColor2":"#ffffff",
+               "titlesBackgroundColor1":"#000000",
+               "titlesBackgroundColor2":"#2b2b2b",
+               "titlesBackgroundColor3":"#5b5b5b",
+               "titlesScale":100,
+               "titlesSelectedCard":1,
+               "layoutSpacingPresets":[
+                  {
+                     "layout":"half cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"vertical two cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack two right contain",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"horizontal two contain",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"vertical three cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack three top",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack three left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack three right",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid four",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"vertical four cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"spiral four",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five four-by-three cover",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five right",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five top-left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five two-left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack five four-top",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid six",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack six right",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack six left",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack six random",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid seven",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"stack seven center",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  },
+                  {
+                     "layout":"grid eight",
+                     "isLinked":false,
+                     "spacing":{
+                        "top":15,
+                        "bottom":15,
+                        "side":15,
+                        "inner":15
+                     }
+                  }
+               ]
+            }
+         },
+         "presenters":null,
+         "media":null,
+         "edited_by":534,
+         "edited":"edited",
+         "created_by":534,
+         "created":"created",
+         "status":1
+      },
+      "media_url":null,
+      "hasContent":true
+   },
+   "content":"content",
+   "section_type_id":0,
+   "section_type":1
+}

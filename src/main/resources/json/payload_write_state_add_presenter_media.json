@@ -1,0 +1,25 @@
+{
+  "stateData": {
+    "stateVar": "connectedPresenterVideos",
+    "reducer": "videoReducer",
+    "conditional": true,
+    "resetOnEmpty": true
+  },
+  "room": 0,
+  "action": {
+    "type": "actionType",
+    "payload": {
+      "id": "uuId",
+      "srcObject": {},
+      "videoMuted": false,
+      "muted": false,
+      "mutedPreference": false,
+      "userInitiated": false,
+      "self": false,
+      "local": false,
+      "profile": 534
+    }
+  },
+  "session": "session",
+  "timestamp": 0
+}

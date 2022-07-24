@@ -1,0 +1,15 @@
+{
+  "stateData": {
+    "stateVar": "currentShotId",
+    "reducer": "shotsReducer",
+    "conditional": true,
+    "resetOnEmpty": true
+  },
+  "room": 0,
+  "action": {
+    "type": "actionType",
+    "payload": 0
+  },
+  "session": "session",
+  "timestamp": 0
+}

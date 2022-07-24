@@ -1,0 +1,29 @@
+{
+  "stateData":{
+    "stateVar":"presentedMedia",
+    "reducer":"mediaReducer",
+    "conditional":false,
+    "resetOnEmpty":true
+  },
+  "room":0,
+  "action":{
+    "type":"actionType",
+    "payload":[
+      {
+        "mediaId":0,
+        "presentedBy":0,
+        "pages":["imageUrl"],
+        "currentPage":1,
+        "background_color":"",
+        "fill":false,
+        "name":"mediaName",
+        "videoState":{
+          "paused":true,
+          "volume":1
+        }
+      }
+    ]
+  },
+  "session":"session",
+  "timestamp":0
+}

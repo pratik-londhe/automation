@@ -1,0 +1,53 @@
+  {    
+      "channel":1410,
+      "status":1,
+      "archived":false,
+      "base_language":"en",
+      "created_by":7768,
+      "created_at":"2022-04-27T19:39:06.849Z",
+      "modified_by":null,
+      "modified_at":null,
+      "product":28605,
+      "categories":[
+         
+      ],
+      "images":[
+         "https://brandlive-upload.s3-us-west-2.amazonaws.com/uploads/1410/045338cb-c264-439e-9cb1-2edf36b018b1/1651088336784_w612_h408.jpeg"
+      ],
+      "tab_title":{
+         "en":"",
+         "base":"",
+         "changed":""
+      },
+      "product_title":{
+         "en":"Something special",
+         "base":"Something special",
+         "changed":""
+      },
+      "description":{
+         "en":"This is a special product",
+         "base":"This is a special product",
+         "changed":""
+      },
+      "price":{
+         "en":"300.00",
+         "base":"300.00",
+         "changed":"true"
+      },
+      "buy_now_link":"",
+      "sale_price":{
+         "en":"250.00",
+         "base":"250.00",
+         "changed":"true"
+      },
+      "button_text":{
+         "en":"",
+         "base":"",
+         "changed":""
+      },
+      "module_id":31001,
+      "attributes":[
+         
+      ],
+      "use_attributes":true
+  }

@@ -1,0 +1,80 @@
+{
+   "directory":{
+      "allowBookmarking":false,
+      "allowFilters":false,
+      "filters":[
+         
+      ],
+      "isOn":false
+   },
+   "eventChatChannels":[
+      {
+         "channelImageUrl":"",
+         "created_at":"1648160790468",
+         "group_type":0,
+         "title":"Event Lobby",
+         "uuid":"46fa0dad-e083-4ba5-b7ec-2080651f91f0"
+      }
+   ],
+   "messaging":false,
+   "profiles":{
+      "displayAvatar":false,
+      "displayType":0,
+      "isOn":false,
+      "sections":[
+         {
+            "edited":false,
+            "fields":[
+               
+            ],
+            "isOn":true,
+            "title":{
+               "base":"General Information",
+               "changed":"true",
+               "en":"General Information"
+            },
+            "type":0,
+            "uuid":"bdd6d753-d723-40df-a0d0-9316c1528f33"
+         },
+         {
+            "edited":false,
+            "fields":[
+               {
+                  "questionKey":6
+               },
+               {
+                  "questionKey":4
+               },
+               {
+                  "questionKey":9
+               }
+            ],
+            "isOn":false,
+            "title":{
+               "base":"About",
+               "changed":"true",
+               "en":"About"
+            },
+            "type":1,
+            "uuid":"f50c8577-6b17-4773-a718-0e41fed066bb"
+         },
+         {
+            "edited":false,
+            "fields":[
+               {
+                  "questionKey":17
+               }
+            ],
+            "isOn":false,
+            "title":{
+               "base":"Topics",
+               "changed":"true",
+               "en":"Topics"
+            },
+            "type":2,
+            "uuid":"fd52201e-0c27-42db-88c6-46d631393fe8"
+         }
+      ]
+   },
+   "topicGroupChats":false
+}
