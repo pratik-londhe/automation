@@ -1,0 +1,4 @@
+{
+	"meeting": 0,
+	"settings": "{\"templateAccordionOpen\":false,\"spacingAccordionOpen\":false,\"wallpaperAccordionOpen\":false,\"backgroundAccordionOpen\":false,\"greenroomSettingsAccordionOpen\":false,\"useModeratedQuestions\":true,\"previewLayout\":\"single cover\",\"askToJoin\":false,\"selectedResolution\":\"1080p\",\"settingsTab\":1,\"entryWithoutProducer\":true,\"overlayVisible\":false,\"backstageCommsActive\":true,\"useDefaultEndpoint\":true,\"defaultResolution\":\"1080p\",\"customDestinations\":[],\"selectedCustomDestination\":\"\",\"roomState\":0,\"useEmailInvites\":true,\"clearShot\":false,\"useShowboard\":true,\"defaultMeetingImage\":{\"image\":\"\",\"color\":\"\",\"scale\":0},\"feedScaling\":true,\"autoMute\":false,\"hasFetchedFeatureFlags\":false,\"preMedia\":null,\"postMedia\":null,\"preMediaUploading\":false,\"postMediaUploading\":false}"
+  }

@@ -1,0 +1,27 @@
+{
+	"stateData": {
+	  "stateVar": "presentedMedia",
+	  "reducer": "mediaReducer",
+	  "conditional": false,
+	  "resetOnEmpty": true
+	},
+	"room": 0,
+	"action": {
+	  "type": "SET_PRESENTED_MEDIA",
+	  "payload": [
+		{
+		  "mediaId": 39099,
+		  "presentedBy": 0,
+		  "pages": [
+			"https://assets.brandlive.com/uploads/all-meetings/videos/Make_Em_Go_Wow.mp4"
+		  ],
+		  "currentPage": 1,
+		  "background_color": "",
+		  "fill": false,
+		  "name": "Make Em Go Wow"
+		}
+	  ]
+	},
+	"session": "0",
+	"timestamp": 1654721845289
+  }

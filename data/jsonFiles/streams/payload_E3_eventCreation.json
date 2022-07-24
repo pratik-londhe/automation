@@ -1,0 +1,100 @@
+{
+  "channel": 101287,
+  "template": 1,
+  "name": "Automation template 1 Event 932 5/2/2022, 10:16:33 PM",
+  "homepage": true,
+  "registration_on": true,
+  "social_settings": {
+    "directory": {
+      "isOn": false,
+      "allowBookmarking": false,
+      "allowFilters": false,
+      "filters": []
+    },
+    "profiles": {
+      "isOn": false,
+      "displayAvatar": false,
+      "displayType": 0,
+      "sections": [
+        {
+          "uuid": "888e8eb7-da52-4650-b857-aa86e1ab1a90",
+          "title": {
+            "base": "General Information",
+            "changed": "true",
+            "en": "General Information"
+          },
+          "isOn": true,
+          "edited": false,
+          "fields": [],
+          "type": 0
+        },
+        {
+          "uuid": "a11b60a3-6574-40d5-a147-1d02d31cbf7b",
+          "title": {
+            "base": "About",
+            "changed": "true",
+            "en": "About"
+          },
+          "isOn": false,
+          "edited": false,
+          "fields": [
+            {
+              "questionKey": 6
+            },
+            {
+              "questionKey": 4
+            },
+            {
+              "questionKey": 9
+            }
+          ],
+          "type": 1
+        },
+        {
+          "uuid": "45a3e49e-58a0-4924-bec6-0cf52e98b33d",
+          "title": {
+            "base": "Topics",
+            "changed": "true",
+            "en": "Topics"
+          },
+          "isOn": false,
+          "edited": false,
+          "fields": [
+            {
+              "questionKey": 17
+            }
+          ],
+          "type": 2
+        }
+      ]
+    },
+    "messaging": false,
+    "topicGroupChats": false,
+    "eventChatChannels": {
+      "created_at": 1651554994178,
+      "title": "Event Lobby",
+      "uuid": "d15da196-b41c-4d58-809c-43a76a8dd2f8",
+      "group_type": 0,
+      "channelImageUrl": ""
+    }
+  },
+  "sessions": [
+    {
+      "title": "OD1",
+      "channel": 101287,
+      "uid": "94d3ee4c-7897-463b-a52f-f51112bb0dc1",
+      "default_language": "en",
+      "session_type": "on-demand",
+      "replay_on": null,
+      "current_language": "en",
+      "on_demand": true,
+      "streaming_options": {
+        "single_stream": false
+      },
+      "tracks": [],
+      "languages": [
+        "en"
+      ]
+    }
+  ]
+}

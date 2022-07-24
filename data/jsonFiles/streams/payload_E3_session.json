@@ -1,0 +1,114 @@
+{
+    "session": 5992,
+    "channel": 101287,
+    "title": {
+        "en": "Broadcast 9",
+        "base": "Broadcast 9"
+    },
+    "description": null,
+    "tracks": [],
+    "default_language": "en",
+    "languages": [
+        "en"
+    ],
+    "on_demand": false,
+    "timestamp": 1655386691967,
+    "layout": null,
+    "moderation": null,
+    "end_timestamp": 1655387591967,
+    "uuid": "795f2996-ed77-11ec-b23e-c91dfb07c2c9",
+    "modules": [
+        59039,
+        59040,
+        59041,
+        59042,
+        59043,
+        59044,
+        59045,
+        59046,
+        59047
+    ],
+    "video": null,
+    "image": null,
+    "video_duration": 0,
+    "ivs_channel": null,
+    "session_type": "broadcast",
+    "module_grouping": [
+        {
+            "icon": "infoOutline",
+            "name": {
+                "en": "Overview",
+                "base": "Overview"
+            },
+            "uuid": "b9100dd6-ef7d-4fe3-ab76-561146b70f56",
+            "is_on": true,
+            "modules": [
+                59039,
+                59040,
+                59044,
+                59046
+            ]
+        },
+        {
+            "icon": "bar-graph",
+            "name": {
+                "en": "Polls",
+                "base": "Polls"
+            },
+            "uuid": "753e2b3e-5deb-4aff-be57-a45151c1a96c",
+            "is_on": true,
+            "modules": [
+                59042,
+                59043
+            ]
+        },
+        {
+            "icon": "documents",
+            "name": {
+                "en": "Documents",
+                "base": "Documents"
+            },
+            "uuid": "dad70e2a-3d6a-49b3-b5bb-648dad6b75cc",
+            "is_on": true,
+            "modules": [
+                59045
+            ]
+        },
+        {
+            "icon": "images",
+            "name": {
+                "en": "Questions",
+                "base": "Questions"
+            },
+            "uuid": "b2a17cac-d85f-462f-ba95-aa450a9ee517",
+            "is_on": true,
+            "modules": [
+                59041
+            ]
+        }
+    ],
+    "on_demand_video": null,
+    "is_on": null,
+    "broadcast_type": "greenroom",
+    "use_different_thumbnails": false,
+    "pre_broadcast_thumbnail": null,
+    "post_broadcast_thumbnail": null,
+    "custom_css": null,
+    "breakout_rooms": null,
+    "replay_on": true,
+    "should_record": false,
+    "opentok_id": null,
+    "opentok_id_issued_timestamp": null,
+    "session_chat_enabled": true,
+    "streaming_options": {
+        "single_stream": false
+    },
+    "current_language": "en",
+    "video_player_controls_settings": {
+        "color_theme": "default"
+    },
+    "reaction_settings": {
+        "enabled": false,
+        "reactions": []
+    }
+}
