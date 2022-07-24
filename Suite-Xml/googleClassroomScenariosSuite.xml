@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation">
+    <test name="Chrome Test">
+        <parameter name="browser" value="CHROME"/>
+        <parameter name="URL" value="https://www.ck12.org/"/>
+        <classes>
+            <class name="testscripts.regression.teacherlogin.googleclassroom.CreateGoogleClassTest"/>
+        </classes>
+    </test>
+</suite>

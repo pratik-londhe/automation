@@ -1,0 +1,58 @@
+<UIElements>
+    <UIElement name="btnAssignAssignment" locatorType="xpath" locatorValue="//span[text()='Assign']"/>
+    <UIElement name="iconCross" locatorType="xpath" locatorValue="//span[@data-dx-desc='assign_banner_close_icon']"/>
+    <UIElement name="iconMinimizeAssign" locatorType="xpath" locatorValue="//span[@data-dx-desc='show_assign_banner_badge']"/>
+    <UIElement name="iconRelated" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_toolbar_related']"/>
+    <UIElement name="iconArrowDown" locatorType="xpath" locatorValue="//div[@id='tool-bar']/div[1]/div/div[1]/span[1]/button/i"/>
+    <UIElement name="txtRelated" locatorType="xpath" locatorValue="//span[normalize-space()='Related Content']"/>
+    <UIElement name="linkRelatedCourseBook" locatorType="xpath" locatorValue="//div[@class='rmq-f566ab0e rmq-ccfbd5b']"/>
+    <UIElement name="iconToc" locatorType="xpath" locatorValue="//div[@id='toc-container']//span"/>
+    <UIElement name="linkSubjectChapters" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_toc_unit_button']"/>
+    <UIElement name="linkChaptersConcepts" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_toc_section_button']/span[1]"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//span[@class='icon-close2']"/>
+    <UIElement name="iconResources" locatorType="xpath" locatorValue="//i[@class='icon-shared_res']//following-sibling::div[text()='resources']"/>
+    <UIElement name="txtResourcesAndFiles" locatorType="xpath" locatorValue="//span[@class='rmq-257e7845']"/>
+    <UIElement name="iconSettings" locatorType="xpath" locatorValue="//span[@title='View Settings']//div"/>
+    <UIElement name="txtSettings" locatorType="xpath" locatorValue="//span[@class='rmq-257e7845']"/>
+    <UIElement name="linksOfSettingChange" locatorType="xpath" locatorValue="//div[@class='dxtrack-user-action']"/>
+    <UIElement name="iconShare" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_toolbar_share']"/>
+    <UIElement name="btnSend" locatorType="id" locatorValue="sendShareEmail"/>
+    <UIElement name="iconShareCross" locatorType="xpath" locatorValue="//div[@class='rmq-f5c57e40']"/>
+    <UIElement name="linkNextConcept" locatorType="id" locatorValue="nextButtonDiv"/>
+    <UIElement name="linkPreviousConcept" locatorType="id" locatorValue="prevButtonDiv"/>
+    <UIElement name="btnViewPractice" locatorType="xpath" locatorValue="//span[text()='View Practice']"/>
+    <UIElement name="btnPreview" locatorType="xpath" locatorValue="//span[@class='button-title']//b"/>
+    <UIElement name="iconClose2" locatorType="xpath" locatorValue="//div[@class='icon-close2']"/>
+    <UIElement name="btnTOC" locatorType="id" locatorValue="toc-container"/>
+    <UIElement name="btnBackToFlexBook" locatorType="xpath" locatorValue="//div[@id='course-app']//div[2]//div[3]//span[1]/a/span"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//span[text()='Assign']"/>
+    <UIElement name="addedRelatedModality" locatorType="xpath" locatorValue="//div[@class='rmq-ed0f1591']"/>
+    <UIElement name="btnCK12Platform" locatorType="xpath" locatorValue="//div[@data-dx-desc='platform_select_ck-12_card']"/>
+    <UIElement name="txtDueDate" locatorType="xpath" locatorValue="//div[@class='DueDate']"/>
+    <UIElement name="btnTodayDate" locatorType="xpath" locatorValue="//div[contains(@class,'datepicker__day--today')]"/>
+    <UIElement name="chkBoxClass" locatorType="xpath" locatorValue="//div[@class='custom-box'][1]/div[1]/div"/>
+    <UIElement name="btnCreateAssignment" locatorType="xpath" locatorValue="//div[@data-dx-desc='create_assignment_button']/span"/>
+    <UIElement name="popUpSuccessMsg" locatorType="xpath" locatorValue="//b[text()='Success!']"/>
+    <UIElement name="validationMsgDueDate" locatorType="xpath" locatorValue="//div[text()='required']"/>
+    <UIElement name="disabledDate" locatorType="xpath" locatorValue="//div[contains(@class,'datepicker__day--today')]//following-sibling::div[1]"/>
+    <UIElement name="txtStartDate" locatorType="xpath" locatorValue="//div[@class='StartDate']"/>
+    <UIElement name="linkCBookNameBreadcrumb" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_breadcrumb']"/>
+    <UIElement name="iconUserArrow" locatorType="xpath" locatorValue="//i[@class='icon-arrow-up']"/>
+    <UIElement name="linkDashboard" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_dashboard_button']"/>
+    <UIElement name="btnTurnin" locatorType="xpath" locatorValue="//span[@class='rmq-d2ebfc01 dxtrack-user-action']"/>
+    <UIElement name="msgTurnIn" locatorType="xpath" locatorValue="//span[contains(text(),'Great job! You successfully completed this assignment on:')]"/>
+    <UIElement name="btnStartPractice" locatorType="xpath" locatorValue="//span[text()='Start Practice']"/>
+    <UIElement name="btnStartPracticing" locatorType="xpath" locatorValue="//div[@class='tangerine button ButtonComponent__buttonmargin startPracticing large standard  ']"/>
+    <UIElement name="labelAdaptivePractice" locatorType="xpath" locatorValue="//span[text()='Adaptive Practice']"/>
+    <UIElement name="iconCloseAdaptivePractice" locatorType="xpath" locatorValue="//div[@class='icon-close2']"/>
+    <UIElement name="linkConcept" locatorType="xpath" locatorValue="//span[@title='Molecular Evidence']"/>
+    <UIElement name="btnContinuePractice" locatorType="xpath" locatorValue="//span[text()='Continue Practice']"/>
+    <UIElement name="iconCloseAssign" locatorType="xpath" locatorValue="//span[@data-dx-desc='platform_select_close_icon']"/>
+    <UIElement name="iconArrowDown" locatorType="xpath" locatorValue="(//div[@id='tool-bar']//button)[1]"/>
+    <UIElement name="iconClassName" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__headerTitles___Nls9A']//a[@title='Class2']"/>
+    <UIElement name="textProgress" locatorType="xpath" locatorValue="//div[text()='Progress']"/>
+    <UIElement name="indicatorProgress" locatorType="xpath" locatorValue="(//div[text()='Progress']//following::div)[1]"/>
+    <UIElement name="textFlexBookName" locatorType="xpath" locatorValue="//div[@id='toc-container-open']//div[text()[contains(.,'CK-12 Interactive Middle School Math 6 for CCSS')]]"/>
+</UIElements>
+
+

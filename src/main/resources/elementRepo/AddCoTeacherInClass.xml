@@ -1,0 +1,28 @@
+<UIElements>
+    <UIElement name="dropdownForCoTeacher" locatorType="xpath" locatorValue="(//div[@class='member-details']//span[3])[2]"/>
+    <UIElement name="linkHowToAddCoTeacher" locatorType="xpath" locatorValue="//span[@class='create-co-teacher-tips pointer js-edit-tips hide-for-small']"/>
+    <UIElement name="txtAddCoTeacher" locatorType="xpath" locatorValue="//div[@class='modal-uikit reveal-modal open']//h3  txtAddCoTeacher"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='modal-uikit reveal-modal open']//a"/>
+    <UIElement name="linkMakeCoTeacher" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element ']//span[text()='Make Co-Teacher']"/>
+    <UIElement name="linkRemoveFromClass" locatorType="xpath" locatorValue="(//li[@class='js-dropdown-element']//span[text()='Remove from class'])[2]"/>
+    <UIElement name="linkRemoveCoTeacher" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element']//span[text()='Remove as Co-Teacher']"/>
+    <UIElement name="btnRemove" locatorType="xpath" locatorValue="//div[@class='large-12 columns']//div[3]//a[1]"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='large-12 columns']//div[3]//a[2]"/>
+    <UIElement name="txtSpanNames" locatorType="xpath" locatorValue="//span[@class='member-name ']//span[1]"/>
+    <UIElement name="txtTeacherName" locatorType="xpath" locatorValue="//span[@class='member-name class-admin-role-css']//span[2]"/>
+    <UIElement name="txtClassNames" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__headerTitles___Nls9A']//a//span"/>
+    <!--<UIElement name="dropDownPlus" locatorType="xpath" locatorValue="//div[@class='scss-components-PageSubmenuButton__container___1eh73 ']//button"/>-->
+    <UIElement name="dropDownPlus" locatorType="xpath" locatorValue="//button[@data-dx-desc='Open submenu']"/>
+    <UIElement name="btnCreateClass" locatorType="xpath" locatorValue="//ul[@class='scss-components-PageSubmenuButton__actions___2MCZJ']//li[1]"/>
+    <!--<UIElement name="btnJoinClass" locatorType="xpath" locatorValue="//ul[@class='scss-components-PageSubmenuButton__actions___2MCZJ']//li[2]"/>-->
+    <UIElement name="btnJoinClass" locatorType="xpath" locatorValue="//li[@data-dx-desc='Join a Class']"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//div[@class='scss-components-Modal__modalContainer___3gwqB']//div//i"/>
+    <UIElement name="btnJoin" locatorType="xpath" locatorValue="//div[@class='scss-components-JoinGroupModal__buttonsContainer___3hIgr scss-components-JoinGroupModal__joinGroupbuttonsContainer___1GN0b']//span[1]"/>
+    <UIElement name="btnJoinCancel" locatorType="xpath" locatorValue="//div[@class='scss-components-JoinGroupModal__buttonsContainer___3hIgr scss-components-JoinGroupModal__joinGroupbuttonsContainer___1GN0b']//span[3]"/>
+    <UIElement name="placeHolderClassCode" locatorType="xpath" locatorValue="//div[@class='scss-components-JoinGroupModal__joinGroupContent___3yFvZ']//div[3]//input"/>
+    <UIElement name="iconProfile" locatorType="id" locatorValue="top_nav_usermenu"/>
+    <UIElement name="txtCodeNotMatch" locatorType="xpath" locatorValue="//div[@class='scss-components-messageText__messageTextRoot___3duD9  undefined']"/>
+    <UIElement name="txtErrorMessage" locatorType="xpath" locatorValue="//div[@class='scss-components-JoinGroupModal__joinGroupContent___3yFvZ']//div[4]"/>
+    <UIElement name="txtTeacher" locatorType="xpath" locatorValue="//span[text()=' Teacher']"/>
+    <UIElement name="txtCoTeacher" locatorType="xpath" locatorValue="//span[@class='member-name class-admin-role-css']//..//following-sibling::span[@class='userRoleInClass class-admin-role-class ']"/>
+</UIElements>

@@ -1,0 +1,41 @@
+<UIElement>
+<UIElement name="iconClassName" locatorType="xpath" locatorValue="(//span[@class='scss-components-GroupCard__groupName__16RcW'])[1]"/>
+<UIElement name="className" locatorType="id" locatorValue="group-name"/>
+<UIElement name="btnOk" locatorType="xpath" locatorValue="//div[text()='Okay']"/>
+<UIElement name="btnMember" locatorType="id" locatorValue="group-members-link"/>
+<UIElement name="btnAddStudent" locatorType="xpath" locatorValue="(//a[normalize-space()='Add Students'])[2]"/>
+<UIElement name="linkWithoutEmailIcon" locatorType="xpath" locatorValue="//a[normalize-space()='Add Students without email']"/>
+<UIElement name="txtUserName" locatorType="name" locatorValue="firstname"/>
+<UIElement name="txtUniqueName" locatorType="name" locatorValue="username"/>
+<UIElement name="txtUserPassword" locatorType="name" locatorValue="password"/>
+<UIElement name="btnCreate" locatorType="xpath" locatorValue="//div[normalize-space()='Create']"/>
+<UIElement name="btnViewReport" locatorType="xpath" locatorValue="//button[normalize-space()='View Students']"/>
+<UIElement name="btnStudentInfo" locatorType="id" locatorValue="group-home-link"/>
+<UIElement name="btnFixErrors" locatorType="xpath" locatorValue="//button[normalize-space()='Fix Errors']"/>
+<UIElement name="findExistingButton" locatorType="xpath" locatorValue="//a[normalize-space()='Find existing students']"/>
+<UIElement name="selectCheckBox" locatorType="xpath" locatorValue="//*[@class='user-col user-checkbox dxtrack-user-action']"/>
+<UIElement name="btnSelect" locatorType="xpath" locatorValue="//*[@class='button turquoise dxtrack-user-action']"/>
+<UIElement name="btnViewStudent" locatorType="xpath" locatorValue="//a[normalize-space()='View Students']"/>
+<UIElement name="linkAlreadyInLibrary" locatorType="xpath" locatorValue="//div[normalize-space()='Already a member']"/>
+<UIElement name="tabEmailStudent" locatorType="xpath" locatorValue="//a[@data-dx-desc='roster_email_students_button']"/>
+<UIElement name="tabWithEmail" locatorType="xpath" locatorValue="//a[normalize-space()='Invite students by email']"/>
+<UIElement name="iconCross" locatorType="xpath" locatorValue="//*[@id='rosterModal']/a"/>
+<UIElement name="spanNames" locatorType="xpath" locatorValue="//div[@id='group-student']//div//div//span[2]"/>
+<UIElement name="txtRecentClassActivity" locatorType="xpath" locatorValue="//a[@data-dx-desc='Recent Class Activity']"/>
+    <UIElement name="txtFirstName1" locatorType="xpath" locatorValue="(//input[@name='firstname'])[1]"/>
+    <UIElement name="txtFirstName2" locatorType="xpath" locatorValue="(//input[@name='firstname'])[2]"/>
+    <UIElement name="txtFirstName3" locatorType="xpath" locatorValue="(//input[@name='firstname'])[3]"/>
+    <UIElement name="txtUserName1" locatorType="xpath" locatorValue="(//input[@name='username'])[1]"/>
+    <UIElement name="txtUserName2" locatorType="xpath" locatorValue="(//input[@name='username'])[2]"/>
+    <UIElement name="txtUserName3" locatorType="xpath" locatorValue="(//input[@name='username'])[3]"/>
+    <UIElement name="txtPassword1" locatorType="xpath" locatorValue="(//input[@name='password'])[1]"/>
+    <UIElement name="txtPassword2" locatorType="xpath" locatorValue="(//input[@name='password'])[2]"/>
+    <UIElement name="txtPassword3" locatorType="xpath" locatorValue="(//input[@name='password'])[3]"/>
+    <UIElement name="btnAdd" locatorType="xpath" locatorValue="//a[@data-dx-desc='roster_add_link']"/>
+    <UIElement name="txtMembersName" locatorType="xpath" locatorValue="//span[@class='member-name']"/>
+    <UIElement name="txtErrorMessage" locatorType="xpath" locatorValue="//div[@class='large-12 columns error-message']"/>
+    <UIElement name="iconValid" locatorType="xpath" locatorValue="//i[@class='icon-validated hide-for-small for-row']"/>
+    <UIElement name="iconInvalid" locatorType="xpath" locatorValue="//i[@class='icon-notification hide-for-small']"/>
+</UIElement>
+
+

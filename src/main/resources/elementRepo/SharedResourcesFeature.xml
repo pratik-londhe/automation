@@ -1,0 +1,17 @@
+<UIElements>
+    <UIElement name="textSortBy" locatorType="xpath" locatorValue="//div[@class='members-container-wrapper']//h2"/>
+    <UIElement name="textShow" locatorType="xpath" locatorValue="//span[@class='groups-select-wrapper']//span[text()='Show:']"/>
+    <UIElement name="linkTypeTitle" locatorType="xpath" locatorValue="//div[@class='members-select']//a[@id='dropdown-title' and text()='Type']"/>
+    <UIElement name="textRead" locatorType="xpath" locatorValue="//div[@class='resource-detail']//span[text()='READ']"/>
+    <UIElement name="dropDownSortBy" locatorType="xpath" locatorValue="//div[@class='members-select']//a[@data-dropdown='drop2' ]"/>
+    <UIElement name="linkType" locatorType="xpath" locatorValue="//ul[@class='f-dropdown resource-type-dropdown open']//li[@class='js-dropdown-element']//a[text()='Type']"/>
+    <UIElement name="linkMembers" locatorType="xpath" locatorValue="//ul[@class='f-dropdown resource-type-dropdown open']//li[@class='js-dropdown-element']//a[text()='Members']"/>
+    <UIElement name="textResourceName" locatorType="xpath" locatorValue="//div[@class='resource-detail']//span[@class='resource-name js-block-title ie8text']"/>
+    <UIElement name="checkBoxSharedByMe" locatorType="xpath" locatorValue="//span[@id='my-resource']"/>
+    <UIElement name="checkBoxSharedByOthers" locatorType="xpath" locatorValue="//span[@id='other-resource']"/>
+    <UIElement name="textNoResources" locatorType="xpath" locatorValue="//div[@id='no-resources']//span"/>
+    <UIElement name="iconDeleteResources" locatorType="xpath" locatorValue="//div[@class='activity-content small-12 large-10 columns']//span[@data-reveal-id]"/>
+    <UIElement name="textRemoveResources" locatorType="xpath" locatorValue="//div[@id='deleteResourceModal']//b[text()]"/>
+    <UIElement name="btnDeleteResources" locatorType="xpath" locatorValue="//a[@id='delete-resource']"/>
+    <UIElement name="btnCancelDeleteResources" locatorType="xpath" locatorValue="//a[@id='cancel-delete']"/>
+</UIElements>

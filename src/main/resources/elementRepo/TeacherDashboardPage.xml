@@ -1,0 +1,5 @@
+<UIElements>
+    <UIElement name="teacherUserMenuProfileIcon" locatorType="xpath" locatorValue="//section[@class='top-bar row user-settings align-justify']//li[1]//i"/>
+    <UIElement name="iconClasses" locatorType="xpath" locatorValue="//a[@data-dx-desc=('Classes')]"/>
+    <UIElement name="iconTeacherProfile" locatorType="xpath" locatorValue="//span[@id='notification-container']//preceding::li/span"/>
+</UIElements>

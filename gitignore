@@ -1,0 +1,8 @@
+target/*
+screenshots/*
+test-output/*
+.idea/*
+logs/*
+CK12Automation.iml
+ExtentReport.html
+failedTestSuite.xml

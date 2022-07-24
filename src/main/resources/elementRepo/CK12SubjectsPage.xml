@@ -1,0 +1,30 @@
+<UIElements>
+    <UIElement name="listOfChapters" locatorType="xpath" locatorValue="//a[@class='level-1-concept hide-child-concepts ']//span"/>
+    <UIElement name="linkHaveAClass" locatorType="xpath" locatorValue="//*[@data-dx-desc='student_landing_class_code_link']"/>
+    <UIElement name="btnStartLearning" locatorType="xpath" locatorValue="//a[@data-dx-desc='student_landing_start_learning_button']"/>
+    <UIElement name="iconCloseJoinClass" locatorType="id" locatorValue="Layer_1"/>
+    <UIElement name="textEmptyCodeMsg" locatorType="id" locatorValue="EmptyCodeMsg"/>
+    <UIElement name="textEnterYourClassCode" locatorType="xpath" locatorValue="//div[@id='modal-root']//div[text()='Enter your class code below!']"/>
+    <UIElement name="btnJoinClass" locatorType="xpath" locatorValue="//div[@data-dx-desc='student_landing_modal_join_class']"/>
+    <UIElement name="btnPlay" locatorType="xpath" locatorValue="//button[@class='ytp-large-play-button ytp-button']"/>
+    <UIElement name="textVideoTitle" locatorType="xpath" locatorValue="//a[@data-sessionlink='feature=player-title']"/>
+    <UIElement name="iconCk12Image" locatorType="xpath" locatorValue="//a[@data-dx-desc='topnav_home']"/>
+    <UIElement name="textWhatDoYouWantToLearn" locatorType="xpath" locatorValue="//h2[text()='What Do You Want to Learn Today?']"/>
+    <UIElement name="btnStartBrowsing" locatorType="xpath" locatorValue="//img[contains(@class,'ImageBanner__Image-sc-1paszst-0 hnbwRl')]"/>
+    <UIElement name="textWhatDoYouWantToTeach" locatorType="xpath" locatorValue="//div[text()='What Do You Want to Teach Today?']"/>
+    <UIElement name="textMathByLevel" locatorType="xpath" locatorValue="(//div[@id='math_by_level'])[1]"/>
+    <UIElement name="textScience" locatorType="xpath" locatorValue="(//div[@id='science'])[1]"/>
+    <UIElement name="textCollege" locatorType="xpath" locatorValue="(//div[@id='college'])[1]"/>
+    <UIElement name="textCountry" locatorType="xpath" locatorValue="(//div[@id='country'])[1]"/>
+    <UIElement name="textExploreSomeOurProducts" locatorType="xpath" locatorValue="//h2[text()='Explore Some of Our Products']"/>
+    <UIElement name="linkBrowseFlexBook" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_browse_flexbooks®']"/>
+    <UIElement name="linkBrowseAdaptivePractice" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_browse_adaptive_practice']"/>
+    <UIElement name="linkPhysics" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_physics']"/>
+    <UIElement name="linkChemistry" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_chemistry']"/>
+    <UIElement name="linkPlix" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_browse_plix']"/>
+    <UIElement name="linkStudyGuide" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_browse_study_guides']"/>
+    <UIElement name="linkFindYourSchool" locatorType="xpath" locatorValue="//a[@data-dx-desc='landing_find_your_school']"/>
+    <UIElement name="textFlexBook" locatorType="xpath" locatorValue="//div[@id='fbbrowse-root']//img[@class='card-title-image titlecomponent__StyledImg-sc-1wq5ut2-1 JtyIH']"/>
+    <UIElement name="frameElement" locatorType="xpath" locatorValue="//iframe[@title='CK-12 Student Overview']"/>
+    <UIElement name="carousel" locatorType="xpath" locatorValue="(//div[@class='Carousel__CarouselIndicatorWrapper-q7lmks-1 ldVjmT']//a)[2]"/>
+</UIElements>

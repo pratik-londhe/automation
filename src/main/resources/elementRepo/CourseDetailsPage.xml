@@ -1,0 +1,21 @@
+<UIElements>
+<UIElement name="spanDot" locatorType="xpath" locatorValue="//div[@id='concept-list-outer-container']/span"/>
+<UIElement name="linkDetailsTab" locatorType="xpath" locatorValue="//a[text()='Details']"/>
+<UIElement name="idArtifact" locatorType="xpath" locatorValue="//div[contains(text(),'artifactID:')]"/>
+<UIElement name="linksConceptWithoutParentChapter" locatorType="xpath" locatorValue="//a[@data-dx-referrer='cbook_page_main']/span"/>
+<UIElement name="linkAssign" locatorType="xpath" locatorValue="//b[text()='Assign']"/>
+<UIElement name="linkEdit" locatorType="xpath" locatorValue="//b[text()='Edit']"/>
+<UIElement name="linkLastConcept" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_toc_section_button']"/>
+<UIElement name="btnCK12Platform" locatorType="xpath" locatorValue="//span[@title='CK-12']"/>
+<UIElement name="radioBtnClass" locatorType="xpath" locatorValue="//input[@id='radio0']"/>
+<UIElement name="btnChooseUnit" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_choose_units_button']"/>
+<UIElement name="btnSelectLastUnit" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_select_unit']"/>
+<UIElement name="txtDueDate" locatorType="xpath" locatorValue="//div[@class='react-datepicker__input-container']"/>
+<UIElement name="chkBoxConcept" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_select_concept_checkbox']"/>
+<UIElement name="btnAssign" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_create_assignment_button']"/>
+<UIElement name="txtStartDate" locatorType="xpath" locatorValue="//div[@class='react-datepicker__input-container']"/>
+<UIElement name="btnStart" locatorType="xpath" locatorValue="//div[text()='Start']"/>
+<UIElement name="btnAddToLibrary" locatorType="xpath" locatorValue="//b[text()='Add to Library']"/>
+<UIElement name="txtSuccessMessage" locatorType="xpath" locatorValue="//div[text()='This FlexBook 2.0 has been added to your library.']"/>
+<UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_add_to_library_got_it_button']"/>
+</UIElements>

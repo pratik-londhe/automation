@@ -1,0 +1,9 @@
+<UIElements>
+    <UIElement name="textHome" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//span[text()='Home']"/>
+    <UIElement name="linkSubjectTitle" locatorType="xpath" locatorValue="//a[@data-encodedid='MAT.EM1']"/>
+    <UIElement name="textTopic" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//span[@id]"/>
+    <UIElement name="textBranchName" locatorType="xpath" locatorValue="//div[@class='row collapse node-heading']//span"/>
+    <UIElement name="linkBranchTitle" locatorType="xpath" locatorValue="(//div[@class='left track-name-wrapper']//span[@class='track-name js-node-name'])[1]"/>
+    <UIElement name="textConcept" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//span[text()='Concepts']"/>
+    <UIElement name="textConceptHeading" locatorType="xpath" locatorValue="//div[@id='concept-heading']/div[2]/span[1]"/>
+</UIElements>

@@ -1,0 +1,20 @@
+<UIElements>
+    <UIElement name="tabResources" locatorType="xpath" locatorValue="//li[@class='ui-state-default ui-corner-top']//a[text()='Resources']"/>
+    <UIElement name="btnUploadFiles" locatorType="xpath" locatorValue="//div[@id='resource_upload']//div[text()='Upload Files']"/>
+    <UIElement name="pathOfFile" locatorType="name" locatorValue="uploadfile"/>
+    <UIElement name="linkOfFile" locatorType="xpath" locatorValue="(//div[@class='resourcenamelinkwrap break-word']//a)[1]"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="(//div[@class='js_row_actions actions']//span[@class='icon-close'])[1]"/>
+    <UIElement name="linkMakePublic" locatorType="xpath" locatorValue="(//div[@class='js_row_actions actions']//a[@data-txtmakepublic='Make Public'])[1]"/>
+    <UIElement name="btnRemove" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//button//span[text()='Remove']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="(//div[@class='ui-dialog-buttonset']//span[text()='Cancel'])[2]"/>
+    <UIElement name="btnEditResources" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//span[text()='Edit Resource']"/>
+    <UIElement name="btnCancelEdit" locatorType="xpath" locatorValue="(//div[@class='ui-dialog-buttonset']//span[text()='Cancel'])[2]"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//span[text()='Save']"/>
+    <UIElement name="textEditResources" locatorType="xpath" locatorValue="//span[@id='ui-dialog-title-js_edit_resource']"/>
+    <UIElement name="checkBoxPublished" locatorType="xpath" locatorValue="//div[@class='input_row type_input_row']//label"/>
+    <UIElement name="placeHolderDescription" locatorType="xpath" locatorValue="//div[@class='input_row description_row']//textarea"/>
+    <UIElement name="btnCancelEditResources" locatorType="xpath" locatorValue="(//div[@class='ui-dialog-buttonset']//span[text()='Cancel'])[1]"/>
+    <UIElement name="textPleaseEnterDescription" locatorType="xpath" locatorValue="//div[@class='error js_res_desc_msg input_row']//label"/>
+    <UIElement name="iconEdit" locatorType="xpath" locatorValue="(//a[@class='js_resource_edit myresource_edit']//span[@class='icon-edit'])[1]"/>
+    <UIElement name="linkForgotPassword" locatorType="xpath" locatorValue=""/>
+</UIElements>

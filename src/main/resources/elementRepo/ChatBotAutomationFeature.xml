@@ -1,0 +1,16 @@
+<UIElements>
+    <UIElement name="btnOpenChatBot" locatorType="xpath" locatorValue="//button[@class='openChatbotButton']"/>
+    <UIElement name="textAskMeAnything" locatorType="xpath" locatorValue="//div[@class='openChatbotButtonContainer']//span"/>
+    <UIElement name="textModalityTitle" locatorType="xpath" locatorValue="//h1[@id='artifact_title']//span"/>
+    <UIElement name="textChatBotTitle" locatorType="xpath" locatorValue="//div[@class='chatbotTitleContainer']//span[@class='chatbotTitle']"/>
+    <UIElement name="iconCloseChatBot" locatorType="xpath" locatorValue="//div[@class='chatbotHeaderContainer']//span[@class='chatbotCloseButtonText']"/>
+    <UIElement name="textSuggestedActions" locatorType="id" locatorValue="suggestionText"/>
+    <UIElement name="linkWatchVideo" locatorType="xpath" locatorValue="//div[@id='suggestionsContainer']//span[text()='Watch a Video']"/>
+    <UIElement name="linkTakeAQuiz" locatorType="xpath" locatorValue="//div[@id='suggestionsContainer']//span[text()='Take a Quiz']"/>
+    <UIElement name="linkTryInteractive" locatorType="xpath" locatorValue="//div[@id='suggestionsContainer']//span[text()='Try an Interactive']"/>
+    <UIElement name="textWatchAVideo" locatorType="xpath" locatorValue="//div[@class='chatbotAvatarCommentContainerUser']//p[@class='chatbotCommentUser']"/>
+    <UIElement name="linkPractice" locatorType="xpath" locatorValue="//div[@class='textContainer']//p[@class='cardTitle']"/>
+    <UIElement name="placeHolderChatBotInput" locatorType="id" locatorValue="chatbotUserInput"/>
+    <UIElement name="textDidNotGet" locatorType="xpath" locatorValue="//div[@class='chatbotAvatarCommentContainerUser']//following::p[@class]"/>
+    <UIElement name="textValidResult" locatorType="xpath" locatorValue="//div[@class='chatbotAvatarCommentContainerUser']//following::p[@class]"/>
+</UIElements>

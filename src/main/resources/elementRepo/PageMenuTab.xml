@@ -1,0 +1,22 @@
+<UIElements>
+    <UIElement name="tabDashboard" locatorType="id" locatorValue="(//a[@title='Dashboard'])[1]"/>
+    <UIElement name="tabClasses" locatorType="xpath" locatorValue="(//a[@title='Classes'])[1]"/>
+    <UIElement name="tabLibrary" locatorType="xpath" locatorValue="(//a[@title='Library'])[1]"/>
+    <UIElement name="firstClass" locatorType="xpath" locatorValue="(//a[contains(@href,'/group/') and contains(@title,'Class')])[2]"/>
+    <UIElement name="firstClassOne" locatorType="xpath" locatorValue="(//a[contains(@href,'/group/') and contains(@title,'Class')])[1]"/>
+    <UIElement name="assignmentTab" locatorType="xpath" locatorValue="//a[@id='group-assignments-link']"/>
+    <UIElement name="memberTab" locatorType="xpath" locatorValue="//a[@id='group-members-link']"/>
+    <UIElement name="className" locatorType="xpath" locatorValue="//span[@class='header4-regular widget-groups-title js-group-link']"/>
+    <UIElement name="assignmentContainer" locatorType="xpath" locatorValue="(//div[@class='row collapse member-assignment-list-container'])[1]"/>
+    <UIElement name="startAssign" locatorType="xpath" locatorValue="//span[contains(@class,'start-block concept')]"/>
+    <UIElement name="btnStart" locatorType="xpath" locatorValue="//b[text()='Start'] | (//b[text()='Try Again'])[2]"/>
+    <UIElement name="answer" locatorType="xpath" locatorValue="(//div[@class='response display-text'])[1]"/>
+    <UIElement name="checkItButton" locatorType="xpath" locatorValue="//input[@id='submitResponse']"/>
+    <UIElement name="btnSubmit" locatorType="xpath" locatorValue="//div[text()='Submit']"/>
+    <UIElement name="YesBtn" locatorType="xpath" locatorValue="//input[@id='testSubmitModalOk']"/>
+    <UIElement name="btnTurnIn" locatorType="xpath" locatorValue="//span[text()='Turn In']"/>
+    <UIElement name="btnTurnInAgain" locatorType="xpath" locatorValue="//div[@data-dx-desc='low_score_modal_turn_in_button']"/>
+    <UIElement name="btnContinue" locatorType="xpath" locatorValue="//span[text()='Continue']"/>
+    <UIElement name="tabReport" locatorType="xpath" locatorValue="//a[@id='group-reports-link']"/>
+    <UIElement name="OkSuccessButton" locatorType="xpath" locatorValue="//div[@data-dx-desc='turn_in_success_modal_ok_button']"/>
+</UIElements>

@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation" parallel="tests">
+    <test name="Chrome Test" parallel="classes" thread-count="15">
+        <parameter name="browser" value="CHROME"/>
+        <classes>
+            <class name="testscripts.regression.JenkinsBlocker.AddResourcesInModalityFlexBookTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.AnswerKeyModalityFeatureTest"/>
+            <class name="testscripts.regression.InvalidTestCases.ExploreNowFeatureTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.NewChapterWithoutFillingCBookNameTest"/>
+            <class name="testscripts.regression.teacherlogin.ReportFeature.TryNewReports.StandardAlignedFlexBookFeatureTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.SupportFeatureTest"/>
+        </classes>
+    </test>
+</suite>

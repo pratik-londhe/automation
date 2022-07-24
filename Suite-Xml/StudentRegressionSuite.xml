@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation" parallel="tests" thread-count="10">
+    <parameter name="browser" value="CHROME"/>
+    <test name="Chrome Test" parallel="classes" thread-count="15">
+        <parameter name="browser" value="CHROME"/>
+        <packages>
+            <package name="testscripts.regression.studentlogin.DashBoardFeature.LandingPageFeature"/>
+            <package name="testscripts.regression.studentlogin.DashBoardFeature.StudyGuideFeature"/>
+            <package name="testscripts.regression.studentlogin.DashBoardFeature.SimulationFeatureTest"/>
+            <package name="testscripts.regression.studentlogin.LibraryFeature.CreateFlexBookFeature"/>
+            <package name="testscripts.regression.studentlogin.LibraryFeature.EditFlexBookFeature"/>
+            <package name="testscripts.regression.studentlogin.DashBoardFeature.SearchFeature"/>
+            <package name="testscripts.regression.studentlogin.AuthenticationFeature"/>
+        </packages>
+    </test>
+
+    <!--<suite-files>
+        <suite-file path="StudentAuthenticationRegressionSuite.xml"/>
+        <suite-file path="StudentDashBoardRegressionSuite.xml"/>
+        <suite-file path="StudentLibraryRegressionSuite.xml"/>
+    </suite-files>-->
+</suite>

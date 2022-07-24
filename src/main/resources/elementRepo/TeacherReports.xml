@@ -1,0 +1,27 @@
+<UIElements>
+    <UIElement name="linkNoDueDate" locatorType="xpath" locatorValue="//div[@id='assignment-wrapper']//span"/>
+    <UIElement name="linkAssignmentName" locatorType="xpath" locatorValue="//div[@class='left assignment-title']//span[@class]"/>
+    <UIElement name="btnUndoAssign" locatorType="xpath" locatorValue="//span[@class='assigned']"/>
+    <UIElement name="btnRemoveIt" locatorType="id" locatorValue="unassign-assignment-modal-unassign"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//div[@class='text-center right assignment-message-assign assignment-assign']//span"/>
+    <UIElement name="btnYesAssign" locatorType="xpath" locatorValue="//div[@class='row collapse assign-modal-button-wrapper']//a[1]"/>
+    <UIElement name="linkStudentAssignmentName" locatorType="xpath" locatorValue="//a[@class='link-green']"/>
+    <UIElement name="btnStart" locatorType="xpath" locatorValue="//span[@class='start-block concept ']"/>
+    <UIElement name="btnTurnIn" locatorType="id" locatorValue="turn-in-button"/>
+    <UIElement name="btnTryAgain" locatorType="xpath" locatorValue="//div[@class='quizBottomParent']//span[@class='button-title']"/>
+    <UIElement name="btnSubmit" locatorType="xpath" locatorValue="//div[@id='submitTest']//div"/>
+    <UIElement name="btnOptionTrue" locatorType="xpath" locatorValue="//div[@class='response display-text']//p[text()='TRUE']"/>
+    <UIElement name="btnNext" locatorType="xpath" locatorValue="//div[@class='row collapse']//input[@id='nextQuestion']"/>
+    <UIElement name="btnYesSubmit" locatorType="id" locatorValue="testSubmitModalOk"/>
+    <UIElement name="btnTurnInConfirm" locatorType="id" locatorValue="turn-in-confirm"/>
+    <UIElement name="btnSkipQuestion" locatorType="id" locatorValue="skipQuestion"/>
+    <UIElement name="textStudentName" locatorType="xpath" locatorValue="student-cell-click"/>
+    <UIElement name="textStudentNameData" locatorType="xpath" locatorValue="//span[@class='StudentCell__StudentName-sc-17j2syb-2 ipeHzj']"/>
+    <UIElement name="textPercentage" locatorType="xpath" locatorValue="//div[@class='ReportCell__Wrapper-sc-15k9wi9-1 hwZgCn']"/>
+    <UIElement name="wdgtShareMe" locatorType="xpath" locatorValue=""/>
+    <UIElement name="wdgtShareMe" locatorType="xpath" locatorValue=""/>
+    <UIElement name="wdgtShareMe" locatorType="xpath" locatorValue=""/>
+    <UIElement name="wdgtShareMe" locatorType="xpath" locatorValue=""/>
+    <UIElement name="wdgtShareMe" locatorType="xpath" locatorValue=""/>
+    <UIElement name="wdgtShareMe" locatorType="xpath" locatorValue=""/>
+</UIElements>

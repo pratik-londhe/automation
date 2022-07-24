@@ -1,0 +1,10 @@
+<UIElements>
+    <UIElement name="btnSupport" locatorType="xpath" locatorValue="//button[@class='supportButton']"/>
+    <UIElement name="textSupport" locatorType="xpath" locatorValue="//div[@id='Embed']//h1[text()='Support']"/>
+    <UIElement name="iconDash" locatorType="xpath" locatorValue="//button[@aria-label='Close']//span"/>
+    <UIElement name="iconSearch" locatorType="xpath" locatorValue="//span[@data-testid='Icon--search']"/>
+    <UIElement name="placeHolderSearchFiled" locatorType="xpath" locatorValue="//input[@data-garden-id='textfields.input']"/>
+    <UIElement name="textTopResult" locatorType="xpath" locatorValue="//h2[@class='src-component-helpCenter-HelpCenterResults-legendContent Arrange-sizeFill']"/>
+    <UIElement name="linkFirstResult" locatorType="xpath" locatorValue="//li[@class='src-component-helpCenter-HelpCenterResults-item ']//a[text()='CK-12 Resource Bookmarklet Overview']"/>
+    <UIElement name="iconBack" locatorType="xpath" locatorValue="//span[@data-testid='Icon--back']"/>
+</UIElements>

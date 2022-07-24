@@ -1,0 +1,23 @@
+<UIElements>
+    <UIElement name="iconStudentProfile" locatorType="xpath" locatorValue="//span[@id='notification-container']//preceding::li/span"/>
+    <UIElement name="tabClassActivity" locatorType="xpath" locatorValue="//p[@class='title header4-regular active-tab-header group-activity hide-for-small']//a"/>
+    <UIElement name="tabSelfStudy" locatorType="xpath" locatorValue="//p[@class='title header4-regular active-tab-header self-study hide-for-small']//a"/>
+    <UIElement name="patchLatestActivity" locatorType="xpath" locatorValue="//div[@class='widget-group-activity-body']//span[@class='latest-activity-patch']"/>
+    <UIElement name="titleClassName" locatorType="xpath" locatorValue="//span[@class='header4-regular widget-groups-title js-group-link' and @title]"/>
+    <UIElement name="iconMemberImage" locatorType="xpath" locatorValue="(//img[@class='member-image'])[1]"/>
+    <UIElement name="textOwnerName" locatorType="xpath" locatorValue="//span[@class='group-owner-name ']"/>
+    <UIElement name="linkMemberCount" locatorType="xpath" locatorValue="//div[@class='right members-counts-wrapper paragraph pointer js-group-members']//span"/>
+    <UIElement name="linkRecent" locatorType="xpath" locatorValue="//div[@id='latestFlexbooksTracks']//h3"/>
+    <UIElement name="linkAllSubjectProgress" locatorType="xpath" locatorValue="//div[@id='allSubjectsProgressLink']//a"/>
+    <UIElement name="iconLatestSelfStudyView" locatorType="id" locatorValue="showLatestSelfStudyView"/>
+    <UIElement name="dropDownSubjectSelector" locatorType="xpath" locatorValue="//div[@id='allSubjectsHeader']//span[@class='subject-dropdown-selector']"/>
+    <UIElement name="linkSubjectList" locatorType="xpath" locatorValue="//ul[@id='subjectListDropDown']//li[@data-encodedid='MAT.EM1']"/>
+    <UIElement name="iconGridView" locatorType="xpath" locatorValue="//span[@class='grid-view track-view']//i"/>
+    <UIElement name="btnStart" locatorType="xpath" locatorValue="(//span[@class='start-block concept sub-header3 '])[1]"/>
+    <UIElement name="iconListView" locatorType="xpath" locatorValue="//span[@class='list-view track-view']//i"/>
+    <UIElement name="textTrack" locatorType="xpath" locatorValue="//span[text()='track']"/>
+    <UIElement name="textProgress" locatorType="xpath" locatorValue="//span[text()='progress']"/>
+    <UIElement name="iconJoinClass" locatorType="xpath" locatorValue="//div[@class='create-group-wrapper js-create-group-wrapper']//span"/>
+    <UIElement name="btnJoin" locatorType="xpath" locatorValue="//a[@id='join-group-button']"/>
+    <UIElement name="textClasses" locatorType="xpath" locatorValue="//div[@class='large-12 small-12 columns']//span[text()='Classes']"/>
+</UIElements>

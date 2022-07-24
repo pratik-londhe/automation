@@ -1,0 +1,37 @@
+<UIElements>
+    <!--<UIElement name="linkStudyGuides" locatorType="xpath" locatorValue="//a[contains(@href,'/study-guides/')]"/>-->
+    <UIElement name="linkStudyGuides" locatorType="xpath" locatorValue="//*[@id='header-new']/header/section[2]/ul/li[4]/a"/>
+    <UIElement name="textStudyGuides" locatorType="xpath" locatorValue="//div[@class='exploration-series']"/>
+    <UIElement name="iconCK12" locatorType="xpath" locatorValue="//img[@class='app-logo']"/>
+    <UIElement name="placeHolderSearch" locatorType="xpath" locatorValue="//div[@class='search-box']//input"/>
+    <UIElement name="textNoResult" locatorType="id" locatorValue="noResult"/>
+    <UIElement name="linkSearchResult" locatorType="xpath" locatorValue="//div[@class='search-box']//span"/>
+    <UIElement name="iconCloseSearch" locatorType="xpath" locatorValue="//div[@class='search-box']//img"/>
+    <UIElement name="linkGeometryBranch" locatorType="xpath" locatorValue="//div[@class='interested-branches']//a[@title='geometry']"/>
+    <UIElement name="linkAlgebraBranch" locatorType="xpath" locatorValue="//div[@class='interested-branches']//a[@title='algebra']"/>
+    <UIElement name="linkEarthScienceBranch" locatorType="xpath" locatorValue="//div[@class='interested-branches']//a[@title='earth science']"/>
+    <UIElement name="linkBiologyBranch" locatorType="xpath" locatorValue="//div[@class='interested-branches']//a[@title='biology']"/>
+    <UIElement name="linkPhysicsBranch" locatorType="xpath" locatorValue="//div[@class='interested-branches']//a[@title='physics']"/>
+    <UIElement name="textConceptTitles" locatorType="xpath" locatorValue="//div[@class='tile-image-name']//h2"/>
+    <UIElement name="linkFirstConcept" locatorType="xpath" locatorValue="(//div[@class='tile-image-name']//h2)[1]"/>
+    <UIElement name="linkLandingPage" locatorType="xpath" locatorValue="//a[@id='landingPageLink']"/>
+    <UIElement name="textTitle" locatorType="xpath" locatorValue="//span[@id='artifactTitleText']"/>
+    <UIElement name="linkToolTip" locatorType="xpath" locatorValue="//div[contains(@class,'StudyguideHeader__ViewerToolTip')]//span"/>
+    <UIElement name="linkDownload" locatorType="xpath" locatorValue="//div[contains(@class,'StudyguideHeader__ViewerToolTip')]//a[contains(text(),'Download')]"/>
+    <UIElement name="linkAddToLibrary" locatorType="xpath" locatorValue="//div[contains(@class,'StudyguideHeader__ViewerToolTip')]//a[contains(text(),'Add to Library')]"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//a[@class='closeViewer']"/>
+    <UIElement name="iconCloseAlertModal" locatorType="xpath" locatorValue="//div[contains(@class,'ReactModal__Content')]//div"/>
+    <UIElement name="btnOK" locatorType="xpath" locatorValue="//div[contains(@class,'ReactModal__Content')]//div[contains(text(),'Got It')]"/>
+    <UIElement name="textAlert" locatorType="xpath" locatorValue="//div[contains(@class,'ReactModal__Content')]//h3"/>
+    <UIElement name="linkBrowseConcept" locatorType="xpath" locatorValue="(//div[@class='sim-covers-tags']//a[@data-dx-desc='study_guides_browse_concept_click'])[1]"/>
+    <UIElement name="textModalityTitle" locatorType="xpath" locatorValue="//div[@class='modality_title']//h2"/>
+    <UIElement name="iconCloseModalWindow" locatorType="xpath" locatorValue="//div[@class='modal-content']//div[@class='close-modal']"/>
+    <UIElement name="linkRead" locatorType="xpath" locatorValue="//ul[@id='modality_filters_list']//a[@class='lnk_modality_filter group_text']"/>
+    <UIElement name="linkVideo" locatorType="xpath" locatorValue="//ul[@id='modality_filters_list']//a[@class='lnk_modality_filter group_multimedia']"/>
+    <UIElement name="textVideo" locatorType="xpath" locatorValue="(//div[@class='resource_meta']//span[text()='Video'])[1]"/>
+    <UIElement name="textRead" locatorType="xpath" locatorValue="(//div[@class='resource_meta']//span[text()='Read'])[1]"/>
+    <UIElement name="tabStandard" locatorType="xpath" locatorValue="(//div[@class='sim-covers']//div[@data-dx-desc='study_guides_browse_standards_tab'])[1]"/>
+    <UIElement name="tagStandardCover" locatorType="xpath" locatorValue="(//div[@class='sim-covers-tags sim-covers-tags-s'])[1]"/>
+    <UIElement name="textStandardView" locatorType="xpath" locatorValue="(//div[@class='sim-std-desc-view'])[1]"/>
+    <UIElement name="linkNinthConcept" locatorType="xpath" locatorValue="(//div[@class='sim-covers-tags']//a[@data-dx-desc='study_guides_browse_concept_click'])[8]"/>
+</UIElements>

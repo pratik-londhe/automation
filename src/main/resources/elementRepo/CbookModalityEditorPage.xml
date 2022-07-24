@@ -1,0 +1,12 @@
+<UIElements>
+    <UIElement name="tabRelated" locatorType="xpath" locatorValue="//a[text()='Related']"/>
+    <UIElement name="btnAddModality" locatorType="xpath" locatorValue="//span[text()='Add a modality']"/>
+    <UIElement name="txtSearchBox" locatorType="id" locatorValue="input_concept_node"/>
+    <UIElement name="btnSearch" locatorType="id" locatorValue="btn_search"/>
+    <UIElement name="chkBoxModality" locatorType="xpath" locatorValue="//div[@class='add-concept-modality-title']//input"/>
+    <UIElement name="btnAddConcept" locatorType="id" locatorValue="btn-add-concept"/>
+    <UIElement name="btnFinalizeDraft" locatorType="id" locatorValue="btn_save_artifact"/>
+    <UIElement name="btnFinalize" locatorType="xpath" locatorValue="//div[text()='Finalize']"/>
+    <UIElement name="iconRemoveModality" locatorType="xpath" locatorValue="//I[@class='icon-close']"/>
+</UIElements>
+

@@ -1,0 +1,14 @@
+<UIElements>
+    <UIElement name="progressPercentage" locatorType="xpath" locatorValue="//span[@class='rotate']//span[@class='totalPercentage bold']"/>
+    <UIElement name="iconCloseProgressWrapper" locatorType="xpath" locatorValue="(//div[@class='side-header']//a[@class='close-cross'])[3]"/>
+    <UIElement name="textQuestionAndAnswer" locatorType="xpath" locatorValue="(//div[@class='progress-block top-1x']//span[@class])[1]"/>
+    <UIElement name="textFeedbackAndHints" locatorType="xpath" locatorValue="(//div[@class='progress-block top-2x']//span[@class])[1]"/>
+    <UIElement name="textRemember" locatorType="xpath" locatorValue="(//div[@class='progress-block tip']//span[@class])[1]"/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue=""/>
+</UIElements>

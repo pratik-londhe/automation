@@ -1,0 +1,11 @@
+<UIElements>
+    <UIElement name="wdgtShareMe" locatorType="id" locatorValue="share-plane"/>
+    <UIElement name="txtFullName" locatorType="name" locatorValue="fullname"/>
+    <UIElement name="txtEmailFrom" locatorType="name" locatorValue="from"/>
+    <UIElement name="txtEmailRecipient" locatorType="name" locatorValue="recipient"/>
+    <UIElement name="btnSend" locatorType="xpath" locatorValue="//button[@id='sendShareEmail']"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//following-sibling::div[text()='+']"/>
+    <UIElement name="errMsgFullName" locatorType="xpath" locatorValue="//div[@id='fullname-error']//div"/>
+    <UIElement name="errMsgEmailFrom" locatorType="xpath" locatorValue="//div[@class='invalid-email-error-msg']"/>
+    <UIElement name="errMsgEmailRecipient" locatorType="xpath" locatorValue="//div[@class='invalid-email-msg']"/>
+</UIElements>

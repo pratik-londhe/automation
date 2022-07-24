@@ -1,0 +1,21 @@
+<UIElements>
+    <UIElement name="btnAddStudent" locatorType="xpath" locatorValue="//div[@data-dx-desc='roster_members_add_students_button']"/>
+    <UIElement name="iconEllipsisFirst" locatorType="xpath" locatorValue="(//div[@class='member-details']//span[@class='more-options icon-ellipsis hide-for-medium-down'])[1]"/>
+    <UIElement name="iconEllipsisSecond" locatorType="xpath" locatorValue="(//div[@class='member-details']//span[@class='more-options icon-ellipsis hide-for-medium-down'])[2]"/>
+    <UIElement name="editAccountLink" locatorType="xpath" locatorValue="(//a[@data-dx-desc='roster_members_edit_member_link']//span)[3]"/>
+    <UIElement name="editAccountLinkSec" locatorType="xpath" locatorValue="(//a[@data-dx-desc='roster_members_edit_member_link']//span)[2]"/>
+    <UIElement name="iconRelative" locatorType="xpath" locatorValue="//a[@data-dx-desc='roster_members_edit_member_link']//span//i[@class='icon-help_icon anonymous-info-icon  relative']"/>
+    <UIElement name="textThisActionIsOnlyForCreator" locatorType="xpath" locatorValue="//i[@class='icon-help_icon anonymous-info-icon  relative']//div"/>
+    <UIElement name="textEditAccount" locatorType="xpath" locatorValue="//div[@class='row collapse loading-groups-header-wrapper']//h3"/>
+    <UIElement name="btnCancel" locatorType="id" locatorValue="cancel-edit-member-modal"/>
+    <UIElement name="iconCloseEditAccount" locatorType="xpath" locatorValue="//div[@id='editMemberModal']//a[@class='js-close-edit-member close']"/>
+    <UIElement name="textUserName" locatorType="xpath" locatorValue="//div[@class='column large-3']//div[text()='Username']"/>
+    <UIElement name="iconUserNameInfo" locatorType="xpath" locatorValue="//div[@class='icon-Info edit-username-icon relative inline absolute']"/>
+    <UIElement name="textUsernameCanNotChange" locatorType="xpath" locatorValue="//div[@class='icon-Info edit-username-icon relative inline absolute']//div"/>
+    <UIElement name="iconCloseUserNameInfo" locatorType="xpath" locatorValue="//div[@class='icon-Info edit-username-icon relative inline absolute']//div//i"/>
+    <UIElement name="iconHidden" locatorType="xpath" locatorValue="//div[@class='button hidden-password-button']//div[@class='icon-Info relative inline']"/>
+    <UIElement name="linkResetPassword" locatorType="xpath" locatorValue="//div[@class='button hidden-password-button']//a"/>
+    <UIElement name="placeHolderUpdatePassword" locatorType="xpath" locatorValue="//input[@id='update-password']"/>
+    <UIElement name="linkDiscardChanges" locatorType="xpath" locatorValue="//span[text()='Discard changes']"/>
+    <UIElement name="stuUsername" locatorType="xpath" locatorValue="//span[@id='username-field']"/>
+</UIElements>

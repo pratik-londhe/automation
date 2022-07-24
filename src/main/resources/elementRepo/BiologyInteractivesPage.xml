@@ -1,0 +1,56 @@
+<UIElement>
+    <UIElement name="nitrogenBasesImg" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_4_3_2_ChargaffRuleHighlight']"/>
+    <UIElement name="cellularRespirationIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_25_1_CellularRespiration']"/>
+    <UIElement name="aerobicRespirationIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_25_3_cellularRespirationInOutDiag']"/>
+    <UIElement name="photosynthesisCplstIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_23_1_ChloroplastPartsLabelling']"/>
+    <UIElement name="cellularRespirationMatchSuccess" locatorType="xpath" locatorValue="//strong[@class='correct']"/>
+    <UIElement name="aerobicRespirationCheckButton" locatorType="xpath" locatorValue="//button[normalize-space(@class)='check-button']"/>
+    <UIElement name="aerobicRespirationMessageCard" locatorType="cssselector" locatorValue="inline-interactive[embedid='BIO_HS_2_25_3_cellularRespirationInOutDiag'] div.interactive-message-card"/>
+    <UIElement name="aerobicRespirationMatchMsg" locatorType="cssselector" locatorValue="inline-interactive[embedid='BIO_HS_2_25_3_cellularRespirationInOutDiag'] div.interactive-message-card p"/>
+    <UIElement name="photosynthesisCplstMessageCard" locatorType="cssselector" locatorValue="inline-interactive[embedid='BIO_HS_2_23_1_ChloroplastPartsLabelling'] div.interactive-message-card strong"/>
+    <UIElement name="photosynthesisCplstMatchMsg" locatorType="cssselector" locatorValue="inline-interactive[embedid='BIO_HS_2_23_1_ChloroplastPartsLabelling'] div.interactive-message-card p"/>
+    <UIElement name="doubleHelixBaseImg" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_4_3_3_DnaSmartHighlight']"/>
+    <UIElement name="dnaReplicaBaseImg" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_4_3_5_DnaReplicationAnimation']"/>
+    <UIElement name="dnaReplicaIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='IG_4_3_5_DnaReplicationAnimation']//*[local-name()='svg'])[3]"/>
+    <UIElement name="dnaReplicaIAPlayBtn" locatorType="id" locatorValue="play-buttons"/>
+    <UIElement name="enzymesBaseImage" locatorType="id" locatorValue="action-of-enzymes-id"/>
+    <UIElement name="nucleicAcidBaseImg" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_1_13_2_GeneticCode']"/>
+    <UIElement name="nucleicAcidIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_1_13_2_GeneticCode']//*[local-name()='svg'])[3]"/>
+    <UIElement name="significanceOfCarbonMatchTest" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_1_9_3_OrganicCompoundsMatching']"/>
+    <UIElement name="proteinStructureMatchTest" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_1_11_4_ProteinStructureMatching']"/>
+    <UIElement name="matchTestCheckButton" locatorType="xpath" locatorValue="//div[contains(text(),'Check It')]"/>
+    <UIElement name="correctMatch" locatorType="xpath" locatorValue="//div[normalize-space(@class)='interactive-message-card']//strong"/>
+    <UIElement name="correctMatchMsg" locatorType="xpath" locatorValue="//div[normalize-space(@class)='interactive-message-card']//p"/>
+    <UIElement name="phActivityIAImage" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_1_18_3_FactorsAffectingEnzyme']//*[local-name()='svg'])[1]"/>
+    <UIElement name="phActivityIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_1_18_3_FactorsAffectingEnzyme']//*[local-name()='svg'])[3]"/>
+    <UIElement name="phActivityIARange" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_1_18_3_FactorsAffectingEnzyme']//div[@class='range__optionBox']//div[contains(normalize-space(@class),'range__label')]"/>
+    <UIElement name="hydrogenBondBaseImg" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_1_19_3_HydrogenBondingDissolving']//*[local-name()='svg'])[4]"/>
+    <UIElement name="hydrogenBondIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_1_19_3_HydrogenBondingDissolving']//*[local-name()='svg'])[6]"/>
+    <UIElement name="cellMembraneStructureMatchTest" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_4_3_MembraneProteinLabelling']"/>
+    <UIElement name="cellMembraneStructureCheckButton" locatorType="xpath" locatorValue="//button[contains(text(),'Check It')]"/>
+    <UIElement name="cellMembraneStructureCorrectMatch" locatorType="xpath" locatorValue="//div[normalize-space(@class)='interactive-message-card']//strong"/>
+    <UIElement name="cellMembraneStructureIncorrectMatchMsg" locatorType="xpath" locatorValue="//div[normalize-space(@class)='interactive-message-card']//p"/>
+    <UIElement name="cellStructureMatchTest" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_8_2_OrganellesAndFunctionMatching']"/>
+    <UIElement name="activeTransportMatchTest" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_14_2_ActiveTransportTypes']"/>
+    <UIElement name="naturalSelectionMatchTest" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_MI_5_21_1_TypesOfNaturalSelection']"/>
+    <UIElement name="cellDiffusionIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_2_11_5_CellMembraneDiffusion']"/>
+    <UIElement name="cellDiffusionIAKnob" locatorType="id" locatorValue="placeholder-knob-bar-g"/>
+    <UIElement name="cellDiffusionIAKnobBottom" locatorType="id" locatorValue="placeholder-knob-bar-top"/>
+    <UIElement name="cellDiffusionIADiffuseButton" locatorType="id" locatorValue="placeholder-defuse-button"/>
+    <UIElement name="cellDiffusionIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_2_11_5_CellMembraneDiffusion']//*[local-name()='svg'])[3]"/>
+    <UIElement name="mitiosPhaseMatchingIA" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='MitosisMatching']//div[@class='wrapper'])[1]"/>
+    <UIElement name="dnaInformationIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_SL_4_1_1_HumanGenome']"/>
+    <UIElement name="dnaInformationSlider" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_SL_4_1_1_HumanGenome']//div[@class='slider-thumb']"/>
+    <UIElement name="toolTipHeader" locatorType="cssselector" locatorValue="#highlight-infographics-infobox div.content-head"/>
+    <UIElement name="toolTipBody" locatorType="cssselector" locatorValue="#highlight-infographics-infobox div.content-body"/>
+    <UIElement name="geneticCodeIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_DL_4_6_2_GeneticCodeInteractive']"/>
+    <UIElement name="geneticCodeIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_DL_4_6_2_GeneticCodeInteractive']//*[local-name()='svg'])[4]"/>
+    <UIElement name="geneticCodeCheckButton" locatorType="cssselector" locatorValue="div.label-btn-secondary"/>
+    <UIElement name="geneticCodeMsgCard" locatorType="cssselector" locatorValue="div.interactive-message-card strong"/>
+    <UIElement name="geneticCodeMatchMsg" locatorType="cssselector" locatorValue="div.interactive-message-card p"/>
+    <UIElement name="aminoAcidMatchingLeftBlock" locatorType="xpath" locatorValue="(//ul[@class='matching-cards-deck'])[1]//div[normalize-space(@class)='connecting-dot']"/>
+    <UIElement name="aminoAcidMatchingRightBlock" locatorType="xpath" locatorValue="(//ul[@class='matching-cards-deck'])[2]//div[normalize-space(@class)='connecting-dot']"/>
+    <UIElement name="translationMolecularRNAIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='BIO_HS_AN_4_7_1_RNATranslation']"/>
+    <UIElement name="translationMolecularRNAIAArrow" locatorType="xpath" locatorValue="(//inline-interactive[@embedid='BIO_HS_AN_4_7_1_RNATranslation']//*[local-name()='svg'])[3]"/>
+
+</UIElement>

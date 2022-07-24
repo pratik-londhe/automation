@@ -1,0 +1,52 @@
+<UIElement>
+    <UIElement name="checkBoxFirstAssignment" locatorType="xpath" locatorValue="//div[@id='quiz-list-wrapper']/div[1]/span/span"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue=" //a[@id='save-assignment']"/>
+    <UIElement name="placeHolderTitle" locatorType="xpath" locatorValue="//div[@class='assignment-name-input-wrapper']//input"/>
+    <UIElement name="checkBoxClassNAme" locatorType="xpath" locatorValue="//div[@id='close-assignment-assign-to-class-wrapper']//input[@id='close-assignment-assign-to-class']"/>
+    <UIElement name="btnSaveAssignment" locatorType="xpath" locatorValue="//div[@class='row collapse close-assignment-modal-button-wrapper']//a[@id='close-assignment-modal-save']"/>
+    <UIElement name="linkAssignment" locatorValue="//a[@title='Assignment']"/>
+    <UIElement name="btnStart" locatorValue="//div[@class='row collapse member-assignment-list-container']//div[2]//span[@class='start-block concept ']"/>
+    <UIElement name="btnStartSolving" locatorValue="//span[@class='button-title']//b"/>
+    <UIElement name="linkFirstOption" locatorValue="//li[@class='response-row ']//div//div[text()='a']"/>
+    <UIElement name="linkSecondOption" locatorValue="//li[@class='response-row ']//div//div[text()='a']"/>
+    <UIElement name="btnNext" locatorValue="//div[@class='row collapse']//input[@id='nextQuestion']"/>
+    <UIElement name="btnTurnIn" locatorValue="//span[@id='turn-in-container']//div[@id='turn-in-button']"/>
+    <UIElement name="btnContinue" locatorValue="//div[@class='text-center']//div[1]"/>
+    <UIElement name="btnClose" locatorValue="//div[@class='CloseComponent__closebuttoncontainer___sbKp4 CloseComponent__quiz___hvpdX']//div[1]"/>
+    <UIElement name="linkTryNewReports" locatorValue="//div[@class='new-report-link']//a"/>
+    <UIElement name="student1" locatorValue="//div[@id='reports-data']//div/a[1]/div"/>
+    <UIElement name="student2" locatorValue="//div[@id='reports-data']//div/a[2]/div"/>
+    <UIElement name="textAssignmentType" locatorValue=" //div[@class='ReportHeaderCell__Modality-jnd316-5 jWwAFQ']//div[@class='ReportHeaderCell__ModalityType-jnd316-6 kTeOUe']"/>
+</UIElement>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

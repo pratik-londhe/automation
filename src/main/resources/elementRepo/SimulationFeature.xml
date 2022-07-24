@@ -1,0 +1,28 @@
+<UIElements>
+    <UIElement name="containerSimulation" locatorType="xpath" locatorValue="//a[contains(@href,'/simulations')]"/>
+    <UIElement name="iconCk12" locatorType="xpath" locatorValue="//div[@class='logo-wrapper']//a"/>
+    <UIElement name="textExplorationSeries" locatorType="xpath" locatorValue="//div[@class='logo-wrapper']//h1"/>
+    <UIElement name="tabPhysicsBranch" locatorType="id" locatorValue="physicsBranch"/>
+    <UIElement name="tabChemistryBranch" locatorType="id" locatorValue="chemistryBranch"/>
+    <UIElement name="tabInstructionVideo" locatorType="xpath" locatorValue="//div[@class='right filter-button video-tab instructor-tutorial i18nTranslate']"/>
+    <UIElement name="dropdownLanguage" locatorType="id" locatorValue="languageDropDownBtn"/>
+    <UIElement name="linkEnglish" locatorType="xpath" locatorValue="//div[@id='languageDropdown']//a[@translatekey='english']"/>
+    <UIElement name="linkGerman" locatorType="xpath" locatorValue="//div[@id='languageDropdown']//a[@translatekey='german']"/>
+    <UIElement name="flagBeta" locatorType="id" locatorValue="betaFlag"/>
+    <UIElement name="placeHolderSearch" locatorType="name" locatorValue="search-field"/>
+    <UIElement name="iconFilter" locatorType="xpath" locatorValue="//div[@class='left filter-button filter-tab']//span"/>
+    <UIElement name="textNoMatchFound" locatorType="xpath" locatorValue="//div[@class='no-match-found']//div[@class='no-match-text i18nTranslate']"/>
+    <UIElement name="linkResultConcept" locatorType="xpath" locatorValue="(//div[@class='sim-covers-concepts']//span[@class='sim-info sim-covers-focused'])[1]"/>
+    <UIElement name="textInstructionTitle" locatorType="xpath" locatorValue="//div[@class='instruction-video-text header']//span[@class='instruction-title i18nTranslate']"/>
+    <UIElement name="iconInstructionClose" locatorType="xpath" locatorValue="//div[@class='instruction-close']"/>
+    <UIElement name="textFilter" locatorType="xpath" locatorValue="//div[@class='filter-main-wrapper']//div//div[text()='Filters']"/>
+    <UIElement name="iconBackArrow" locatorType="xpath" locatorValue="//div[@class='filter-main-wrapper']//div[@class='back-arrow']"/>
+    <UIElement name="textFilterByConcept" locatorType="xpath" locatorValue="//div[@class='filter-main-style filter-menu-wrapper show-menu']//span[text()='Filter by Concepts']"/>
+    <UIElement name="textFilterByStandards" locatorType="xpath" locatorValue="//div[@class='filter-main-style filter-menu-wrapper show-menu']//span[text()='Filter by Standards']"/>
+    <UIElement name="iconWrapper" locatorType="xpath" locatorValue="(//div[@class='filter-main-style filter-menu-wrapper show-menu']//div[@class='wrapper-icon'])[1]"/>
+    <UIElement name="iconWrapperPlus" locatorType="xpath" locatorValue="(//div[@class='filter-main-style filter-menu-wrapper show-menu']//div[@class='wrapper-icon wrapper-plus-icon'])[1]"/>
+    <UIElement name="linkFirstGroupName" locatorType="xpath" locatorValue="(//div[@class='group-box group-box0']//div[@class='group-name'])[1]"/>
+    <UIElement name="textNoResources" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textNoResources" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textNoResources" locatorType="xpath" locatorValue=""/>
+</UIElements>

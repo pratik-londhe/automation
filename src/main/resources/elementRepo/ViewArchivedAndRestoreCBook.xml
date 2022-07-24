@@ -1,0 +1,9 @@
+<UIElements>
+    <UIElement name="btnArchived" locatorType="xpath" locatorValue="//div[@class='columns large-2 view-archived-container']//a"/>
+    <UIElement name="btnRestoreItems" locatorType="xpath" locatorValue="//div[@class='columns large-3 change-label-wrapper']//div[@id='btn_restore_archived']"/>
+    <UIElement name="spanNamesOfCourseBook" locatorType="xpath" locatorValue="//div[@class='listiteminfo small-7 small-offset-1 large-offset-1 large-8 columns left']//div//a[@class='bold']"/>
+    <UIElement name="editOption" locatorType="xpath" locatorValue="//a[normalize-space()='Edit'])[2]"/>
+    <UIElement name="textNameOfFirstCourseBook" locatorType="xpath" locatorValue="//div[@id='library-items-list']/div[1]/div[3]/div[1]/a"/>
+    <UIElement name="checkBoxCourseBook" locatorType="xpath" locatorValue="//div[@class='custom-box large-1 small-1 columns row-check']//label"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[@class='button turquoise']"/>
+</UIElements>

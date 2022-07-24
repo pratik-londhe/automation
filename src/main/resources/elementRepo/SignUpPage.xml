@@ -1,0 +1,30 @@
+<UIElements>
+    <UIElement name="btnSignUpUsingEmail" locatorType="xpath" locatorValue="//div[@class='small-12 medium-12 large-8 column large-centered small-centered']//a//span[1]"/>
+    <UIElement name="btnJoin" locatorType="id" locatorValue="top_nav_join"/>
+    <UIElement name="txtFullName" locatorType="id" locatorValue="name"/>
+    <UIElement name="dDownMonth" locatorType="xpath" locatorValue="(//div[@class='button small split simple birthdate-dropdown month'])[1]"/>
+    <UIElement name="dDownMonthVal" locatorType="xpath" locatorValue="//ul[@id='monthDropDown']/li[2]"/>
+    <UIElement name="dDownDay" locatorType="xpath" locatorValue="(//div[@class='button small split simple birthdate-dropdown day'])[1]"/>
+    <UIElement name="dDownDayVal" locatorType="xpath" locatorValue="//ul[@id='dayDropDown']/li[2]"/>
+    <UIElement name="dDownYear" locatorType="xpath" locatorValue="(//div[@class='button small split simple birthdate-dropdown year'])[1]"/>
+    <UIElement name="dDownYearVal" locatorType="xpath" locatorValue="//ul[@id='yearDropDown']/li[19]"/>
+    <UIElement name="txtSignUpEmail" locatorType="name" locatorValue="email"/>
+    <UIElement name="txtSignUpPassword" locatorType="name" locatorValue="password"/>
+    <UIElement name="btnSignUp" locatorType="id" locatorValue="signup_form_submit"/>
+    <UIElement name="headSuccess" locatorType="xpath" locatorValue="//div[@class='signup']/div/h1"/>
+    <UIElement name="msgSuccess" locatorType="xpath" locatorValue="//ul[@id='yearDropDown']/li[20]"/>
+    <UIElement name="btnContinue" locatorType="id" locatorValue="continueButton"/>
+    <UIElement name="errMsgFullName" locatorType="xpath" locatorValue="//input[@id='name']//preceding-sibling::div[1]//label"/>
+    <UIElement name="errMsgEmail" locatorType="xpath" locatorValue="//input[@id='email']//preceding-sibling::div[1]//label"/>
+    <UIElement name="errMsgPassword" locatorType="xpath" locatorValue="//div[contains(@class,'pass-strength-main-container')]//span[contains(@class,'text-poor')] | //input[@id='password']//preceding-sibling::div[1]//label"/>
+    <UIElement name="showPassCBox" locatorType="id" locatorValue="password_check"/>
+    <UIElement name="textStudentSignUp" locatorType="xpath" locatorValue="//div[@class='row text-center collapse']//span[text()='Student Sign Up']"/>
+    <UIElement name="textTeacherSignUp" locatorType="xpath" locatorValue="//div[@class='row text-center collapse']//span[text()='Teacher Sign Up']"/>
+    <UIElement name="linkSignUpHere" locatorType="linktext" locatorValue="Sign up here"/>
+    <UIElement name="textUsername" locatorType="xpath" locatorValue="//span[@id='notification-container']/preceding-sibling::li/span"/>
+    <UIElement name="linkSettings" locatorType="xpath" locatorValue="//span[@id='notification-container']/preceding-sibling::li/ul/li/a[contains(@href, '/account/settings')]"/>
+    <UIElement name="btnDone" locatorType="id" locatorValue="next_btn"/>
+    <UIElement name="formName" locatorType="id" locatorValue="nameForm"/>
+    <UIElement name="formUserName" locatorType="id" locatorValue="usernameForm"/>
+    <UIElement name="formPassword" locatorType="id" locatorValue="passwordForm"/>
+</UIElements>

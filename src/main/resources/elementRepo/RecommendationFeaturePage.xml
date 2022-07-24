@@ -1,0 +1,30 @@
+<UIElements>
+    <UIElement name="textWeRecommend" locatorType="xpath" locatorValue="//div[@id='diagnosticRecommendation']//div[@class='recommendation-header']"/>
+    <UIElement name="textRecommendTitle" locatorType="xpath" locatorValue="//div[@id='diagnosticRecommendation']//span[@class='recommend-title']"/>
+    <UIElement name="textBubbleSpeech" locatorType="id" locatorValue="speechRecommText"/>
+    <UIElement name="imageCharacter" locatorType="xpath" locatorValue="//div[@id='speechRecommBubble']//following-sibling::div[@class='character-image character']"/>
+    <UIElement name="iconCloseBubble" locatorType="xpath" locatorValue="(//div[@class='close-cont ']//i[@title='Close'])[2]"/>
+    <UIElement name="readModalityType" locatorType="xpath" locatorValue="//div[@class='pause-modality-content']//div[text()='Read']"/>
+    <UIElement name="videoModalityType" locatorType="xpath" locatorValue="//div[@class='pause-modality-content']//div[text()='Video']"/>
+    <UIElement name="realWorldModalityType" locatorType="xpath" locatorValue="//div[@class='pause-modality-content']//div[text()='Real World']"/>
+    <UIElement name="textModalityTitle" locatorType="xpath" locatorValue="//div[@id='embed_container']//div[@class='modality_title']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@id='embedModalityModal']//a"/>
+    <UIElement name="iconReadCheckMark" locatorType="xpath" locatorValue="(//span[@class='done-modality']//i)[1]"/>
+    <UIElement name="iconVideoCheckMark" locatorType="xpath" locatorValue="(//span[@class='done-modality']//i)[2]"/>
+    <UIElement name="iconRealWorldCheckMark" locatorType="xpath" locatorValue="(//span[@class='done-modality']//i)[3]"/>
+    <UIElement name="contentModality" locatorType="xpath" locatorValue="//div[@id='modality_content']//div[@class='x-ck12-data-objectives']"/>
+    <UIElement name="linkReturnToPractice" locatorType="xpath" locatorValue="//div[@class='unlock-message ']"/>
+    <UIElement name="iconUnlocked" locatorType="xpath" locatorValue="//div[@class='unlock-message ']//span"/>
+    <UIElement name="btnStartPractice" locatorType="id" locatorValue="startPractice"/>
+    <UIElement name="textSkillLevel" locatorType="xpath" locatorValue="//div[@class='skillTextContainer']//div[@class='skillText']"/>
+    <UIElement name="imageSkillDial" locatorType="xpath" locatorValue="//span[@class='skillDial']"/>
+    <UIElement name="textSkillLabel" locatorType="xpath" locatorValue="//span[@class='skillLabel']"/>
+    <UIElement name="iconSkillLevelWrapper" locatorType="xpath" locatorValue="//span[@class='iconWrapper']//i"/>
+    <UIElement name="textSpeech" locatorType="xpath" locatorValue="//div[@id='speechBubble']//div[@class='speech-text']"/>
+    <UIElement name="speechOkBtn" locatorType="id" locatorValue="speechOkBtn"/>
+    <UIElement name="placeHolderAnswer" locatorType="xpath" locatorValue="//input[@class='fib shortAnswer']"/>
+    <UIElement name="btnCheckIt" locatorType="xpath" locatorValue="//input[@id='submitResponse']"/>
+    <UIElement name="btnNextQuestion" locatorType="xpath" locatorValue="//input[@id='nextQuestion']"/>
+    <UIElement name="textWrongMessage" locatorType="xpath" locatorValue="//div[@class='message wrong-message active']//span"/>
+    <UIElement name="OptionA" locatorType="xpath" locatorValue="//li[@class='response-row ' and @data-value='option_1']"/>
+</UIElements>

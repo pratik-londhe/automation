@@ -1,0 +1,16 @@
+<UIElements>
+    <UIElement name="linkSignIn" locatorType="id" locatorValue="top_nav_signin"/>
+    <UIElement name="linkSignInGamma" locatorType="id" locatorValue="//li[@id='top_nav_signin']//a"/>
+    <UIElement name="linkSignInProd" locatorType="xpath" locatorValue="//span[text()='Sign In']"/>
+    <UIElement name="txtEmail" locatorType="name" locatorValue="login"/>
+    <UIElement name="txtPassword" locatorType="name" locatorValue="token"/>
+    <UIElement name="btnSignIn" locatorType="xpath" locatorValue="//input[@value='Sign In']"/>
+    <UIElement name="btnJoin" locatorType="xpath" locatorValue="//header[@id='header-new']//li[2]/a[@title='Create an Account with CK-12']"/>
+    <UIElement name="ClosePopUp" locatorType="xpath" locatorValue="//button[@id='toast-close-button']"/>
+    <UIElement name="signInWithGoogle" locatorType="xpath" locatorValue="//div[@title='Sign in with Google']"/>
+    <UIElement name="halloweenPopUp" locatorType="xpath" locatorValue="//div[@id='toast-close-button']"/>
+    <UIElement name="acceptTouPopUp" locatorType="id" locatorValue="accept-licence"/>
+    <UIElement name="TOUSystemMessage" locatorType="classname" locatorValue="system-notification-dismiss-container"/>
+    <UIElement name="notificationPopUp" locatorType="xpath" locatorValue="(//a[@title='Dismiss Notification'])[1]"/>
+    <UIElement name="piePopUP" locatorType="xpath" locatorValue="//a[@data-dx-desc='piday_popup_close']"/>
+</UIElements>

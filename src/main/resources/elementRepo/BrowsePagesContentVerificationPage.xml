@@ -1,0 +1,108 @@
+<UIElements>
+    <!--Teacher landing page: https://www.ck12.org/teacher/-->
+    <UIElement name="xmasPopupClose" locatorType="xpath" locatorValue="//a[@data-dx-desc='xmas_popup_close']"/>
+    <UIElement name="whatDoYouWantToTeachHeader" locatorType="xpath" locatorValue="//div[@id='browse']"/>
+    <UIElement name="sectionFlexLets" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='flexlets']"/>
+    <UIElement name="sectionFlexLetsStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='flexlets']"/>
+    <UIElement name="flexLetsBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[1]//a"/>
+    <UIElement name="flexLetsBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='flexlets™']//parent::div//a"/>
+    <UIElement name="sectionMathByLevel" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='mathbylevel']"/>
+    <UIElement name="sectionMathByLevelStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='math_by_level']"/>
+    <UIElement name="mathByLevelBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[2]//a"/>
+    <UIElement name="mathByLevelBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='math_by_level']//parent::div//a"/>
+    <UIElement name="sectionMathByLevelSubject" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='mathbysubject']"/>
+    <UIElement name="sectionMathByLevelSubjectStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='math_by_subject']"/>
+    <UIElement name="mathBySubjectBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[3]//a"/>
+    <UIElement name="mathBySubjectBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='math_by_subject']//parent::div//a"/>
+    <UIElement name="sectionScience" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='science']"/>
+    <UIElement name="sectionScienceStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='science']"/>
+    <UIElement name="scienceBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[4]//a"/>
+    <UIElement name="scienceBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='science']//parent::div//a"/>
+    <UIElement name="sectionEnglish" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='english']"/>
+    <UIElement name="sectionEnglishStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='english']"/>
+    <UIElement name="englishBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[5]//a"/>
+    <UIElement name="englishBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='english']//parent::div//a"/>
+    <UIElement name="sectionSocialStudies" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='socialstudies']"/>
+    <UIElement name="sectionSocialStudiesStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='social_studies']"/>
+    <UIElement name="socialStudiesBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[6]//a"/>
+    <UIElement name="socialStudiesBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='social_studies']//parent::div//a"/>
+    <UIElement name="sectionMore" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='more']"/>
+    <UIElement name="sectionMoreStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='more']"/>
+    <UIElement name="moreBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[7]//a"/>
+    <UIElement name="moreBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='more']//parent::div//a"/>
+    <UIElement name="sectionCollage" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='college']"/>
+    <UIElement name="sectionCollageStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='college']"/>
+    <UIElement name="collageBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[8]//a"/>
+    <UIElement name="collageBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='college']//parent::div//a"/>
+    <UIElement name="sectionAdult" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='adulteducation']"/>
+    <UIElement name="sectionAdultStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='adult_education']"/>
+    <UIElement name="adultBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[9]//a"/>
+    <UIElement name="adultBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='adult_education']//parent::div//a"/>
+    <UIElement name="sectionTranslations" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='translations']"/>
+    <UIElement name="sectionTranslationsStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='translations']"/>
+    <UIElement name="translationBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[11]//a"/>
+    <UIElement name="translationBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='translations']//parent::div//a"/>
+    <UIElement name="sectionCountry" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__SubjectGroupHeader') and @id='country']"/>
+    <UIElement name="sectionCountryStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='country']"/>
+    <UIElement name="countryBooks" locatorType="xpath" locatorValue="//div[contains(@class,'BrowseList__BrowseContainer-sc')]//div[10]//a"/>
+    <UIElement name="countryBooksStu" locatorType="xpath" locatorValue="//div[contains(text(),'What are you looking')]//parent::div//div[@id='country']//parent::div//a"/>
+    <UIElement name="headerExplore" locatorType="xpath" locatorValue="//h2[contains(@class,'ExploreProducts__ProductListHeader')]"/>
+    <UIElement name="exploreProducts" locatorType="xpath" locatorValue="//h3[contains(@class,'ProductContainer__Title')] | //h3[contains(@class,'heading-7')]"/>
+    <UIElement name="exploreProductsLinks" locatorType="xpath" locatorValue="//a[contains(@class,'dxtrack-user-action ProductContainer__Link')] | //a[contains(@class,'text-cta w-inline-block')]"/>
+    <UIElement name="searchMenu" locatorType="id" locatorValue="searchBox_search_menu_button"/>
+    <UIElement name="searchMenuMainDropDown" locatorType="xpath" locatorValue="//div[@id='searchBox_search_main_menu']//li"/>
+    <UIElement name="searchMenuChildDropDown" locatorType="xpath" locatorValue="//div[@id='searchBox_search_sub_menu']//li"/>
+    <UIElement name="studentSearchDropOption" locatorType="id" locatorValue="searchStudentLanding_search_menu_button"/>
+    <UIElement name="studentMainDropDownList" locatorType="xpath" locatorValue="//div[@id='searchStudentLanding_search_main_menu']//div[@aria-label='Search Subjects']//button[contains(@data-dx-desc,'course_search_dropdown_menu')]"/>
+
+    <!--Teacher FB2.0 landing page: https://flexbooks.ck12.org/flexbooks/teacher/-->
+    <UIElement name="mathSection" locatorType="xpath" locatorValue="//div[@id='math']//b"/>
+    <UIElement name="mathBooks" locatorType="xpath" locatorValue="//div[@id='math']//following-sibling::div[1]//a"/>
+    <UIElement name="scienceSection" locatorType="xpath" locatorValue="//div[@id='science']//b"/>
+    <UIElement name="scienceBook" locatorType="xpath" locatorValue="//div[@id='science']//following-sibling::div[1]//a"/>
+    <UIElement name="socialStudiesSection" locatorType="xpath" locatorValue="//div[@id='social studies']//b"/>
+    <UIElement name="socialStudiesBook" locatorType="xpath" locatorValue="//div[@id='social studies']//following-sibling::div[1]//a"/>
+    <UIElement name="translationSection" locatorType="xpath" locatorValue="//div[@id='translations']//b"/>
+    <UIElement name="translationBook" locatorType="xpath" locatorValue="//div[@id='translations']//following-sibling::div[1]//a"/>
+    <UIElement name="teacherAssistant" locatorType="cssselector" locatorValue="a[href*='teacher-assistant/?referrer=banner']"/>
+    <UIElement name="studentTutor" locatorType="cssselector" locatorValue="p.hero-superscript"/>
+
+    <!--Tutor Consent Page: https://www.ck12.org/pages/tutor-consent/-->
+    <UIElement name="tutorConsentPrivacyPolicy" locatorType="xpath" locatorValue="//a[text()='Privacy Policy']"/>
+    <UIElement name="tutorConsentAITutorMail" locatorType="xpath" locatorValue="//strong[text()='aitutoring@ck12.org']"/>
+
+    <!--Flexlet Page: https://www.ck12.org/pages/flexlets/-->
+    <UIElement name="flexletsOnFlexletPage" locatorType="xpath" locatorValue="//div[contains(@class,'grid-3')]//a[contains(@class,'dxtrack-user-action')]"/>
+
+    <!--Slab Page: https://www.ck12.org/pages/slab/-->
+    <UIElement name="ourMissionSlabPage" locatorType="cssselector" locatorValue="p.slab-mission-statement"/>
+    <UIElement name="slabMemberToggleUpSlabPage" locatorType="cssselector" locatorValue="div.slab-member-toggle-top"/>
+    <UIElement name="slabMemberToggleDownSlabPage" locatorType="cssselector" locatorValue="div.slab-member-toggle-bottom"/>
+    <UIElement name="slabMembersSlabPage" locatorType="cssselector" locatorValue="div.slab-member-columns h2"/>
+    <UIElement name="whySlabTitles" locatorType="cssselector" locatorValue="div.why-slab-title"/>
+    <UIElement name="assignToGCPopup" locatorType="cssselector" locatorValue="div[aria-label='AssignToClass-Modal']"/>
+    <UIElement name="dismissAssignToGCPopup" locatorType="cssselector" locatorValue="div[data-dx-desc='close_assign_to_class_modal_icon']"/>
+    <UIElement name="courseOptions" locatorType="xpath" locatorValue="//h2[text()='Courses']/ancestor::div[contains(@class,'large-3')]//div//div"/>
+    <UIElement name="exploreCourseLink" locatorType="xpath" locatorValue="(//a[@data-dx-desc='TopConcepts_FB_LINK'])[2]"/>
+
+    <!--Adult Page: -->
+    <UIElement name="adultPageTitle" locatorType="cssselector" locatorValue="div.hero-content h1.white-text"/>
+    <UIElement name="browseAdultFBButton" locatorType="cssselector" locatorValue="div.hero-content a.hero-cta"/>
+    <UIElement name="adultEduVideoIframe" locatorType="cssselector" locatorValue="iframe.embedly-embed"/>
+    <UIElement name="adultEduYoutubeVideo" locatorType="cssselector" locatorValue="div[aria-label='YouTube Video Player']"/>
+    <UIElement name="adultEduFBSectionTitles" locatorType="cssselector" locatorValue="div.course-listing-container h3"/>
+    <UIElement name="adultBasicEduFB" locatorType="xpath" locatorValue="//h3[contains(text(),'Adult Basic Education')]//parent::div//div//a"/>
+    <UIElement name="adultHighSchoolDipFB" locatorType="xpath" locatorValue="//h3[contains(text(),'High School Diploma')]//parent::div//div//a"/>
+    <UIElement name="adultHighSchoolEquiFB" locatorType="xpath" locatorValue="//h3[contains(text(),'High School Equivalency')]//parent::div//div//a"/>
+    <UIElement name="careerTechEduFB" locatorType="xpath" locatorValue="//h3[contains(text(),'Career Technical Education')]//parent::div//div//a"/>
+    <UIElement name="englishSecLangFB" locatorType="xpath" locatorValue="//h3[contains(text(),'English as a Second Language')]//parent::div//div//a"/>
+    <UIElement name="integrationSecTitle" locatorType="cssselector" locatorValue="h2.feature-section-heading"/>
+    <UIElement name="integrationSecLinks" locatorType="cssselector" locatorValue="div.integration-bg a"/>
+    <UIElement name="testimonialHeader" locatorType="xpath" locatorValue="(//div[contains(@class,'section-wrap')]//h3)[8]"/>
+    <UIElement name="testimonialTitles" locatorType="xpath" locatorValue="//h3[contains(text(),'Testimonials')]//parent::div//div//a//p"/>
+
+    <UIElement name="bookTitlesOfScienceFlexbooks" locatorType="xpath" locatorValue="//h2[@class='flexbook-title']//a"/>
+    <UIElement name="titleScienceFlexbooks" locatorType="xpath" locatorValue="//span[@class='standards-banner-text bold']"/>
+    <UIElement name="coreAlignedConcepts" locatorType="xpath" locatorValue="//a[text()='Common Core Aligned Concepts']"/>
+    <UIElement name="hrefValues" locatorType="xpath" locatorValue="//h2[@class='flexbook-title']//a"/>
+</UIElements>

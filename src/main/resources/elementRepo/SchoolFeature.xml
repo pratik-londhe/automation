@@ -1,0 +1,22 @@
+<UIElements>
+    <UIElement name="containerHeader" locatorType="xpath" locatorValue="(//header[@id='header-new']//a[@title='Explore'])[1]"/>
+    <UIElement name="linkSchool" locatorType="xpath" locatorValue="//header[@id='header-new']//div[text()='Schools']"/>
+    <UIElement name="textSchool" locatorType="xpath" locatorValue="//div[@id='schoolBanner']//span[text()='Schools']"/>
+    <UIElement name="imageHeart" locatorType="xpath" locatorValue="//div[@id='schoolBanner']//img[@class='heart-image']"/>
+    <UIElement name="linkSchoolView" locatorType="xpath" locatorValue="(//span[@class='right school-link']//span[text()='View School'])[1]"/>
+    <UIElement name="linkSchoolTitle" locatorType="xpath" locatorValue="(//span[@class='left']//following-sibling::a)[1]"/>
+    <UIElement name="textCaliforniaState" locatorType="xpath" locatorValue="//div[@class='state-label-wrapper text-left']//label[text()='Maharashtra (1)']"/>
+    <UIElement name="dropdownState" locatorType="xpath" locatorValue="//div[@class='state-label-wrapper text-left']//following-sibling::span"/>
+    <UIElement name="linkStateAlabama" locatorType="id" locatorValue="lnk-state-colorado"/>
+    <UIElement name="linkStateAlaska" locatorType="id" locatorValue="lnk-state-florida"/>
+    <UIElement name="stateText" locatorType="xpath" locatorValue="//div[@class='state-label-wrapper text-left']//label"/>
+    <UIElement name="iconSchoolEmbedCode" locatorType="xpath" locatorValue="//button[@class='school-embed-link button']"/>
+    <UIElement name="linkStateName" locatorType="id" locatorValue="lnk_state_breadcrumb_florida"/>
+    <UIElement name="textCopyEmbedCode" locatorType="xpath" locatorValue="(//div[@class='school-embed-header'])[1]"/>
+    <UIElement name="textCopyAndPaste" locatorType="xpath" locatorValue="(//div[@class='school-embed-code-text-new'])[1]"/>
+    <UIElement name="btnCopy" locatorType="xpath" locatorValue="//div[@class='button embed-copy-btn']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@class='close']"/>
+    <UIElement name="flexBookCover" locatorType="xpath" locatorValue="(//div[@class='bookCover bookface front'])[1]"/>
+    <UIElement name="textDescription" locatorType="xpath" locatorValue="(//div[@class='bookDescription']//strong)[1]"/>
+    <UIElement name="textCreatedBy" locatorType="xpath" locatorValue="(//div[@class='bookCreator']//strong)[1]"/>
+</UIElements>

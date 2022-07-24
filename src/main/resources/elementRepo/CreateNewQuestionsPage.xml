@@ -1,0 +1,22 @@
+<UIElements>
+    <UIElement name="dropDownQuesType" locatorType="xpath" locatorValue="//div[@data-dropdown='questionFormat']"/>
+    <UIElement name="textConcepts" locatorType="xpath" locatorValue="//span[text()='CONCEPTS']"/>
+    <UIElement name="textGrades" locatorType="xpath" locatorValue="//span[text()='GRADES']"/>
+    <UIElement name="textStandards" locatorType="xpath" locatorValue="//span[text()='STANDARDS']"/>
+    <UIElement name="textSource" locatorType="xpath" locatorValue="//span[text()='SOURCE']"/>
+    <UIElement name="textLanguage" locatorType="xpath" locatorValue="//span[text()='LANGUAGE']"/>
+    <UIElement name="textSearch" locatorType="xpath" locatorValue="//span[text()='SEARCH']"/>
+    <UIElement name="drpDownLicensed" locatorType="id" locatorValue="licenseContainer"/>
+    <UIElement name="textAuthor" locatorType="xpath" locatorValue="//span[text()='author']"/>
+    <UIElement name="textCreatedOn" locatorType="xpath" locatorValue="//span[text()='Created on']"/>
+    <UIElement name="btnAddRoleModal" locatorType="id" locatorValue="showRoleModal"/>
+    <UIElement name="LinkFlexBoxControl" locatorType="id" locatorValue="flexBoxControl"/>
+    <UIElement name="btnAddCreateCredit" locatorType="id" locatorValue="createCredit"/>
+    <UIElement name="textCreditValue" locatorType="id" locatorValue="creditValue"/>
+    <UIElement name="btnCancelOfTranslator" locatorType="xpath" locatorValue="(//span[@class='link-color cancel'])[1]"/>
+    <UIElement name="dropDwnCreditRole" locatorType="id" locatorValue="creditRole"/>
+    <UIElement name="btnSubmit" locatorType="id" locatorValue="addQuestion"/>
+    <UIElement name="msgQuestionError" locatorType="id" locatorValue="questionErrorMessage"/>
+</UIElements>
+
+

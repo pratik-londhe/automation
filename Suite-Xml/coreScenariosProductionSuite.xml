@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation">
+    <test name="Chrome Test 1" parallel="classes" thread-count="15">
+        <parameter name="browser" value="CHROME"/>
+        <parameter name="URL" value="https://www.ck12.org/"/>
+        <classes>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherSignUpTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherSignOutTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentSignUpTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentSignOutTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.ForgotPasswordSignInPopUpTest"/>
+            <class name="testscripts.regression.teacherlogin.DashBoardFeature.FeedbackFeature.FeedbackFeatureTest"></class>
+            <class name="testscripts.regression.studentlogin.DashBoardFeature.StudyGuideFeature.StudyGuideConceptFeatureTest"></class>
+            <class name="testscripts.regression.studentlogin.DashBoardFeature.StudyGuideFeature.StudyGuideFeatureTest"></class>
+        </classes>
+    </test>
+    <test name="Chrome Test 2">
+        <parameter name="browser" value="CHROME"/>
+        <parameter name="URL" value="https://www.ck12.org/"/>
+        <classes>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.CreateClassAndAddStudentTest"/>
+            <class name="testscripts.regression.teacherlogin.ReportFeature.QuizFeature.CreateAndAssignQuizProdTest"/>
+            <class name="testscripts.regression.teacherlogin.ReportFeature.QuizFeature.AttemptAnAssignmentTest"/>
+            <class name="testscripts.regression.teacherlogin.ReportFeature.QuizFeature.VerifyStudentScoreAndDeleteClassTest"/>
+        </classes>
+    </test>
+</suite>

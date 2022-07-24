@@ -1,0 +1,9 @@
+<UIElements>
+    <UIElement name="btnSignInGoogle" locatorType="xpath" locatorValue="//span[text()='Sign in with Google']"/>
+    <UIElement name="txtSignInMessage" locatorType="xpath" locatorValue="//div[@class='signin-message']"/>
+    <UIElement name="txtPleaseSignInMessage" locatorType="xpath" locatorValue="//table[@class='rmq-70514cf4']//td[2]//span"/>
+    <UIElement name="txtEmail" locatorType="id" locatorValue="userEmail"/>
+    <UIElement name="btnContinue" locatorType="id" locatorValue="continueWithoutSignin"/>
+    <UIElement name="txtJoinCK12" locatorType="xpath" locatorValue="//div[text()='Join CK-12 so you can ...']"/>
+    <UIElement name="btnSignUp" locatorType="xpath" locatorValue="//input[@class='button large tangerine']"/>
+</UIElements>

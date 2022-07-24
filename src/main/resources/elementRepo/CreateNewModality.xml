@@ -1,0 +1,27 @@
+<UIElements>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue="//ul[@id='drop1']//li[1]//a[text()=' Modality']"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//div[@id='new-modality-save-container']//a[1]"/>
+    <UIElement name="btnGoBack" locatorType="xpath" locatorValue="//div[@id='new-modality-save-container']//a[2]"/>
+    <UIElement name="ModalityTypeDropDown" locatorType="id" locatorValue="modality_select"/>
+    <UIElement name="linkRead" locatorType="xpath" locatorValue="//select[@id='modality_select']//option[text()='Read']"/>
+    <UIElement name="linkVideo" locatorType="xpath" locatorValue="//select[@id='modality_select']//option[text()='Video']"/>
+    <UIElement name="btnEditTitle" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[2]"/>
+    <UIElement name="linkClassName" locatorType="id" locatorValue="txt_artifacttitle"/>
+    <UIElement name="btnAreYouStuck" locatorType="xpath" locatorValue="//div[@class='editor-tips pointer js-edit-tips']//a[2]"/>
+    <UIElement name="textNeedHelp" locatorType="xpath" locatorValue="//div[@class='editor-tips-container relative']//div[2]"/>
+    <UIElement name="textCK12Editing" locatorType="xpath" locatorValue="//div[@class='editor-tips-container relative']//div[3]"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@class='editor-tips-container relative']//i[@class='icon-close2']"/>
+    <UIElement name="btnAssignToClass" locatorType="xpath" locatorValue="//div[@class='modalitysidebar']//a[@title='Assign to Class']"/>
+    <UIElement name="iconCk12ClassRoom" locatorType="xpath" locatorValue="//div[@data-dx-desc='platform_select_ck-12_card']"/>
+    <UIElement name="btnShareWithClasses" locatorType="xpath" locatorValue="//div[@class='modalitysidebar']//a[@title='Share with Classes']"/>
+    <UIElement name="btnShare" locatorType="xpath" locatorValue="//div[@class='row collapse button_container']//a[@id='shareGroupFormBtn']"/>
+    <UIElement name="textShareWithClasses" locatorType="xpath" locatorValue="//div[@class='row collapse grp-heading']//strong"/>
+    <UIElement name="textPleaseSelectClass" locatorType="xpath" locatorValue="//div[@id='shareGroupsContainer']//div[@id='none_selected_error']"/>
+    <UIElement name="checkBoxClassName" locatorType="xpath" locatorValue="//div[@class='custom-box groups_checkbox']//label[1]//span[1]"/>
+    <UIElement name="btnSuccess" locatorType="id" locatorValue="success-btn"/>
+    <UIElement name="btnAddToLibrary" locatorType="xpath" locatorValue="//div[@class='modalitysidebar']//a[@title='Already in Library']"/>
+    <UIElement name="dropDownShowDetails" locatorType="xpath" locatorValue="//h3[@class='js_block_toggle js_metadata_toggle']//span[1]"/>
+    <UIElement name="dropDownHideDetails" locatorType="xpath" locatorValue="//h3[@class='js_block_toggle js_metadata_toggle']//span[2]"/>
+    <UIElement name="textDescription" locatorType="xpath" locatorValue="//div[@class='metadataview']//h2[text()='Description']"/>
+    <UIElement name="textDateCreated" locatorType="xpath" locatorValue="//div[@class='metadataview']//h2[text()='Date Created:']"/>
+</UIElements>

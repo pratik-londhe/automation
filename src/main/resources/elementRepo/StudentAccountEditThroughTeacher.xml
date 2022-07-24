@@ -1,0 +1,31 @@
+<UIElements>
+    <UIElement name="iconMoreOption" locatorType="xpath" locatorValue="//span[@class='more-options icon-ellipsis hide-for-medium-down']"/>
+    <UIElement name="linkViewReports" locatorType="xpath" locatorValue="//div[@class='more-options-dropdown-wrapper js-for-class open']//li[1]//span"/>
+    <UIElement name="linkEditAccount" locatorType="xpath" locatorValue="//div[@class='more-options-dropdown-wrapper js-for-class open']//li[2]//span"/>
+    <UIElement name="linkRemove" locatorType="xpath" locatorValue="//div[@class='more-options-dropdown-wrapper js-for-class open']//li[3]//span"/>
+    <UIElement name="txtRemoveStudent" locatorType="xpath" locatorValue="//div[@class='modal-contents ie8text']"/>
+    <UIElement name="btnCancelRemove" locatorType="id" locatorValue="cancel-modal"/>
+    <UIElement name="btnCloseRemove" locatorType="xpath" locatorValue="//div[@id='removeMemberModal']/a"/>
+    <UIElement name="btnDeleteMember" locatorType="xpath" locatorValue="//div[@class='button-wrapper ie8text']//a[@id='delete-member']"/>
+    <UIElement name="txtMemberName" locatorType="xpath" locatorValue="//div[@class='member-details']//span[2]"/>
+    <UIElement name="txtClassAssignment" locatorType="xpath" locatorValue="//a[normalize-space()='Class Assignments']"/>
+    <UIElement name="txtCreateAssignment" locatorType="xpath" locatorValue="//b[text()='Create an assignment']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='large-12 columns']//div[1]//a[1]"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//div[@class='large-12 columns']//div[1]//a[2]"/>
+    <UIElement name="iconCloseEditAccount" locatorType="xpath" locatorValue="//a[@class='js-close-edit-member close']"/>
+    <UIElement name="txtUpdateFirstName" locatorType="id" locatorValue="update-firstname"/>
+    <UIElement name="linkDiscardChanges" locatorType="xpath" locatorValue="//span[@class='helper-discard-changes edit-firstname-helper edit-discard-changes']"/>
+    <UIElement name="iconInfoUserName" locatorType="xpath" locatorValue="//div[@class='icon-Info edit-username-icon relative inline absolute']"/>
+    <UIElement name="txtInfoUserName" locatorType="xpath" locatorValue="//div[@class='tooltip-left anonymous-info edit-username-tooltip']"/>
+    <UIElement name="iconCloseInfoUserName" locatorType="xpath" locatorValue="//div[@class='tooltip-left anonymous-info edit-username-tooltip']//i"/>
+    <UIElement name="iconInfoRelativeInline" locatorType="xpath" locatorValue="//div[@class='icon-Info relative inline']"/>
+    <UIElement name="linkResetPassword" locatorType="id" locatorValue="show-reset-password"/>
+    <UIElement name="txtUpdatePassword" locatorType="id" locatorValue="update-password"/>
+    <UIElement name="linkShowPassword" locatorType="xpath" locatorValue="//span[text()='Show password']"/>
+    <UIElement name="linkHidePassword" locatorType="xpath" locatorValue="//span[text()='Hide password']"/>
+    <UIElement name="txtErrorPassword" locatorType="id" locatorValue="edit-modal-error"/>
+    <UIElement name="textClassName" locatorType="xpath" locatorValue="//div[@class='activity-header show-small-title']//h1"/>
+    <UIElement name="txtClassLeader" locatorType="xpath" locatorValue="//h1[text()='Class Leader']"/>
+</UIElements>
+
+

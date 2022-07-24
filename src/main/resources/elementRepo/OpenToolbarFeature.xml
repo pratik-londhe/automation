@@ -1,0 +1,25 @@
+<UIElements>
+    <UIElement name="btnOpen" locatorType="xpath" locatorValue="//div[@data-dx-desc='right_toolbar_open_button']"/>
+    <UIElement name="textToolbar" locatorType="xpath" locatorValue="//div[@data-dx-desc='right_toolbar_close_button']//following::span[text()='Toolbar']"/>
+    <UIElement name="btnCloseToolbar" locatorType="xpath" locatorValue="//div[@data-dx-desc='right_toolbar_close_button']"/>
+    <UIElement name="textLearningTool" locatorType="xpath" locatorValue="//div[@id='rightToolbar']//div[text()='Learning Tools']"/>
+    <UIElement name="textAction" locatorType="xpath" locatorValue="//div[@id='rightToolbar']//div[text()='Actions']"/>
+    <UIElement name="textMore" locatorType="xpath" locatorValue="//div[@id='rightToolbar']//div[text()='More']"/>
+    <UIElement name="btnRelatedContent" locatorType="xpath" locatorValue="//div[@id='rightToolbar']//div[text()='Learning Tools']//following::div[text()='Related Content']"/>
+    <UIElement name="btnResources" locatorType="xpath" locatorValue="//div[@id='rightToolbar']//div[text()='Learning Tools']//following::div[text()='Resources']"/>
+    <UIElement name="textRelatedContent" locatorType="xpath" locatorValue="//div[@id='rightDetailToolbar']//following::span[text()='Related Content']"/>
+    <UIElement name="NoContentText" locatorType="xpath" locatorValue="//div[@id='rightDetailToolbar']//following::span[text()='Related Content']//following::div[2]"/>
+    <UIElement name="iconBack" locatorType="xpath" locatorValue="(//div[@id='rightDetailToolbar']//div//div)[1]"/>
+    <UIElement name="textResources" locatorType="xpath" locatorValue="//div[@id='rightDetailToolbar']//following::span[text()='Resources']"/>
+    <UIElement name="iconDownload" locatorType="xpath" locatorValue="(//span[@class='icon-download'])[1]"/>
+    <UIElement name="btnSetting" locatorType="xpath" locatorValue="//div[@id='rightToolbar']//div[text()='More']//following::div[text()='Display Settings']"/>
+    <UIElement name="textDisplaySetting" locatorType="xpath" locatorValue="//div[@id='rightDetailToolbar']//following::span[text()='Display Settings']"/>
+    <UIElement name="iconFontSize" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_toolbar_font_size_down']"/>
+    <UIElement name="btnNotesAndHighlight" locatorType="xpath" locatorValue="(//div[@id='rightToolbar']//div[text()='Learning Tools']//following::div[@data-dx-desc]//div)[3]"/>
+    <UIElement name="textNotesAndHighlight" locatorType="xpath" locatorValue="(//div[@id='rightDetailToolbar']//div//following::span)[1]"/>
+    <UIElement name="iconDelete" locatorType="xpath" locatorValue="//span[@title='Delete']//i[@class='icon-remove']"/>
+    <UIElement name="btnShare" locatorType="xpath" locatorValue="//div[@data-dx-desc='toolbar_share_button']/div[text()]"/>
+    <UIElement name="iconCloseAddToFlexBook" locatorType="xpath" locatorValue="//i[@class='icon-close2']"/>
+    <UIElement name="btnAddToFlexBook" locatorType="xpath" locatorValue="//div[@data-dx-desc='toolbar_add_to_flexbook_2.0_button']/div[text()]"/>
+    <UIElement name="btnDetails" locatorType="xpath" locatorValue="//div[@data-dx-desc='toolbar_concept_details_button']/div[text()]"/>
+</UIElements>

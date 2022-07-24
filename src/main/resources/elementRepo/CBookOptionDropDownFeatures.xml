@@ -1,0 +1,41 @@
+<UIElement>
+    <UIElement name="optionDropDown" locatorType="xpath" locatorValue="//span[@title='More']//div[text()='options']"/>
+    <UIElement name="btnShare" locatorType="xpath" locatorValue="//div[@id='popup']//following-sibling::div[text()='Share']"/>
+    <UIElement name="btnAddToFlexBook" locatorType="xpath" locatorValue="//div[@id='popup']//following-sibling::div[text()='Add to FlexBook® 2.0']"/>
+    <UIElement name="btnShareToClass" locatorType="xpath" locatorValue="//div[@id='popup']//following-sibling::div[text()='Share to Class']"/>
+    <UIElement name="btnDetails" locatorType="xpath" locatorValue="//div[@id='popup']//following-sibling::div[text()='Details']"/>
+    <UIElement name="placeHolderEmail" locatorType="xpath" locatorValue="//label[@name='recipient']//following-sibling::input[@id='recepients-list']"/>
+    <UIElement name="btnDone" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//div[3]//button"/>
+    <UIElement name="btnBackToPage" locatorType="xpath" locatorValue="//div[@class='rmq-48862166']//div//a//b"/>
+    <UIElement name="txtVocabulary" locatorType="xpath" locatorValue="//div[@id='concept-list-container']//div[5]"/>
+    <UIElement name="txtEditor" locatorType="xpath" locatorValue="//div[@id='concept-list-container']//div[10]"/>
+    <UIElement name="checkBoxFirst" locatorType="xpath" locatorValue="//div[@id='books-list']//div[2]//input"/>
+    <UIElement name="btnOkAgain" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//button//span[text()='Okay']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//button[@class='rmq-431d30e6']//following-sibling::span[text()='Cancel']"/>
+    <UIElement name="btnOkay" locatorType="xpath" locatorValue="//button[@class='rmq-431d30e6']//following-sibling::span[text()=' Okay ']"/>
+    <UIElement name="txtError" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//..//following-sibling::div[text()='This artifact is already part of the selected FlexBook® textbook']"/>
+    <UIElement name="iconPlus" locatorType="xpath" locatorValue="//div[@id='books-list']//span[text()='Create a New FlexBook® 2.0']"/>
+    <UIElement name="txtPlaceHolder" locatorType="xpath" locatorValue="//div[@id='books-list']/div[1]/div/div[2]/input"/>
+    <UIElement name="txtOfFlexBookName" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//..//following-sibling::a"/>
+    <UIElement name="linkCk12" locatorType="id" locatorValue="logo_ck12.svg"/>
+    <UIElement name="namesOfFlexBook" locatorType="xpath" locatorValue="//div[@class='listitem js-listitem row collapse']//following-sibling::a[@class='bold']"/>
+    <UIElement name="dropDownMoreOption" locatorType="xpath" locatorValue="//div[@class='listiteminfo small-7 small-offset-1 large-offset-1 large-8 columns left']//div[6]//..//following-sibling::span[@class='more-options icon-ellipsis']"/>
+    <UIElement name="btnArchive" locatorType="xpath" locatorValue="//div[@class='more-options-dropdown-wrapper open']//ul//li[3]"/>
+    <UIElement name="btnOky" locatorType="xpath" locatorValue="//div[@class='modal-uikit-wrapper']//div[text()='OK']"/>
+    <UIElement name="btnShareLink" locatorType="xpath" locatorValue="//span[text()='Share']"/>
+    <UIElement name="iconClose2" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//i[@class]"/>
+    <UIElement name="btnDetailsStudent" locatorType="xpath" locatorValue="//div[@id='popup']//div[3]"/>
+    <UIElement name="btnAddToFlexBookStudent" locatorType="xpath" locatorValue="//div[@id='popup']//div[2]//div[2]"/>
+    <UIElement name="linkOptionDropDown" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_resume_button']//following-sibling::div[1]"/>
+    <UIElement name="textAlreadyInLibrary" locatorType="xpath" locatorValue="//a[@title='Already in Library']//i"/>
+    <UIElement name="linkAddToLibrary" locatorType="xpath" locatorValue="//a[@title='Add to FlexBook® 2.0']//b"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//div[text()='Assign to Class']"/>
+    <UIElement name="textChooseClasses" locatorType="xpath" locatorValue="//span[text()=' Choose Class(es): ']"/>
+    <UIElement name="textShowAnswer" locatorType="xpath" locatorValue="//span[text()=' Show Answers?']"/>
+    <UIElement name="textClassName" locatorType="xpath" locatorValue="//div[@id='calendar-portal']//span[@title]"/>
+    <UIElement name="ShowAnswerContainer" locatorType="xpath" locatorValue="(//label[@class='switch custom-check-box-cs-small']//span)[3]"/>
+    <UIElement name="btnAssignAssignment" locatorType="xpath" locatorValue="//div[@data-dx-desc='create_assignment_button']//span"/>
+    <UIElement name="iconCheckMark" locatorType="xpath" locatorValue="//div[@class='icon-checkmark']"/>
+    <UIElement name="checkBoxClassName" locatorType="xpath" locatorValue="(//div[@id='calendar-portal']//div[@class='custom-box']//div//div)[1]"/>
+    <UIElement name="btnShareAgain" locatorType="xpath" locatorValue="(//div[@id='popup']//div[1])[2]"/>
+</UIElement>

@@ -1,0 +1,30 @@
+<UIElements>
+    <UIElement name="textPersonalizeLearning" locatorType="xpath" locatorValue="//span[@class='relative']//span[1]"/>
+    <UIElement name="tabGetStarted" locatorType="xpath" locatorValue="//a[@data-dx-desc='hero-get-started-click']"/>
+    <UIElement name="linkWhyCk12" locatorType="xpath" locatorValue="//a[@data-dx-desc='hero-why-ck12-clicked']"/>
+    <UIElement name="textSignIn" locatorType="xpath" locatorValue="//div[@class='row collapse text-center sign-in-text hide-small']//span"/>
+    <UIElement name="titleCk12" locatorType="xpath" locatorValue="//header[@id='header-new']//a[@title='CK-12 Foundation Home']//img"/>
+    <UIElement name="btnGoToDashBoard" locatorType="xpath" locatorValue="//a[@data-dx-desc='hero-dashboard-click']"/>
+    <UIElement name="textWhyCk12" locatorType="xpath" locatorValue="//div[@id='overviewVideoModal']//h4"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@id='overviewVideoModal']//div[@class='close close-reveal-modal button-close']"/>
+    <UIElement name="textExplore" locatorType="xpath" locatorValue="//div[@class='start-browsing-row']//div[@class='start-browse-heading row collapse text-center']"/>
+    <UIElement name="circlePhysics" locatorType="xpath" locatorValue="(//div[@class='hide-on-flip explore-image-container']//img[@class='flip-image-2'])[1]"/>
+    <UIElement name="circlePlix" locatorType="xpath" locatorValue="(//div[@class='hide-on-flip explore-image-container']//img[@class='flip-image-2'])[2]"/>
+    <UIElement name="circlePractice" locatorType="xpath" locatorValue="(//div[@class='hide-on-flip explore-image-container']//img[@class='flip-image-2'])[3]"/>
+    <UIElement name="circleStudyGuide" locatorType="xpath" locatorValue="(//div[@class='hide-on-flip explore-image-container']//img[@class='flip-image-2'])[4]"/>
+    <UIElement name="textOverlayPhysicsCircle" locatorType="xpath" locatorValue="(//div[@class='show-on-flip']//div[text()])[1]"/>
+    <UIElement name="textOverlayPlixCircle" locatorType="xpath" locatorValue="(//div[@class='show-on-flip']//div[text()])[2]"/>
+    <UIElement name="textOverlayPracticeCircle" locatorType="xpath" locatorValue="(//div[@class='show-on-flip']//div[text()])[3]"/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue="(//div[@class='show-on-flip']//div[text()])[4]"/>
+    <UIElement name="btnBannerSignUp" locatorType="xpath" locatorValue="//a[@data-dx-desc='student_landing_banner_sign_up']"/>
+    <UIElement name="textReinforceLearning" locatorType="xpath" locatorValue="//h2[text()='Reinforce Your Learning']"/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue=""/>
+    <UIElement name="textOverlayStudyGuideCircle" locatorType="xpath" locatorValue="d"/>
+</UIElements>

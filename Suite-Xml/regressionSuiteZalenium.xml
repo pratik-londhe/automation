@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation" parallel="tests">
+    <test name="Chrome Test" parallel="classes"/>
+        <parameter name="browser" value="CHROME"/>
+
+    <test name="Firefox Test" parallel="classes">
+        <parameter name="browser" value="FIREFOX"/>
+        <packages>
+            <package name="testscripts.regression.studentlogin.AuthenticationFeature"/>
+            <package name="testscripts.regression.studentlogin.DashBoardFeature"/>
+            <package name="testscripts.regression.studentlogin.LibraryFeature"/>
+        </packages>
+    </test>
+</suite>

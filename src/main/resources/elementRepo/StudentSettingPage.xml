@@ -1,0 +1,42 @@
+<UIElement>
+    <UIElement name="textInstantNotification" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textAllClassPosts" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-peerhelp-on js-peerhelp-on-big medium-12 large-6 column']//span//span[3]"/>
+    <UIElement name="switcherAssignment" locatorType="xpath" locatorValue="(//label[@class='onoffswitch-label']//div[2])[1]"/>
+    <UIElement name="switcherEmailNotification" locatorType="xpath" locatorValue="(//label[@class='onoffswitch-label']//div[2])[2]"/>
+    <UIElement name="linkTONForAssignment" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-off js-share-off-big']//a"/>
+    <UIElement name="linkTONForEmailNotification" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-peerhelp-off js-peerhelp-off-big']//a"/>
+    <UIElement name="iconEditAsgNotification" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//i"/>
+    <UIElement name="btnCloseEAN" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit groups-notification-close js-share-on js-share-on-big']//a"/>
+    <UIElement name="checkBoxInstantly" locatorType="xpath" locatorValue="//div[@class='left group-notification-expand-instant']//label[text()=' instantly' and @for='share-instant-big-common']"/>
+    <UIElement name="checkBoxWeekly" locatorType="xpath" locatorValue="//div[@class='group-notification-expand-weekly']//label[@for='share-weekly-big-common']"/>
+    <UIElement name="checkBoxDigestEveryDay" locatorType="xpath" locatorValue="//div[@class='left group-notification-expand-digest']//label[@for='share-digest-big-common']"/>
+    <UIElement name="textWeeklyDigest" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textDigestInEvery6Hours" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textDigestInEvery12Hours" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textDigestInEvery24Hours" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="dropDownHours" locatorType="xpath" locatorValue="//div[@id='group-details-container']/div[3]//div[5]/div/span"/>
+    <UIElement name="link12Hours" locatorType="xpath" locatorValue="//li[@id='share-12hours-big-common']//a"/>
+    <UIElement name="link24Hours" locatorType="xpath" locatorValue="//li[@id='share-daily-big-common']//a"/>
+    <UIElement name="link6Hours" locatorType="xpath" locatorValue="//li[@id='share-6hours-big-common']//a"/>
+    <UIElement name="iconEditQANotification" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-peerhelp-on js-peerhelp-on-big medium-12 large-6 column']//i"/>
+    <UIElement name="btnCloseEQN" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit groups-notification-close js-peerhelp-on js-peerhelp-on-big']//a"/>
+    <UIElement name="checkBoxAllClassPost" locatorType="xpath" locatorValue="//input[@id='peerHelp-all-big-common']//following::label[1]"/>
+    <UIElement name="checkBoxMyPost" locatorType="xpath" locatorValue="//input[@id='peerHelp-all-big-common']//following::label[2]"/>
+    <UIElement name="chkInstantly" locatorType="xpath" locatorValue="//input[@id='peerHelp-all-big-common']//following::label[3]"/>
+    <UIElement name="chkWeekly" locatorType="xpath" locatorValue="//input[@id='peerHelp-all-big-common']//following::label[4]"/>
+    <UIElement name="chkDigestEvery" locatorType="xpath" locatorValue="//input[@id='peerHelp-all-big-common']//following::label[5]"/>
+    <UIElement name="textWeeklyDigestAllClassPost" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textWeeklyDigestAllClassPost" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="txtDigestIn6HoursAllPosts" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="txtDigestIn12HoursAllPosts" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="txtDigestIn24HoursAllPosts" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="hoursDropDown" locatorType="xpath" locatorValue="//div[@data-dropdown='peerhelp-dropdown-big-common']//span"/>
+    <UIElement name="LinkHours12" locatorType="xpath" locatorValue="//li[@id='peerhelp-12hours-big-common']//a"/>
+    <UIElement name="LinkHours6" locatorType="xpath" locatorValue="//li[@id='peerhelp-6hours-big-common']//a"/>
+    <UIElement name="LinkHours24" locatorType="xpath" locatorValue="//li[@id='peerhelp-daily-big-common']//a"/>
+    <UIElement name="textDigestMyPostEvery12Hours" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textDigestMyPostEvery6Hours" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textWeeklyDigestMyPost" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="textInstantlyMyPost" locatorType="xpath" locatorValue="//div[@class='right groups-notification-edit js-share-on js-share-on-big medium-12 large-5 column']//span"/>
+    <UIElement name="" locatorType="xpath" locatorValue=""/>
+</UIElement>

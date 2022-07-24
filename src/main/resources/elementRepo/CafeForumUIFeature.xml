@@ -1,0 +1,36 @@
+<UIElements>
+    <UIElement name="textSortedBy" locatorType="xpath" locatorValue="//span[text()=' Sorted: ']"/>
+    <UIElement name="dropDownSortedBy" locatorType="xpath" locatorValue="//a[@id='dropdown-sort']//i"/>
+    <UIElement name="linkNewest" locatorType="xpath" locatorValue="//ul[@id='sort-filter']//li[text()='Newest']"/>
+    <UIElement name="linkUnAnswered" locatorType="xpath" locatorValue="//ul[@id='sort-filter']//li[text()='Unanswered']"/>
+    <UIElement name="linkPopular" locatorType="xpath" locatorValue="//ul[@id='sort-filter']//li[text()='Popular (Most Votes)']"/>
+    <UIElement name="linkQuestionOfTheWeek" locatorType="xpath" locatorValue="//ul[@id='sort-filter']//li[text()='Question of the week']"/>
+    <UIElement name="textSelectedFilter" locatorType="xpath" locatorValue="//a[@id='dropdown-sort']//span"/>
+    <UIElement name="linkSeeAnswer" locatorType="xpath" locatorValue="(//span[text()='SEE ANSWERS'])[1]"/>
+    <UIElement name="linkBeTheFirstToAnswer" locatorType="xpath" locatorValue="(//span[text()='BE THE FIRST TO ANSWER'])[1]"/>
+    <UIElement name="btnAskQuestion" locatorType="xpath" locatorValue="//div[@id='ck12-peer-help']//div[@class='button ph-ask-question-btn']"/>
+    <UIElement name="btnPost" locatorType="xpath" locatorValue="//span[@class='post-button-container']//a"/>
+    <UIElement name="iconCloseQuestionContainer" locatorType="xpath" locatorValue="//div[@class='ask-question-wrapper']//div[@class='close']"/>
+    <UIElement name="btnFollow" locatorType="xpath" locatorValue="(//div[@class='forum-header-button-container hide-small']//div)[1]"/>
+    <UIElement name="btnFollowing" locatorType="xpath" locatorValue="(//div[@class='forum-header-button-container hide-small']//div)[1]"/>
+    <UIElement name="textWriteYourQuestion" locatorType="xpath" locatorValue="//span[@class='post-button-container']//span[text()='Please write your question.']"/>
+    <UIElement name="placeHolderTag" locatorType="xpath" locatorValue="//div[@class='input-wrapper']//input"/>
+    <UIElement name="linkShare" locatorType="xpath" locatorValue="(//div[@class='forum-info link-share']//a)[1]"/>
+    <UIElement name="linkSetting" locatorType="xpath" locatorValue="(//div[@class='forum-info link-setting']//i)[1]"/>
+    <UIElement name="textShareThisDiscussion" locatorType="xpath" locatorValue="//div[@class='share-email-header text-center']//span"/>
+    <UIElement name="btnSend" locatorType="id" locatorValue="sendShareEmail"/>
+    <UIElement name="iconCloseShare" locatorType="xpath" locatorValue="//div[@class='share-via-email-modal share-open']//a[text()='+']"/>
+    <UIElement name="textEmptyError" locatorType="xpath" locatorValue="//div[@class='recipient-error-msg empty-error-msg']"/>
+    <UIElement name="placeHolderEmail" locatorType="id" locatorValue="recepients-list"/>
+    <UIElement name="textThanks" locatorType="xpath" locatorValue="//div[@class='column large-12']//div[text()='Thanks']"/>
+    <UIElement name="btnDone" locatorType="xpath" locatorValue="//div[@class='thanks-done tangerine button medium js-close-share close-share-modal']"/>
+    <UIElement name="btnBack" locatorType="xpath" locatorValue="//div[@class='large-12 columns back-button-container hide-for-small']//a"/>
+    <UIElement name="textEmailNotification" locatorType="xpath" locatorValue="//div[@class='large12 columns settings-wrapper']//div[text()='Email Notifications']"/>
+    <UIElement name="linkFollowers" locatorType="xpath" locatorValue="//div[@class='members-container']//a"/>
+    <UIElement name="linkInviteFollower" locatorType="id" locatorValue="invite-follower"/>
+    <UIElement name="textWantToFollow" locatorType="xpath" locatorValue="//div[@class='large-10 large-offset-1 columns']//div[@class='title']"/>
+    <UIElement name="btnDonNotFollow" locatorType="xpath" locatorValue="//div[@class='button-container']//div[@class='button dusty-grey js-setting-no']"/>
+    <UIElement name="btnYesFollow" locatorType="xpath" locatorValue="//div[@class='button-container']//div[@class='button tangerine js-setting-yes']"/>
+    <UIElement name="linkBrowseDiscussion" locatorType="xpath" locatorValue="//div[@class='browse-link js-setting-no']//a"/>
+    <UIElement name="place" locatorType="xpath" locatorValue=""/>
+</UIElements>

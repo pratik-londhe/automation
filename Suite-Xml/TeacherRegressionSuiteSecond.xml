@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation" parallel="tests">
+    <parameter name="browser" value="CHROME"/>
+    <suite-files>
+        <suite-file path="TeacherLibraryRegressionSuite.xml"/>
+        <suite-file path="TeacherDashBoardRegressionSuite.xml"/>
+        <suite-file path="TeacherExploreRegressionSuite.xml"/>
+        <suite-file path="TeacherReportsRegressionSuite.xml"/>
+    </suite-files>
+    <!--<packages>
+        <package name="testscripts.regression.teacherlogin.DashBoardFeature.*"/>
+        <package name="testscripts.regression.teacherlogin.ExploreFeature.*"/>
+        <package name="testscripts.regression.teacherlogin.LibraryFeature.*"/>
+        <package name="testscripts.regression.teacherlogin.ReportFeature.*"/>
+    </packages>-->
+</suite>

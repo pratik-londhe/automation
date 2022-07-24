@@ -1,0 +1,77 @@
+<UIElements>
+    <!--Teacher scenario elements-->
+    <UIElement name="textEmail" locatorType="xpath" locatorValue="//input[@type='email']"/>
+    <UIElement name="textPass" locatorType="xpath" locatorValue="//input[@type='password']"/>
+    <UIElement name="btnNext" locatorType="xpath" locatorValue="//span[text()='Next']"/>
+    <UIElement name="iconPlus" locatorType="xpath" locatorValue="(//*[@class=' NMm5M'])[2]"/>
+    <UIElement name="createClass" locatorType="xpath" locatorValue="//div[text()='Create class']"/>
+    <UIElement name="checkBox" locatorType="xpath" locatorValue="(//div[@role='checkbox']//div)[1]"/>
+    <UIElement name="btnContinue" locatorType="xpath" locatorValue="(//span[text()='Continue'])[2]"/>
+    <UIElement name="className" locatorType="xpath" locatorValue="(//input[@type='text'])[1]"/>
+    <UIElement name="btnCreate" locatorType="xpath" locatorValue="(//span[text()='Create'])[2]"/>
+    <UIElement name="googleClass" locatorType="xpath" locatorValue="(//div[text()='GCFB2.0Assignment'])[1]"/>
+    <UIElement name="classCode" locatorType="xpath" locatorValue="//em[text()='Class code']/following-sibling::div"/>
+    <UIElement name="btnJoinClass" locatorType="xpath" locatorValue="//div[text()='Join class']"/>
+    <UIElement name="textClassCode" locatorType="xpath" locatorValue="//input[@type='text']"/>
+    <UIElement name="btnJoin" locatorType="xpath" locatorValue="//span[text()='Join']"/>
+    <UIElement name="url" locatorType="tagname" locatorValue="body"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//span[text()='Assign']"/>
+    <UIElement name="linkConnectGC" locatorType="xpath" locatorValue="//a[@id='googleclassroom_auth_link']"/>
+    <UIElement name="GCPlatform" locatorType="xpath" locatorValue="//div[@data-dx-desc='platform_select_googleClassroom_card']"/>
+    <UIElement name="selectClass" locatorType="xpath" locatorValue="(//div[@class='rmq-bf322c7d']//div)[1]"/>
+    <UIElement name="dueDate" locatorType="xpath" locatorValue="//div[@class='DueDate']"/>
+    <UIElement name="calenderDueDate" locatorType="xpath" locatorValue="//div[contains(@class,'datepicker__day--today')]"/>
+    <UIElement name="btnAssignConcept" locatorType="xpath" locatorValue="(//span[text()='Assign'])[2]"/>
+    <UIElement name="selectProfile" locatorType="xpath" locatorValue="//div[@id='profileIdentifier']"/>
+    <UIElement name="isGCClassCreated" locatorType="xpath" locatorValue="//span[text()='GCFB2.0Assignment']"/>
+    <UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@data-dx-desc='confirm_assign_success_buton']"/>
+    <UIElement name="btnGCUsername" locatorType="xpath" locatorValue="//a[contains(@href,'https://accounts.google.com/SignOutOptions?')]"/>
+    <UIElement name="btnSignOut" locatorType="xpath" locatorValue="//a[text()='Sign out']"/>
+    <UIElement name="btnRemoveAccount" locatorType="xpath" locatorValue="//div[.='Remove an account']"/>
+    <UIElement name="btnselectUserAccountToRemove" locatorType="xpath" locatorValue="//div[@data-identifier='sfatuser1@gmail.com']"/>
+    <UIElement name="btnsYesRemove" locatorType="xpath" locatorValue="//span[.='Yes, remove'][4]"/>
+    <UIElement name="selectTeacherProfile" locatorType="xpath" locatorValue="(//div[@id='profileIdentifier'])[1]"/>
+    <UIElement name="gCClassName" locatorType="xpath" locatorValue="//div[text()='GCFB2.0Assignment']"/>
+    <UIElement name="tabMark" locatorType="xpath" locatorValue="(//a[@guidedhelpid='gradebookTab'])[1]"/>
+    <UIElement name="student" locatorType="xpath" locatorValue="//a[text()='S 1']"/>
+    <UIElement name="score" locatorType="xpath" locatorValue="(//span[@class='ksaOtd'])"/>
+    <UIElement name="menu" locatorType="xpath" locatorValue="//div[@aria-label='Main menu']"/>
+    <UIElement name="tabClasses" locatorType="xpath" locatorValue="//div[text()='Classes']"/>
+    <UIElement name="archive" locatorType="xpath" locatorValue="(//div[text()='Archive'])[1]"/>
+    <UIElement name="archiveLink" locatorType="xpath" locatorValue="(//span[text()='Archive'])[2]"/>
+    <UIElement name="ellipsisIcon" locatorType="xpath" locatorValue="(//*[name()='path' and contains(@d,'M12')])[3]"/>
+    <UIElement name="noClass" locatorType="xpath" locatorValue="//h1[text()='No classes here!']"/>
+    <UIElement name="signOutAll" locatorType="xpath" locatorValue="(//a[text()='Sign out of all accounts'])[1]"/>
+    <UIElement name="assignmentName" locatorType="xpath" locatorValue="//div[@aria-label='Expand Angles and Lines']"/>
+    <UIElement name="assignLink" locatorType="xpath" locatorValue="//a[@title='Sign In | CK-12 Foundation']"/>
+    <UIElement name="assignmentScore" locatorType="xpath" locatorValue="(//div[@data-dx-desc='report-cell-click'])[1]"/>
+    <UIElement name="studProfile" locatorType="xpath" locatorValue="//i[@class='icon-arrow-up']"/>
+    <UIElement name="linkSignOut" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_signout_button']"/>
+
+    <!--Student scenario elements-->
+    <UIElement name="btnUseAnotherAccount" locatorType="xpath" locatorValue="//div[text()='Use another account']"/>
+    <UIElement name="txtBoxEmail" locatorType="id" locatorValue="identifierId"/>
+    <UIElement name="btnSignInNext" locatorType="id" locatorValue="identifierNext"/>
+    <UIElement name="txtBoxPass" locatorType="name" locatorValue="password"/>
+    <UIElement name="btnPassNext" locatorType="id" locatorValue="passwordNext"/>
+    <UIElement name="iconMenu" locatorType="xpath" locatorValue="//div[@id='gb']//a[contains(@href,'https://www.google.co.in/intl/en-GB/about/products')]"/>
+    <UIElement name="linkClassName" locatorType="xpath" locatorValue="//div[@data-tooltip='Inbox']"/>
+    <UIElement name="listOfClasses" locatorType="xpath" locatorValue="//ol[@class='JwPp0e']/li"/>
+    <UIElement name="btnJoinClassStu" locatorType="xpath" locatorValue="//div[@data-tooltip='Create or join a class']"/>
+    <UIElement name="optionJoinClass" locatorType="xpath" locatorValue="//div[contains(text(),'Join class')]"/>
+    <UIElement name="txtBoxClassCode" locatorType="xpath" locatorValue="//input[@aria-label='Class code']"/>
+    <UIElement name="btnJoinStu" locatorType="xpath" locatorValue="//span[contains(text(),'Join')]"/>
+    <UIElement name="txtClassName" locatorType="xpath" locatorValue="//h1[contains(text(),'GCFB2.0Assignment')]"/>
+    <UIElement name="linkClassWork" locatorType="xpath" locatorValue="//a[.='Classwork']"/>
+    <UIElement name="btnAssignment" locatorType="xpath" locatorValue="//li[@guidedhelpid='classworkTopicListGh']"/>
+    <UIElement name="linkAssignment" locatorType="xpath" locatorValue="//div[contains(text(),'/auth/login/member/google?assignmentID=')]"/>
+    <UIElement name="btnOkToReviewPermission" locatorType="xpath" locatorValue="//span[text()='OK']"/>
+    <UIElement name="linkSelectStudentProfileGC" locatorType="xpath" locatorValue="//div[@data-identifier='sfatuser1@gmail.com']"/>
+    <UIElement name="linkSelectTeacherProfileGC" locatorType="xpath" locatorValue="//div[@data-identifier='gfatuser1@gmail.com']"/>
+    <UIElement name="btnStartOrContinuetPractice" locatorType="id" locatorValue="greenPracticeButtonText"/>
+    <UIElement name="btnStartOrKeepPracticing" locatorType="xpath" locatorValue="//div[@data-dx-elementinfo='quiz-Practice-button']"/>
+    <UIElement name="btnStartPracticingPrePracticeScreen" locatorType="id" locatorValue="startPractice"/>
+    <UIElement name="btnStopForNow" locatorType="id" locatorValue="submitTest"/>
+    <UIElement name="btnTurnIn" locatorType="xpath" locatorValue="//span[text()='Turn In']"/>
+    <UIElement name="confirmTurnIn" locatorType="xpath" locatorValue="//span[@data-dx-desc='confirm_low_score_turnin']"/>
+</UIElements>

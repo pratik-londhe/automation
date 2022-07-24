@@ -1,0 +1,7 @@
+<UIElements>
+    <UIElement name="textOfClasses" locatorType="xpath" locatorValue="//div[@class='row']//a[@title]//span"/>
+    <UIElement name="chkBoxLead" locatorType="xpath" locatorValue="//span[@data-dx-desc='Toggle group filter - I lead']"/>
+    <UIElement name="chkBoxMember" locatorType="xpath" locatorValue="//div[@class='column small-12 medium-10 scss-components-GroupsFilter__filterContainer___GOdzq']//span[1]//span[2]"/>
+    <UIElement name="chkBoxCoTeacher" locatorType="xpath" locatorValue="//div[@class='column small-12 medium-10 scss-components-GroupsFilter__filterContainer___GOdzq']//span[1]//span[3]"/>
+    <UIElement name="textHaveClasses" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupsCards__NoClassMsg___2-aOR']//span"/>
+</UIElements>

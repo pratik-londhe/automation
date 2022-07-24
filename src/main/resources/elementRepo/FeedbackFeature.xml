@@ -1,0 +1,14 @@
+<UIElements>
+    <UIElement name="iconFeedBack" locatorType="xpath" locatorValue="(//div[@data-dx-desc='Post feedback']//span)[2]"/>
+    <UIElement name="textHowCanWeImprove" locatorType="xpath" locatorValue="//div[@class='reportIssue-container']//div[@class='header']"/>
+    <UIElement name="PlaceHolderReport" locatorType="id" locatorValue="reportIssueText"/>
+    <UIElement name="iconUploadImage" locatorType="xpath" locatorValue="//div[@class='upload-images']//input"/>
+    <UIElement name="buttonCancelReport" locatorType="id" locatorValue="cancelReport"/>
+    <UIElement name="buttonSendReport" locatorType="id" locatorValue="sendReport"/>
+    <UIElement name="iconCloseReport" locatorType="xpath" locatorValue="//i[@data-dx-desc='Close button modal']"/>
+    <UIElement name="textReportError" locatorType="id" locatorValue="uploadError"/>
+    <UIElement name="iconDelete" locatorType="xpath" locatorValue="//span[@class='icon-close2 delete-icon']"/>
+    <UIElement name="listUploadImage" locatorType="xpath" locatorValue="//div[@id='imageList']//div"/>
+    <UIElement name="textReportSuccess" locatorType="cssselector" locatorValue="div[class*='scss-components-messageText__translateRoot__']"/>
+</UIElements>
+

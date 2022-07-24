@@ -1,0 +1,16 @@
+<UIElements>
+    <UIElement name="btnCreateAssignment" locatorType="xpath" locatorValue="//div[@data-dx-desc='createAssignment']//span"/>
+    <UIElement name="textNewReports" locatorType="xpath" locatorValue="//span[@class='ReportsBanner__MessageContainer-qwst7z-1 eKjTGl']//div[text()='New Reports']"/>
+    <UIElement name="linkHowToReadReports" locatorType="xpath" locatorValue="//div[@data-dx-desc='read reports tutorial']//span"/>
+    <UIElement name="textHowToReadReports" locatorType="xpath" locatorValue="//div[@class='ReportTutorialTop__TextContainer-sc-1smfp13-1 etDzpm']//div[text()='How to read Reports']"/>
+    <UIElement name="textPartOfCk12Reports" locatorType="xpath" locatorValue="//div[@class='ReportTutorialTop__TextContainer-sc-1smfp13-1 etDzpm']//div[text()='What are the parts of CK-12 reports?']"/>
+    <UIElement name="iconReportsTutorialClose" locatorType="xpath" locatorValue="//div[@class='ReportTutorialTop__TextContainer-sc-1smfp13-1 etDzpm']//div[@class='ReportTutorialTop__CloseIcon-sc-1smfp13-5 fzdsPX']"/>
+    <UIElement name="iconHeaderComponent" locatorType="xpath" locatorValue="//span[@class='ReportHeaderComponent__IconContainer-gx8xm5-5 iGCPzK']"/>
+    <UIElement name="tablePartOfCk12Tutorial" locatorType="xpath" locatorValue="//div[@class='ReportTutorialTop__ImageConatiner-sc-1smfp13-2 eIyxUq']"/>
+    <UIElement name="textHowModalityScored" locatorType="xpath" locatorValue="//div[text()='When and how are different modalities scored?']"/>
+    <UIElement name="rowModalityType" locatorType="xpath" locatorValue="//div[@class='ReportTutorial__SecondContainer-sc-2nok25-1 kirSsC']//div[text()='Modality Type']"/>
+    <UIElement name="rowGoalAndAction" locatorType="xpath" locatorValue="//div[@class='ReportTutorial__SecondContainer-sc-2nok25-1 kirSsC']//div[text()='Goal and Action']"/>
+    <UIElement name="rowStatus" locatorType="xpath" locatorValue="//div[@class='ReportTutorial__SecondContainer-sc-2nok25-1 kirSsC']//div[text()='Score/Status']"/>
+    <UIElement name="textDifferentColourMeaning" locatorType="xpath" locatorValue="//div[@class='ReportTutorial__ThirdContainer-sc-2nok25-2 gDVgt']//div[text()='What do different colors in mean?']"/>
+    <UIElement name="textHeatMap" locatorType="xpath" locatorValue="//div[text()='Heat Map']"/>
+</UIElements>

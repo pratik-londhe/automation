@@ -1,0 +1,31 @@
+<UIElements>
+    <UIElement name="userProfileBtnLink" locatorType="xpath" locatorValue="//header[@id='header-new']//ul/li[1]/span"/>
+    <UIElement name="btnSignOut" locatorType="xpath" locatorValue="(//header[@id='header-new']//a[@title='Sign out' and @href])[1]"/>
+    <UIElement name="btnSignIn" locatorType="xpath" locatorValue="//a[@id='top_nav_signin']"/>
+    <UIElement name="btnJoin" locatorType="xpath" locatorValue="//header[@id='header-new']//a[text()='Join' and @title='Create an Account with CK-12']"/>
+    <UIElement name="textCreateAccountWithCK12" locatorType="xpath" locatorValue="//header[@id='header-new']//a[@title='Join']"/>
+    <UIElement name="textStudentSignUp" locatorType="xpath" locatorValue="//div[@class='row text-center collapse']//span[@class='role-header']"/>
+    <UIElement name="textAreYouTeacher" locatorType="xpath" locatorValue="//div[@class='prompt-message']//span[text()='Are you a teacher?']"/>
+    <UIElement name="textAreYouStudent" locatorType="xpath" locatorValue="//div[@class='prompt-message']//span[text()='Are you a student?']"/>
+    <UIElement name="linkSignUpHere" locatorType="xpath" locatorValue="//div[@class='prompt-message']//a"/>
+    <UIElement name="textTeacherSignUp" locatorType="xpath" locatorValue="//div[@class='row text-center collapse']//span[text()='Teacher Sign Up']"/>
+    <UIElement name="btnGoogleSignUp" locatorType="id" locatorValue="js_ck12googlesignin"/>
+    <UIElement name="btnFaceBookSignUp" locatorType="id" locatorValue="js_ck12fbsignin"/>
+    <UIElement name="btnShowMore" locatorType="id" locatorValue="show-more-buttons"/>
+    <UIElement name="btnSignUpUsingEmail" locatorType="xpath" locatorValue="//span[text()='Sign up using email']"/>
+    <UIElement name="btnTwitterSignUp" locatorType="id" locatorValue="js_ck12twittersignin"/>
+    <UIElement name="btnMicrosoftSignUp" locatorType="id" locatorValue="js_ck12microsoftsignin"/>
+    <UIElement name="textOr" locatorType="xpath" locatorValue="//div[@class='text-center signup-separator']"/>
+    <UIElement name="linkSignIn" locatorType="xpath" locatorValue="//a[@class='js-sign-in']"/>
+    <UIElement name="textSignIn" locatorType="xpath" locatorValue="//span[text()='Sign In']"/>
+    <UIElement name="fullNamePlaceHolder" locatorType="xpath" locatorValue="//input[@placeholder='Full Name' and @id='name']"/>
+    <UIElement name="placeHolderEmail" locatorType="xpath" locatorValue="//input[@placeholder='Email' and @id='email']"/>
+    <UIElement name="placeHolderPassword" locatorType="xpath" locatorValue="//input[@placeholder='Password' and @id='password']"/>
+    <UIElement name="textDoubleQuotesError" locatorType="xpath" locatorValue="(//div[@class='error']//label[@class])[1]"/>
+    <UIElement name="textSpecialCharacterError" locatorType="xpath" locatorValue="//div[@class='error']//label[text()='Special Characters are not allowed']"/>
+    <UIElement name="textPoorPassword" locatorType="xpath" locatorValue="//div[contains(@class,'pass-strength-main-container')]//span[contains(@class,'pass-strength-poor')]"/>
+    <UIElement name="checkBoxShowPassword" locatorType="id" locatorValue="password_display_toggle"/>
+    <UIElement name="valuePassword" locatorType="xpath" locatorValue="//span[@class='custom-check-box checked']"/>
+    <UIElement name="textHiddenPassword" locatorType="xpath" locatorValue="//input[@type='password']"/>
+    <UIElement name="btnSignUp" locatorType="id" locatorValue="signup_form_submit"/>
+</UIElements>

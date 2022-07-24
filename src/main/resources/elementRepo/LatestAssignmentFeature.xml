@@ -1,0 +1,13 @@
+<UIElements>
+    <UIElement name="tabLatestAssignment" locatorType="xpath" locatorValue="//section[@class='active']//a[text()='Latest Assignments']"/>
+    <UIElement name="textClassName" locatorType="xpath" locatorValue="//div[@class='widget-heading-container']//span[@class='small-font widget-title js-group-link']"/>
+    <UIElement name="textAssignmentTitle" locatorType="xpath" locatorValue="//div[@class='widget-heading-container']//div[@class='header4 widget-main-title']"/>
+    <UIElement name="btnStart" locatorType="xpath" locatorValue="//div[@class='row collapse']//span[@class='start-block concept  sub-header3']"/>
+    <UIElement name="iconExpandOpen" locatorType="xpath" locatorValue="//a[@class='right expand-view-button']//span[@class='expand-open']"/>
+    <UIElement name="iconExpandClose" locatorType="xpath" locatorValue="//a[@class='right expand-view-button active']//span[@class='expand-close']"/>
+    <UIElement name="linkAssignmentConcept" locatorType="xpath" locatorValue="//ul[@class='assignment-concept-list small-font']//div[@class='concept-descriptions concept']"/>
+    <UIElement name="textHeaderContainer" locatorType="xpath" locatorValue="//div[@class='headerContainer']//h1"/>
+    <UIElement name="btnTurnIn" locatorType="id" locatorValue="turn-in-button"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@id='assessmentContainer']//div[@title='close']"/>
+    <UIElement name="iconQuiz" locatorType="xpath" locatorValue="//div[@class='widget-instructions concept @@hidePrevConcept@@']//span"/>
+</UIElements>

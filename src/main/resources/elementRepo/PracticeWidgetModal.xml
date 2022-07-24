@@ -1,0 +1,11 @@
+<UIElements>
+    <UIElement name="dropDownPreview" locatorType="xpath" locatorValue="//span[@class='DropDownButtonComponent__dropcustom']//i"/>
+    <UIElement name="btnDownload" locatorType="xpath" locatorValue="(//ul[@class='DropDownButtonComponent__dropdownButtonList']//li//i)[1]"/>
+    <UIElement name="btnCustomize" locatorType="xpath" locatorValue="(//ul[@class='DropDownButtonComponent__dropdownButtonList']//li//i)[2]"/>
+    <UIElement name="linkPdf" locatorType="xpath" locatorValue="(//ul[@class='DropDownButtonComponent__dropdownButtonList']//li)[1]"/>
+    <UIElement name="linkHTML" locatorType="xpath" locatorValue="(//ul[@class='DropDownButtonComponent__dropdownButtonList']//li)[2]"/>
+    <UIElement name="textGetAnswerKey" locatorType="xpath" locatorValue="//ul[@class='DropDownButtonComponent__dropdownButtonList']//div[@class='DownloadWorksheetComponent__topHead']"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//span[@class='DownloadWorksheetComponent__closeLink']"/>
+    <UIElement name="textCreateQuiz" locatorType="xpath" locatorValue="//span[@id='mode_title']"/>
+    <UIElement name="btnBack" locatorType="xpath" locatorValue="//h1[@class='concept_link']//span[@class='back-title']"/>
+</UIElements>

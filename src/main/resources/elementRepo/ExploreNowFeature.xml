@@ -1,0 +1,21 @@
+<UIElements>
+    <UIElement name="btnExploreNow" locatorType="xpath" locatorValue="//div[@class='cbse-banner-text-bottom bold']//following-sibling::a"/>
+    <UIElement name="bannerIndiaCk12" locatorType="xpath" locatorValue="//div[@id='cbseBanner']//span"/>
+    <UIElement name="containerMathFlexBook" locatorType="xpath" locatorValue="(//div[@class='cbse-subject-title row collapse'])[1]"/>
+    <UIElement name="textYouAreViewing" locatorType="xpath" locatorValue="//div[@id='cbse_contentwrap']//span[@class='dropdown-view']"/>
+    <UIElement name="containerBiologyFlexBook" locatorType="xpath" locatorValue="(//div[@class='cbse-subject-title row collapse'])[2]"/>
+    <UIElement name="containerChemistryFlexBook" locatorType="xpath" locatorValue="(//div[@class='cbse-subject-title row collapse'])[3]"/>
+    <UIElement name="contentForCBSE" locatorType="xpath" locatorValue="//div[@id='cbse_contentwrap']//div[@class='button small cbse-dropdowm split simple standards-dropdown']"/>
+    <UIElement name="textFlexBookIn" locatorType="xpath" locatorValue="//div[@id='cbse_contentwrap']//span[text()='FlexBooks® in']"/>
+    <UIElement name="textFor" locatorType="xpath" locatorValue="//div[@id='cbse_contentwrap']//span[text()='for' and @class='hide-for-small']"/>
+    <UIElement name="locationIndia" locatorType="xpath" locatorValue="//div[@id='cbse_contentwrap']//div[@class='button small cbse-dropdowm split simple country-dropdown']"/>
+    <UIElement name="dropdownSubject" locatorType="id" locatorValue="selectSubjects"/>
+    <UIElement name="dropdownGrades" locatorType="id" locatorValue="selectGrades"/>
+    <UIElement name="linkAllSubject" locatorType="xpath" locatorValue="//li[@class='subject-selector']//a[text()='All Subjects']"/>
+    <UIElement name="linkMaths" locatorType="xpath" locatorValue="//li[@class='subject-selector']//a[text()='Maths']"/>
+    <UIElement name="linkAllGrade" locatorType="xpath" locatorValue="//li[@class='grade-selector']//a[text()='All Grades']"/>
+    <UIElement name="linkNinthGrade" locatorType="xpath" locatorValue="//li[@class='grade-selector']//a[text()='9th Grade']"/>
+    <UIElement name="iconCk12Foundation" locatorType="xpath" locatorValue="//a[@title='CK-12 Foundation Home']//img"/>
+</UIElements>
+
+

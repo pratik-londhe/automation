@@ -1,0 +1,39 @@
+<UIElement>
+    <UIElement name="containerAdaptivePractice" locatorType="xpath" locatorValue="//header[@id='header-new']//span[text()='Adaptive Practice']"/>
+    <UIElement name="iconBrowseBack" locatorType="xpath" locatorValue="//header[@class='header']//div[@class='browse-back-button icon-arrow2_left left hide-for-small']"/>
+    <UIElement name="textAdaptivePractice" locatorType="xpath" locatorValue="//div[@class='head-title']//h1[text()='Adaptive Practice']"/>
+    <UIElement name="placeHolderSearch" locatorType="id" locatorValue="assignment-search-input"/>
+    <UIElement name="textGradeSubjectTitle" locatorType="xpath" locatorValue="//div[@class='subject-title']//span[text()='Grades 1–5']"/>
+    <UIElement name="textMathSubjectTitle" locatorType="xpath" locatorValue="//div[@class='subject-title']//span[text()='Math']"/>
+    <UIElement name="iconCk12" locatorType="xpath" locatorValue="//div[@class='head-title']//img"/>
+    <UIElement name="textSearchResult" locatorType="xpath" locatorValue="//div[@class='search-heading']//span[@class='search-result-label hide-for-small']"/>
+    <UIElement name="textSearchNotFound" locatorType="xpath" locatorValue="(//div[@class='search-not-found']//span)[1]"/>
+    <UIElement name="linkConceptName" locatorType="xpath" locatorValue="(//span[@class='concept-name']//span[@class='js-concept-name'])[1]"/>
+    <UIElement name="iconUserAvatar" locatorType="id" locatorValue="userAvatar"/>
+    <UIElement name="textEmailId" locatorType="xpath" locatorValue="//div[@class='user-profile-container']//div[@class='email']"/>
+    <UIElement name="textUserName" locatorType="xpath" locatorValue="//div[@class='user-profile-container']//div[@class='name']"/>
+    <UIElement name="linkSubjectGrade" locatorType="xpath" locatorValue="//div[@class='small-9 large-9 columns subject-title']//a[@title='Grade 4 Practice']"/>
+    <UIElement name="iconTrack" locatorType="xpath" locatorValue="(//div[@class='table-cell  track-icon']//i)[1]"/>
+    <UIElement name="dropDownSubject" locatorType="xpath" locatorValue="//div[@class='subject-select pointer right hide-for-small']//i[@class='icon-arrow3_right subject-dropdown-button']"/>
+    <UIElement name="linkArithmeticBranchName" locatorType="xpath" locatorValue="//div[text()='Arithmetic']"/>
+    <UIElement name="textSubjectSelected" locatorType="xpath" locatorValue="//span[@class='subject-selected']"/>
+    <UIElement name="textSubject" locatorType="xpath" locatorValue="//span[@class='subject-title']"/>
+    <UIElement name="linkConcept" locatorType="xpath" locatorValue="(//span[@class='js-concept-name']//a)[5]"/>
+    <UIElement name="btnKeepPracticing" locatorType="xpath" locatorValue="//*[@data-dx-elementinfo='quiz-Practice-button']//b[text()='Keep practicing']"/>
+    <UIElement name="btnGoToNextConcept" locatorType="xpath" locatorValue="//*[@data-dx-elementinfo='quiz-Practice-button']//b[text()='Go to next concept']"/>
+    <UIElement name="linkAssignToClass" locatorType="xpath" locatorValue="//div[@class='more-assign-to-class']//span[text()='Assign to class']"/>
+    <UIElement name="linkCustomize" locatorType="xpath" locatorValue="//div[@class='more-quiz']//span[text()='Customize']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@title='close']"/>
+    <UIElement name="btnStopForNow" locatorType="xpath" locatorValue="//div[@class='for-desktop header-vertical header-text']"/>
+    <UIElement name="iconProgressLevel" locatorType="xpath" locatorValue="(//div[@class='progress-container']//div)[1]"/>
+    <UIElement name="btnStartPracticing" locatorType="xpath" locatorValue="//button[@data-dx-elementinfo='quiz-Practice-button']//b"/>
+    <UIElement name="btnBack" locatorType="xpath" locatorValue="//span[@class='back-title']"/>
+    <UIElement name="textAdditionalWaysToLearn" locatorType="xpath" locatorValue="//div[@class='RecommendationContainer__setTitle___2BVuQ']"/>
+    <UIElement name="textTitle" locatorType="xpath" locatorValue="//div[@class='headerContainer']//h1"/>
+    <UIElement name="iconCk12Assign" locatorType="xpath" locatorValue="//div[@data-dx-desc='assign_to_ck12']//span"/>
+    <UIElement name="iconAssignToClass" locatorType="xpath" locatorValue="//div[@class='row text-left modal-title']"/>
+    <UIElement name="btnStart" locatorType="id" locatorValue="startPractice"/>
+    <UIElement name="lnkGradeOne" locatorType="xpath" locatorValue="//a[@title='Grade 1 Practice']"/>
+    <UIElement name="txtGradeOneFirstCategory" locatorType="xpath" locatorValue="(//div[@class='track-name-wrapper table-row'][1]/div[2])[1]"/>
+    <UIElement name="walkThroughPopup" locatorType="xpath" locatorValue="(//button[@data-dx-desc='walkthrough slide 1'])[1]"/>
+</UIElement>

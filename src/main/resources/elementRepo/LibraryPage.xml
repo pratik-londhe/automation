@@ -1,0 +1,25 @@
+<UIElements>
+    <UIElement name="menuLibrary" locatorType="id" locatorValue="nav_library"/>
+    <UIElement name="drpDwnCreateNew" locatorType="linktext" locatorValue="Create New"/>
+    <UIElement name="linkFlexBook" locatorType="xpath" locatorValue="//a[text()=' FlexBook® 2.0']"/>
+    <UIElement name="linkQuiz" locatorType="linktext" locatorValue="Quiz"/>
+    <UIElement name="chkBoxFlexBook2" locatorType="xpath" locatorValue="//div[@id='category-filter']/div/div[2]/label/span/i[@class='icon-validated']"/>
+    <UIElement name="iconEditAndDeleteFlexBook" locatorType="xpath" locatorValue="//*[@class='more-options icon-ellipsis']"/>
+    <UIElement name="linkEdit" locatorType="xpath" locatorValue="//*[@title='Edit']"/>
+    <UIElement name="linkArchive" locatorType="xpath" locatorValue="//a[@title='Move to Archived']"/>
+    <UIElement name="msgArchivedSuccess" locatorType="xpath" locatorValue="//div[text()='Item archived successfully']"/>
+    <UIElement name="btnOKArchived" locatorType="xpath" locatorValue="//div[@class='button turquoise']"/>
+    <UIElement name="linkEdit" locatorType="xpath" locatorValue="//a[@title='Edit']"/>
+    <UIElement name="linkSelectFirstFlexbook" locatorType="xpath" locatorValue="//div[@class='listiteminfo small-7 small-offset-1 large-offset-1 large-8 columns left']/div/a"/>
+    <UIElement name="textNoItemsInLibrary" locatorType="xpath" locatorValue="//div[@id='library-items-list']//div"/>
+    <UIElement name="btnViewArchive" locatorType="xpath" locatorValue="//a[@title='View Archived Items']"/>
+    <UIElement name="btnRestore" locatorType="id" locatorValue="btn_restore_archived"/>
+    <UIElement name="btnViewLibrary" locatorType="xpath" locatorValue="//a[@title='View Library Items']"/>
+    <UIElement name="textPleaseSelectItems" locatorType="xpath" locatorValue="//div[text()='Please select items to restore.']"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div"/>
+    <UIElement name="btnAddToCk12" locatorType="id" locatorValue="add-bookmarklet-button"/>
+    <UIElement name="textDragThisLink" locatorType="xpath" locatorValue="//div[text()='Drag this link to your bookmarks toolbar.']"/>
+    <UIElement name="iconCloseBookMarket" locatorType="xpath" locatorValue="//a[@class='close-add-bookmarklet js-close-add-bookmarklet right']"/>
+    <UIElement name="ellipsisIcon" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__groupCardTopMenu___1nOdY']"/>
+    <UIElement name="ellipsisIconSecond" locatorType="xpath" locatorValue="//span[@class='more-options icon-ellipsis']"/>
+</UIElements>

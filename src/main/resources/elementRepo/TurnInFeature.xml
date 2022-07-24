@@ -1,0 +1,20 @@
+<UIElements>
+    <UIElement name="btnTurnIn" locatorType="xpath" locatorValue="//span[@data-dx-desc='turn_in_button_past_due' or @data-dx-desc='turn_in_button_due']"/>
+    <UIElement name="linkAnswerOption" locatorType="xpath" locatorValue="//li[@class='response-row ']//div[text()='a']"/>
+    <UIElement name="btnTurnInAgain" locatorType="xpath" locatorValue="//div[@id='assignment-banner']//span[@data-dx-desc='turn_in_button_success']"/>
+    <UIElement name="btnSeeRecommendation" locatorType="xpath" locatorValue="//span[@class='button-title']//b[text()='See Recommendations']"/>
+    <UIElement name="textReview" locatorType="xpath" locatorValue="//div[@class='ScoreChartComponent__recomendedtitle']//div[2]"/>
+    <UIElement name="textAlreadyAssign" locatorType="xpath" locatorValue="//div[@class='custom-box']//div[2]//span[1]"/>
+    <UIElement name="textModalityTitle" locatorType="id" locatorValue="modality-title"/>
+    <UIElement name="iconSuccessfullyTurnIn" locatorType="xpath" locatorValue="(//div[@id='assignment-text']//span)[1]"/>
+    <UIElement name="textOOps" locatorType="xpath" locatorValue="//span[@data-dx-desc='complete_practice_first_tool_tip']"/>
+    <UIElement name="iconAccountProfile" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_header_user_dropdown_button']//th[1]"/>
+    <UIElement name="linkNoDueDate" locatorType="xpath" locatorValue="//div[@data-month='No Due Date']"/>
+    <UIElement name="linkReadAssignmentName" locatorType="xpath" locatorValue="//span[text()='Pratik']"/>
+    <UIElement name="btnViewPractice" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_practice_badge']//span[2]"/>
+    <UIElement name="iconAccount" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_header_user_dropdown_button']"/>
+    <UIElement name="linkSignOut" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_signout_button']"/>
+    <UIElement name="linkFlexBook" locatorType="xpath" locatorValue="//button[normalize-space()='Try It Now!']"/>
+    <UIElement name="btnCreateAnAssignment" locatorType="xpath" locatorValue="//a[@id='create-assignment']//span[2]"/>
+    <UIElement name="tabAvailableAssignment" locatorType="xpath" locatorValue="//p[@class='title assignments-from-library-tab']"/>
+</UIElements>

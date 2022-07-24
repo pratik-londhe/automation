@@ -1,0 +1,14 @@
+<UIElements>
+    <UIElement name="linkView" locatorType="xpath" locatorValue="//div[@class='settings-group-info-section js-for-class']//a[@class='js-view-members-link']"/>
+    <UIElement name="linkAddStudent" locatorType="id" locatorValue="add-students-link"/>
+    <UIElement name="textUserName" locatorType="xpath" locatorValue="//i[@title='You']"/>
+    <UIElement name="linkAddStudentWithoutEmail" locatorType="xpath" locatorValue="//a[@data-dx-desc='roster_create_account_button' and text()='Add Students without email']"/>
+    <UIElement name="iconCloseModel" locatorType="xpath" locatorValue="(//a[@class='close-reveal-modal close'])[1]"/>
+    <UIElement name="linkCopyClassCode" locatorType="xpath" locatorValue="//a[@data-clipboard-target='.js-join-group-code']"/>
+    <UIElement name="textCopied" locatorType="xpath" locatorValue="//a[@data-clipboard-target='.js-join-group-code']"/>
+    <UIElement name="switchYesOrNo" locatorType="xpath" locatorValue="//div[@class='yesnoswitch-switch']"/>
+    <UIElement name="textClassCode" locatorType="xpath" locatorValue="//input[@class='ck12link-input js-join-group-code text-center']"/>
+    <UIElement name="placeHolderClassCode" locatorType="xpath" locatorValue="//div[@class='join-class-wrapper text-left']//input[@class='js-join-group-code']"/>
+    <UIElement name="textCodeOfClass" locatorType="xpath" locatorValue="(//a[@title='Class2']//following::span[2])[2]"/>
+    <UIElement name="linkRecentClassActivity" locatorType="xpath" locatorValue="//div[@class='menus menus--normal']//a[@data-dx-desc='Recent Class Activity']"/>
+</UIElements>

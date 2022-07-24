@@ -1,0 +1,12 @@
+<UIElements>
+    <UIElement name="iconMoreOption" locatorType="xpath" locatorValue="//span[@class='more-options icon-ellipsis hide-for-medium-down']"/>
+    <UIElement name="linkRemoveFromClass" locatorType="xpath" locatorValue="(//a[@title='Remove member']//span[text()='Remove from class'])[2]"/>
+    <UIElement name="btnRemove" locatorType="xpath" locatorValue="//div[@class='button-wrapper ie8text']//a[text()='Remove']"/>
+    <UIElement name="btnAddStudent" locatorType="xpath" locatorValue="//div[@data-dx-desc='roster_members_add_students_button']"/>
+    <UIElement name="btnJoinClass" locatorType="xpath" locatorValue="//a[@id='join-group-button']"/>
+    <UIElement name="textJoinAClass" locatorType="xpath" locatorValue="//div[@class='bold join-class-text']"/>
+    <UIElement name="txtEmptyError" locatorType="xpath" locatorValue="//div[@class='join-error-msg-wrapper']//span[@id='group-join-empty-error']"/>
+    <UIElement name="txtWrongError" locatorType="xpath" locatorValue="//div[@class='join-error-msg-wrapper']//span[@id='group-join-wrong-error']"/>
+    <UIElement name="placeHolderClassCode" locatorType="xpath" locatorValue="//div[@class='class-code-wrapper']//input"/>
+    <UIElement name="btnOkShowMe" locatorType="xpath" locatorValue="//div[@class='modal-button-container']//a[@class='button turquoise large next']"/>
+</UIElements>

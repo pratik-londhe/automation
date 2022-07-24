@@ -1,0 +1,1 @@
+{"uuid":"22b2bc42-dc66-454c-a962-dc33f90c4f69","name":"CK12Automation (0)","children":["00805822-ad04-4215-9886-f475a67b54bf"],"befores":[{"name":"beforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1630395275480,"stop":1630395275501}],"afters":[],"links":[],"start":1630395275411,"stop":1630395300350}

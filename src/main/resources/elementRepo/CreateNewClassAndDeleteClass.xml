@@ -1,0 +1,16 @@
+<UIElements>
+    <!--<UIElement name="btnCreateNewClass" locatorType="xpath" locatorValue="//ul[@class='scss-components-PageSubmenuButton__actions___2MCZJ']//li[1]"/>-->
+    <UIElement name="btnCreateNewClass" locatorType="xpath" locatorValue="//li[@data-dx-desc='Create or Connect a Class']"/>
+    <!--<UIElement name="placeHolderClassName" locatorType="xpath" locatorValue="//input[@placeholder='My new class']"/>-->
+    <UIElement name="placeHolderClassName" locatorType="name" locatorValue="groupName"/>
+    <!--<UIElement name="btnCreateAClass" locatorType="xpath" locatorValue="//div[@class='column small-6']//button"/>-->
+    <UIElement name="btnCreateAClass" locatorType="xpath" locatorValue="//div[@data-dx-desc='create_ck12_class']"/>
+    <UIElement name="btnCreateClass" locatorType="xpath" locatorValue="//button[@data-dx-desc='Create_Group']"/>
+    <UIElement name="txtErrorEnterYourName" locatorType="xpath" locatorValue="//div[@class=' scss-components-common-forms-FormGroup__sectionError___KJ-RI']//div"/>
+    <UIElement name="spanNamesOfClass" locatorType="xpath" locatorValue="//a[@data-dx-desc='Go to group page']/span"/>
+    <UIElement name="textWelcomeInNewClass" locatorType="xpath" locatorValue="//div[@class='text-center']//h2"/>
+    <UIElement name="btnDelete" locatorType="xpath" locatorValue="//div[@class='delete-group button-wrapper ie8text']//a[1]"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='delete-group button-wrapper ie8text']//a[2]"/>
+    <UIElement name="textDeleteClassName" locatorType="xpath" locatorValue="//div[@class='delete-group modal-contents ie8text']//b[1]"/>
+    <UIElement name="btnAssignment" locatorType="xpath" locatorValue="//li[@class='only-for-class']//a[@id='group-assignments-link']"/>
+</UIElements>

@@ -1,0 +1,24 @@
+<UIElements>
+    <UIElement name="linkStandardAlignedFlexBook" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element']//a[@id='curriculum_book']"/>
+    <UIElement name="textCreateStandardAlignedFlexBook" locatorType="xpath" locatorValue="//div[@id='coursegenModal']//div[@class='row collapse coursegen-modal-header modal text-center bold']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@id='coursegenModal']//a[@class='close-reveal-modal close']"/>
+    <UIElement name="dropdownSelectSubject" locatorType="xpath" locatorValue="//div[@id='select_subject_container']//a[@id='dropdown-subjects']"/>
+    <UIElement name="linkSubjectAnalysis" locatorType="xpath" locatorValue="//div[@id='select_subject_container']//a[text()='Analysis']"/>
+    <UIElement name="textSelectedSubject" locatorType="xpath" locatorValue="//div[@id='select_subject_container']//a[text()='Analysis' and @id]"/>
+    <UIElement name="dropdownSelectState" locatorType="xpath" locatorValue="//div[@id='select_state_container']//a[@id='dropdown-state']"/>
+    <UIElement name="linkCCSS" locatorType="xpath" locatorValue="//div[@id='select_state_container']//a[text()='NCTM']"/>
+    <UIElement name="textSelectedState" locatorType="xpath" locatorValue="//div[@id='select_state_container']//a[text()='NCTM' and @id='dropdown-state']"/>
+    <UIElement name="dropdownSelectGrade" locatorType="xpath" locatorValue="//div[@id='select_grade_container']//a[@id='dropdown-grade']"/>
+    <UIElement name="link9thGrade" locatorType="xpath" locatorValue="//div[@id='select_grade_container']//a[text()='9th Grade']"/>
+    <UIElement name="textSelectedGrade" locatorType="xpath" locatorValue="//div[@id='select_grade_container']//a[text()='9th Grade' and @id]"/>
+    <UIElement name="textFlexBookTextBookTitle" locatorType="xpath" locatorValue="(//div[@id='cg_title_div']//span)[1]"/>
+    <UIElement name="containerTextArea" locatorType="xpath" locatorValue="//div[@id='cg_title_div']//textarea[@id]"/>
+    <UIElement name="link7thGrade" locatorType="xpath" locatorValue="//div[@id='select_grade_container']//a[text()='7th Grade']"/>
+    <UIElement name="linkTexas" locatorType="xpath" locatorValue="//div[@id='select_state_container']//a[text()='Texas']"/>
+    <UIElement name="btnSaveBook" locatorType="id" locatorValue="save-book"/>
+    <UIElement name="btnCancelSave" locatorType="id" locatorValue="cancel-save"/>
+    <UIElement name="textContentNotAvailable" locatorType="xpath" locatorValue="//div[@class='modal-uikit-wrapper']//div[@class='content']"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='modal-uikit-wrapper']//div[@class='button turquoise']"/>
+    <UIElement name="textTitleOfFlexBook" locatorType="xpath" locatorValue="(//div[@class='clearfix flexbooktoptitle']//span)[1]"/>
+    <UIElement name="linkSubjectAlgebra" locatorType="xpath" locatorValue="//ul[@id='cg_subject']//a[text()='Algebra']"/>
+</UIElements>

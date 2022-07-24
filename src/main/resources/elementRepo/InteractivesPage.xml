@@ -1,0 +1,32 @@
+<UIElements>
+    <UIElement name="intDropdownOne" locatorType="xpath" locatorValue="(//span[contains(@class,'Dropdown__Placeholder')])[1]"/>
+    <UIElement name="ddoneOptionOne" locatorType="xpath" locatorValue="//div[contains(@class,'Dropdown__Option-') and text()='zero']"/>
+    <UIElement name="ddoneOptionTwo" locatorType="xpath" locatorValue="//div[contains(@class,'Dropdown__Option-') and text()='one']"/>
+    <UIElement name="ddoneOptionThree" locatorType="xpath" locatorValue="//div[contains(@class,'Dropdown__Option-') and text()='infinite']"/>
+    <UIElement name="incorrectAnswerImage" locatorType="classname" locatorValue="feeback-icon"/>
+    <UIElement name="h3" locatorType="xpath" locatorValue="//h3[text()='Determining Number of Points']"/>
+    <UIElement name="btnJoinClass" locatorType="xpath" locatorValue="//a[@id='join-group-button']"/>
+    <UIElement name="textJoinAClass" locatorType="xpath" locatorValue="//div[@class='bold join-class-text']"/>
+    <UIElement name="txtEmptyError" locatorType="xpath" locatorValue="//div[@class='join-error-msg-wrapper']//span[@id='group-join-empty-error']"/>
+    <UIElement name="txtWrongError" locatorType="xpath" locatorValue="//div[@class='join-error-msg-wrapper']//span[@id='group-join-wrong-error']"/>
+    <UIElement name="placeHolderClassCode" locatorType="xpath" locatorValue="//div[@class='class-code-wrapper']//input"/>
+    <UIElement name="btnOkShowMe" locatorType="xpath" locatorValue="//div[@class='modal-button-container']//a[@class='button turquoise large next']"/>
+    <UIElement name="lineSegmentSP" locatorType="xpath" locatorValue="(//span[@data-embed-id='IG_1_1_3'])[1]"/>
+    <UIElement name="lineSegmentSVG" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_1_1_3']//*[local-name()='svg']"/>
+    <UIElement name="scrollElement" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_1_1_3']"/>
+    <UIElement name="lineSegmentSVG1" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_1_1_3']//*[local-name()='svg']"/>
+    <UIElement name="polygonDraggableIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_1_3_4']//*[local-name()='svg']"/>
+    <UIElement name="polygonDraggableIAButton" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_3_4'] g.interactivity-button.interactive-button"/>
+    <UIElement name="polygonDraggableAddSide" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_3_4'] g.plus-with-label-button.interactive-button"/>
+    <UIElement name="polygonDraggableDot" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_3_4'] g circle[data-index='1']"/>
+    <UIElement name="polygonDraggableReset" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_3_4'] g.reset-button.interactive-button"/>
+    <UIElement name="quadrilateralDraggableIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_1_5_10']//*[local-name()='svg']"/>
+    <UIElement name="quadrilateralDraggableIAButton" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_5_10'] g.interactivity-button.interactive-button"/>
+    <UIElement name="quadrilateralDraggableDot" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_5_10'] g circle[data-index='1']"/>
+    <UIElement name="quadrilateralDraggableReset" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_5_10'] g.reset-button.interactive-button"/>
+    <UIElement name="quadrilateralDraggableAddon" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_1_5_10'] g.checkbox-button.interactive-button"/>
+    <UIElement name="smartPhases" locatorType="xpath" locatorValue="//span[@contenteditable='false']"/>
+    <UIElement name="polygonPIDraggableIA" locatorType="xpath" locatorValue="//inline-interactive[@embedid='IG_8_2_2']//*[local-name()='svg']"/>
+    <UIElement name="polygonPIDraggableDot" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_8_2_2'] g circle[data-index='1']"/>
+    <UIElement name="polygonPIDiagram" locatorType="cssselector" locatorValue="inline-interactive[embedid='IG_8_2_2'] g text#label-polygon"/>
+</UIElements>

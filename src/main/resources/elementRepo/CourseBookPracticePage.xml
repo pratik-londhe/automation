@@ -1,0 +1,37 @@
+<UIElements>
+    <UIElement name="btnBack" locatorType="xpath" locatorValue="//div[@class='back-button for-desktop header-vertical']"/>
+    <UIElement name="linkImproveQuestion" locatorType="xpath" locatorValue="//div[@class='row collapse hint-inner']//div[4]//div//i"/>
+    <UIElement name="btnStartPractice" locatorType="xpath" locatorValue="//div[@class='btn-cnt']//div"/>
+    <UIElement name="txtImproveThisQuestion" locatorType="xpath" locatorValue="//p[.='Improve This Question']"/>
+    <UIElement name="dropDownSelectOption" locatorType="xpath" locatorValue="//div[@data-dx-elementinfo='improveQuestion-dropdown']/select"/>
+    <UIElement name="txtOptionChoices" locatorType="xpath" locatorValue="//div[@data-dx-elementinfo='improveQuestion-dropdown']/select/option[2]"/>
+    <UIElement name="txtDetails" locatorType="id" locatorValue="errorReason"/>
+    <UIElement name="txtDetailsErrorReport" locatorType="id" locatorValue="reportModalMessage"/>
+    <UIElement name="btnSubmit" locatorType="id" locatorValue="reportError"/>
+    <UIElement name="txtAfterSubmit" locatorType="id" locatorValue="reportModalMessage"/>
+    <UIElement name="btnCloseReport" locatorType="id" locatorValue="closeReportPage"/>
+    <UIElement name="iconCloseReportError" locatorType="xpath" locatorValue="//span[@data-dx-elementinfo='improveQuestion-close']"/>
+    <UIElement name="txtQuestion" locatorType="xpath" locatorValue="//*[@id='dataStemContainer']/div/p"/>
+    <UIElement name="txtOptions" locatorType="xpath" locatorValue="//li[@class='response-row ']"/>
+    <UIElement name="linkGetHint" locatorType="xpath" locatorValue="//span[@data-dx-elementinfo='studentTutor-hint-msg']"/>
+    <UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@id='hintContainer']//..//following-sibling::div[2]//div[1]//i[@data-action='nextHint']"/>
+    <UIElement name="linkScratchpad" locatorType="xpath" locatorValue="//div[@id='hint-footer']//..//following-sibling::i[@class='icon-scratchpad_medium']//following-sibling::span[normalize-space()='Scratchpad']"/>
+    <UIElement name="iconRemove" locatorType="xpath" locatorValue="//div[@class='icon-remove js-trashcan tool']"/>
+    <UIElement name="iconCloseTool" locatorType="xpath" locatorValue="//div[@class='icon-close js-close tool']"/>
+    <UIElement name="iconThetaProgress" locatorType="xpath" locatorValue="//div[@class='theta-progress']"/>
+    <UIElement name="btnNext" locatorType="xpath" locatorValue="//*[@id='nextQuestion']"/>
+    <UIElement name="txtSecondOption" locatorType="xpath" locatorValue=" //li[@data-value='option_2']"/>
+    <!--<UIElement name="btnStopForNowOrDone" locatorType="xpath" locatorValue="//header[@class='header']//div//div[5]//div"/>-->
+    <UIElement name="btnStopForNowOrDone" locatorType="id" locatorValue="stopForNow"/>
+    <UIElement name="iconCheckMark" locatorType="xpath" locatorValue="//i[@class='icon-checkmark color-green']"/>
+    <UIElement name="iconStopWatch" locatorType="xpath" locatorValue="//i[@class='icon-stopwatch color-turquoise']"/>
+    <UIElement name="iconSkillLevel" locatorType="xpath" locatorValue="//div[@class='ScoreInfoContainer__skillprogress___A9eAR']"/>
+    <UIElement name="btnKeepPracticing" locatorType="xpath" locatorValue="//span[@class='button-title']"/>
+    <UIElement name="txtAllCircle" locatorType="xpath" locatorValue="//div[@class='ScoreChartComponent__for-adaptive-circle___2zd1Z']"/>
+    <UIElement name="btnClosePractice" locatorType="xpath" locatorValue="//div[@class='CloseComponent__closebutton___28oTz']"/>
+    <UIElement name="progressBarSkillLevel" locatorType="xpath" locatorValue="//div[@class='theta-progress']"/>
+    <UIElement name="confidentModelPopup" locatorType="id" locatorValue="confidentModal"/>
+    <UIElement name="dismissConfidentModalPopup" locatorType="xpath" locatorValue="(//ul[@data-response='true']//li[@data-value='option_4']//p)[2]"/>
+    <UIElement name="closeNewPracticeWalkThroughPopup" locatorType="xpath" locatorValue="//div[@aria-describedby='Container-description']//button[text()='Close']"/>
+</UIElements>
+

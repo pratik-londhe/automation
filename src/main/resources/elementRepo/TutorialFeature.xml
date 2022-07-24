@@ -1,0 +1,17 @@
+<UIElements>
+    <UIElement name="iconTutorial" locatorType="xpath" locatorValue="(//div[@data-dx-desc='Tutorial']//span)[2]"/>
+    <UIElement name="contentActiveBar" locatorType="xpath" locatorValue="(//div[@class='column small-7 scss-components-ControlCenter__titles___1tEt-']//following-sibling::span)[3]"/>
+    <UIElement name="classesActiveBar" locatorType="xpath" locatorValue="(//div[@class='column small-7 scss-components-ControlCenter__titles___1tEt-']//following-sibling::span)[4]"/>
+    <UIElement name="learnMoreAboutDashBoardText" locatorType="xpath" locatorValue="(//div[@class='column small-11']//div[text()='Learn more about your dashboard.'])[2]"/>
+    <UIElement name="btnTakeTheTour" locatorType="xpath" locatorValue="(//button[text()='TAKE THE TOUR'])[2]"/>
+    <UIElement name="btnLater" locatorType="xpath" locatorValue="(//button[text()='LATER'])[2]"/>
+    <UIElement name="textYouCanAlwaysReopen" locatorType="xpath" locatorValue="(//div[@class='column small-11']//div[text()='You can always reopen the tutorial for this page here.'])[2]"/>
+    <UIElement name="btnOKLater" locatorType="xpath" locatorValue="(//div[@class='column small-11']//button[text()='OK'])[2]"/>
+    <UIElement name="textAllContentInOneLocation" locatorType="xpath" locatorValue="(//div[text()='You now have all your content in one location'])[2]"/>
+    <UIElement name="btnOkGotIt" locatorType="xpath" locatorValue="(//button[text()='OK, Got it!'])[2]"/>
+    <UIElement name="textStudentProgress" locatorType="xpath" locatorValue="(//div[text()='Follow, and track student progress in an even more convenient way!'])[2]"/>
+    <UIElement name="textDemoClass" locatorType="xpath" locatorValue="//div[@class='column small-9']//strong"/>
+    <UIElement name="iconCloseDemo" locatorType="xpath" locatorValue="//div[@class='row align-middle align-center']//i[@data-dx-desc='Close button modal']"/>
+    <UIElement name="textDoNotWorry" locatorType="xpath" locatorValue="//div[@class='column small-11']//div"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='column small-11']//button"/>
+</UIElements>

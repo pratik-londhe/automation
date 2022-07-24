@@ -1,0 +1,26 @@
+<UIElements>
+    <UIElement name="linkClassName" locatorType="xpath" locatorValue="//span[@class='scss-components-GroupCard__groupName___16RcW']"/>
+    <UIElement name="linkAssignments" locatorType="id" locatorValue="group-assignments-link"/>
+    <UIElement name="btnCreateAssignment" locatorType="id" locatorValue="create-assignment"/>
+    <UIElement name="linkModule" locatorType="xpath" locatorValue="//*[@class='link-green js-node-name']"/>
+    <UIElement name="linkConcept" locatorType="xpath" locatorValue="//*[@class='track-name js-node-name']"/>
+    <UIElement name="linkSubConcept" locatorType="xpath" locatorValue="//*[@class='checkbox']/span"/>
+    <UIElement name="btnModalClose" locatorType="xpath" locatorValue="//*[@class='modal close-walkthrough']"/>
+    <UIElement name="btnSaveAssignment" locatorType="id" locatorValue="save-assignment"/>
+    <UIElement name="txtAssignmentName" locatorType="id" locatorValue="assignment-name-input"/>
+    <UIElement name="btnCloseAssignmentModal" locatorType="id" locatorValue="close-assignment-modal-save"/>
+    <UIElement name="labelNumberOfAssignments" locatorType="id" locatorValue="group-assignments-count"/>
+    <UIElement name="btnBack" locatorType="id" locatorValue="close-assignment-modal"/>
+    <UIElement name="tabAvailableAssignment" locatorType="xpath" locatorValue="//p[@class='title assignments-from-library-tab']/a"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//span[@class='button small turquoise js-assign']"/>
+    <UIElement name="btnConfirmAssign" locatorType="id" locatorValue="assign-modal-assign"/>
+    <UIElement name="linkAssignmentNameLink" locatorType="xpath" locatorValue="//span[@class='link-green assignment-title-text js-assignment-name']"/>
+    <UIElement name="linkDeleteAssignment" locatorType="xpath" locatorValue="//a[@data-reveal-id='deleteAssignmentModal']"/>
+    <UIElement name="btnConfirmDelete" locatorType="id" locatorValue="deleteAssignment"/>
+    <UIElement name="linkEditAssignment" locatorType="xpath" locatorValue="//a[@data-reveal-id='editAssignmentModal']"/>
+    <UIElement name="btnContinueEditing" locatorType="id" locatorValue="continueEditAssignment"/>
+    <UIElement name="linkNumberOfConcepts" locatorType="xpath" locatorValue="//div[@class='concept-descriptions concept link-green']"/>
+    <UIElement name="iconAssignmentBag" locatorType="xpath" locatorValue="//i[@class='icon-grps_assgnmts app-icons assign-icon']"/>
+    <UIElement name="linkAssignmentsForStudent" locatorType="xpath" locatorValue="//span[@class='js-assignment-name']"/>
+    <UIElement name="linkConceptNameStudent" locatorType="xpath" locatorValue="//div[@class='concept-descriptions concept']"/>
+</UIElements>

@@ -1,0 +1,12 @@
+<UIElements>
+    <UIElement name="dropDownSort" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//a[@id]"/>
+    <UIElement name="linkAscending" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//li[1]//a"/>
+    <UIElement name="linkDescending" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//li[2]//a"/>
+    <UIElement name="linkNewestFirst" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//li[3]//a"/>
+    <UIElement name="linkOldestFirst" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//li[4]//a"/>
+    <UIElement name="linkRecentlyModified" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//li[5]//a"/>
+    <UIElement name="linkOldestModified" locatorType="xpath" locatorValue="//div[@class='sort-by-dropdown-wrapper']//li[6]//a"/>
+    <UIElement name="txtFirstCourseBook" locatorType="xpath" locatorValue="//div[@id='library-items-list']/div[1]//div[1]/a"/>
+</UIElements>
+
+

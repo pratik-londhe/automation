@@ -1,0 +1,20 @@
+<UIElements>
+    <UIElement name="tabAvailableAssignment" locatorType="xpath" locatorValue="//p[@class='title assignments-from-library-tab']"/>
+    <UIElement name="txtAssignmentName" locatorType="xpath" locatorValue="//i[@class='icon-arrow_right leader-assignment-arrow-icon']"/>
+    <UIElement name="dropdownAssignmentType" locatorType="xpath" locatorValue="//div[@class='small-12 large-5 columns dropdown-select']//a[@id='assignment-type-dropdwon']"/>
+    <UIElement name="dropdownSortBy" locatorType="xpath" locatorValue="//div[@id='group-assignment-container']//div[1]/div[2]/a"/>
+    <UIElement name="dropdownAssignSortBy" locatorType="xpath" locatorValue="//div[@class='small-12 large-5 columns dropdown-select']//a[@data-dropdown='assigned-select']"/>
+    <UIElement name="linkUnAssign" locatorType="xpath" locatorValue="//ul[@id='assignment-type-select']//li[1]//a"/>
+    <UIElement name="linkAssign" locatorType="xpath" locatorValue="//ul[@id='assignment-type-select']//li[2]//a"/>
+    <UIElement name="linkLatestCreationDate" locatorType="xpath" locatorValue="//ul[@id='un-assigned-select']//li[1]//a"/>
+    <UIElement name="linkEarliestCreationDate" locatorType="xpath" locatorValue="//ul[@id='un-assigned-select']//li[2]//a"/>
+    <UIElement name="linkAlphabetical" locatorType="xpath" locatorValue="//ul[@id='un-assigned-select']//li[3]//a"/>
+    <UIElement name="linkLatestDueDate" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[1]//a"/>
+    <UIElement name="linkEarliestDueDate" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[2]//a"/>
+    <UIElement name="linkLatestStartDate" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[3]//a"/>
+    <UIElement name="linkEarliestStartDate" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[4]//a"/>
+    <UIElement name="linkAssignLatestCreationDate" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[5]//a"/>
+    <UIElement name="linkAssignEarliestCreationDate" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[6]//a"/>
+    <UIElement name="linkAssignAlphabetical" locatorType="xpath" locatorValue="//ul[@id='assigned-select']//li[7]//a"/>
+    <UIElement name="textFirstAssignment" locatorType="xpath" locatorValue="//div[@class='assignments-from-library-list group-assignment-container']//div[1]//div//div[@title]//div[1]//span[1]"/>
+</UIElements>

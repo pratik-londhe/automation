@@ -1,0 +1,53 @@
+<UIElements>
+    <UIElement name="drpDwnCreateNew" locatorType="xpath" locatorValue="//div['columns large-2 hide-for-small']//div[1]//a[@id='dropdown-create']"/>
+    <UIElement name="btnAddToCk12" locatorType="id" locatorValue="add-bookmarklet-button"/>
+    <UIElement name="linkModality" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element hide-for-lti-context']//a[@title='New Modality']"/>
+    <UIElement name="linkFlexBookTextBook" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element hide-for-lti-context']//a[@title='New FlexBook® Textbook']"/>
+    <UIElement name="linkFlexBook2" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element hide-for-lti-context']//a[@title='New FlexBook® 2.0']"/>
+    <UIElement name="linkQuiz" locatorType="xpath" locatorValue="//li[@class='js-dropdown-element hide-for-lti-context']//a[@title='New Quiz']"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//aside[@id='leftsecondary']//a[@id='btn_save_artifact']"/>
+    <!--<UIElement name="addContentOptions" locatorType="xpath" locatorValue="//div[@id='sideNav']//a[@class='actionLink button turquoise']"/>-->
+    <UIElement name="addContentOptions" locatorType="xpath" locatorValue="//div[@class='book_editor_title']/div[contains(@class,'editor_add_more')]"/>
+    <!--<UIElement name="linkSearchCk12" locatorType="xpath" locatorValue="//div[@id='sideNav']//a[@id='btn_addcontent']"/>-->
+    <UIElement name="linkSearchCk12" locatorType="xpath" locatorValue="(//a[@class='search_inline'])[1]"/>
+    <!--<UIElement name="linkNewRead" locatorType="xpath" locatorValue="//div[@id='sideNav']//a[@title='Add Content With Our Writer']"/>-->
+    <UIElement name="linkNewRead" locatorType="xpath" locatorValue="//div[@class='book_editor_title']//a[@class='new_read_inline']"/>
+    <UIElement name="linkNewChapter" locatorType="xpath" locatorValue="//div[@class='book_editor_title']//a[@class='new_chapter_inline']"/>
+    <UIElement name="btnGoBAck" locatorType="xpath" locatorValue="//div[@id='new-modality-save-container']//a[2]"/>
+    <UIElement name="spanContentNames" locatorType="xpath" locatorValue="//div[@class='artifact_row js_artifact_row']//div[1]//span"/>
+    <UIElement name="inputTextModality" locatorType="id" locatorValue="txt_artifacttitle"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//span[text()='Ok']"/>
+    <UIElement name="txtPleaseAddContent" locatorType="xpath" locatorValue="//div[@id='js_dialog_basic']//div[@class='dialog_msg']"/>
+    <UIElement name="txtPleaseEnterSearchTerm" locatorType="xpath" locatorValue="//div[@class='searchdialog']//div[1]//div[@class='js_results addcontent_results']"/>
+    <UIElement name="btnEdit" locatorType="xpath" locatorValue="//li[@class='rmq-99994718']//a//b[text()='Edit']"/>
+    <UIElement name="spanFlexBookNames" locatorType="xpath" locatorValue="//a[@class='dxtrack-user-action']//b//div//span[1]"/>
+    <UIElement name="txtContent" locatorType="xpath" locatorValue="//div[@class='artifact_row js_artifact_row']"/>
+    <!--<UIElement name="placeHolderChapterTitle" locatorType="xpath" locatorValue="//div[@class='chapteredit_section']//input[@id='txt_chapter_title']"/>-->
+    <UIElement name="placeHolderChapterTitle" locatorType="xpath" locatorValue="//input[@class='row_artifact_title_input']"/>
+    <!--<UIElement name="btnSaveChapter" locatorType="xpath" locatorValue="//div[@class='dialogbuttons']//input[@id='js_savechapter']"/>-->
+    <UIElement name="btnNewChapterDone" locatorType="id" locatorValue="js_row_chapter_save"/>
+    <UIElement name="btnEditTitle" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//span[text()='Edit Title']"/>
+    <!--<UIElement name="iconClose" locatorType="xpath" locatorValue="//span[text()='Add Chapter']//following-sibling::a"/>-->
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//span[@class='icon-delete_cc']"/>
+    <UIElement name="linkAuthor" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_author_button']"/>
+    <UIElement name="btnKeepDraft" locatorType="xpath" locatorValue="//aside[@id='leftsecondary']//a[@id='btn_cancel_artifact']"/>
+    <UIElement name="btnFinalizeDraft" locatorType="xpath" locatorValue="//aside[@id='leftsecondary']//a[@id='btn_save_artifact']"/>
+    <UIElement name="btnDiscardDraft" locatorType="xpath" locatorValue="//aside[@id='leftsecondary']//a[@id='btn_discard_artifact']"/>
+    <UIElement name="btnPermanentlyDiscard" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[1]"/>
+    <UIElement name="btnKeepEditing" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[2]"/>
+    <UIElement name="btnContinueEditing" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[1]"/>
+    <UIElement name="btnFinalize" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[2]"/>
+    <UIElement name="txtDraft" locatorType="xpath" locatorValue="//div[@class='row_artifact_title js_artifact_title']//span[2]"/>
+    <UIElement name="iconCk12ClassRoom" locatorType="xpath" locatorValue="//div[@data-dx-desc='platform_select_ck-12_card']"/>
+    <UIElement name="iconGoogleClassRoom" locatorType="xpath" locatorValue="//div[@data-dx-desc='platform_select_googleClassroom_card']"/>
+    <UIElement name="txtAssignToClass" locatorType="xpath" locatorValue="//div[text()='Assigning to Class']"/>
+    <UIElement name="txtStartDate" locatorType="xpath" locatorValue="//div[@class='react-datepicker__input-container']//div[@class='StartDate']"/>
+    <UIElement name="txtDueDate" locatorType="xpath" locatorValue="//div[@class='react-datepicker__input-container']//div[@class='DueDate']"/>
+    <UIElement name="btnShowAnswer" locatorType="xpath" locatorValue="//label[@class='switch custom-check-box-cs-small']//span//span"/>
+    <UIElement name="iconEditTitle" locatorType="xpath" locatorValue="//span[@data-dx-desc='edit_assignment_title_icon']"/>
+    <UIElement name="txtTitleValue" locatorType="xpath" locatorValue="//input[@id='edit-title']"/>
+    <UIElement name="txtTitleNameAfterAssign" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//div//span//b"/>
+    <UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@data-dx-desc='confirm_assign_success_buton']"/>
+    <UIElement name="iconCross" locatorType="xpath" locatorValue="//div[@class='modal-header']//div[@class='standard back-button dxtrack-user-action']"/>
+    <UIElement name="popUp" locatorType="xpath" locatorValue="//button[@id='toast-close-button']"/>
+</UIElements>

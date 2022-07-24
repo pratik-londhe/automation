@@ -1,0 +1,15 @@
+<UIElements>
+    <UIElement name="insightPopupDismiss" locatorType="cssselector" locatorValue="div[aria-label='InsightsPopup-Modal'] div[class*='insights-popup__CloseIconContainer']"/>
+    <UIElement name="vocabularyTerms" locatorType="xpath" locatorValue="//span[@class='x-ck12-vocab-interlink']"/>
+    <UIElement name="hyperlinkedWords" locatorType="xpath" locatorValue="//a[@class='x-ck12-crossref']"/>
+    <UIElement name="vocaDefinitionPopup" locatorType="xpath" locatorValue="//div[contains(@class, 'VocabularyPopup__Definition')]"/>
+    <UIElement name="imagesInline" locatorType="xpath" locatorValue="//img[@data-imagetype='inline'] | //span[@class='x-ck12-img-inline']//img | //div[contains(@class,'x-ck12-img-postcard')]//p//img"/>
+    <UIElement name="videoContainer" locatorType="xpath" locatorValue="//div[contains(@class,'video-js')] | //div[@id='movie_player'] | //div[@id='initial-screen'] | //div[contains(@class,'html5-video-player')] | //li[@class='modality type_plix']"/>
+    <UIElement name="didYouKnowSection" locatorType="xpath" locatorValue="//tr[@class='x-ck12-header']"/>
+    <UIElement name="videoIframe" locatorType="xpath" locatorValue="//div[@class='iframe-wrapper ck12-no-annotation']//iframe[contains(@id, 'x-ck12-M')]"/>
+    <UIElement name="embedVideoIframe" locatorType="xpath" locatorValue="//iframe[@title='Video Embed'] | //iframe[@id='eoframe']"/>
+    <UIElement name="modalityTitle" locatorType="xpath" locatorValue="//div[@id='modality-title']//h1"/>
+    <UIElement name="canonicalData" locatorType="xpath" locatorValue="//link[contains(@rel , 'canonical') and contains(@href, 'https://flexbooks.ck12.org/')]"/>
+    <UIElement name="pageDescription" locatorType="xpath" locatorValue="//meta[@name='description']"/>
+    <UIElement name="mathEquation" locatorType="xpath" locatorValue="//span[contains(@id,'MathJax-Element')]"/>
+</UIElements>

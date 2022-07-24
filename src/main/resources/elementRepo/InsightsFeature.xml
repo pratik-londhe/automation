@@ -1,0 +1,17 @@
+<UIElements>
+    <UIElement name="btnInsights" locatorType="xpath" locatorValue="//div[@data-dx-desc='toolbar_insights_button']//div[text()='Insights']"/>
+    <UIElement name="BackInsightsIcon" locatorType="xpath" locatorValue="(//div[@id='rightDetailToolbar']//div[@class])[2]"/>
+    <UIElement name="textInsights" locatorType="xpath" locatorValue="(//div[@id='rightDetailToolbar']//span[text()])[1]"/>
+    <UIElement name="dropDownGroupClass" locatorType="xpath" locatorValue="(//div[@id='rightDetailToolbar']//div)[7]"/>
+    <UIElement name="linkClasses" locatorType="xpath" locatorValue="//div[@data-dx-desc='toolbar_insights_class_select']"/>
+    <UIElement name="linkClassWithAssignment" locatorType="xpath" locatorValue="//div[text()='Class1']"/>
+    <UIElement name="linkClassWithoutAssignment" locatorType="xpath" locatorValue="//div[text()='Class2']"/>
+    <UIElement name="dropDownSortBy" locatorType="xpath" locatorValue="(//div[text()='Sort by:']//following::div)[1]"/>
+    <UIElement name="linkPerformanceLowToHigh" locatorType="xpath" locatorValue="//div[text()='Performance Low to High']"/>
+    <UIElement name="linkPerformanceHighToLow" locatorType="xpath" locatorValue="//div[text()='Performance High to Low']"/>
+    <UIElement name="linkAlphabeticalAtoZ" locatorType="xpath" locatorValue="//div[text()='Alphabetical A - Z']"/>
+    <UIElement name="linkAlphabeticalZtoA" locatorType="xpath" locatorValue="//div[text()='Alphabetical Z - A']"/>
+    <UIElement name="linkSortByText" locatorType="xpath" locatorValue="//div[text()='Sort by:']//span"/>
+    <UIElement name="linkFirstStudent" locatorType="xpath" locatorValue="(//div[@data-dx-desc='toolbar_insights_students_select']//div//div)[2]"/>
+    <UIElement name="textNeedToAssign" locatorType="xpath" locatorValue="//div[text()='!']"/>
+</UIElements>

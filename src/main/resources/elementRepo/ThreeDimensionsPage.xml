@@ -1,0 +1,35 @@
+<UIElement>
+    <!--Zero Dimensions-->
+    <UIElement name="interactivePoint" locatorType="xpath" locatorValue="//span[@data-mousein='highlightPoint']"/>
+    <UIElement name="inlinePoint" locatorType="xpath" locatorValue="//inline-interactive[@desc='Zero Dimensional']//*[name()='circle']"/>
+    <UIElement name="lineSegmentInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightLineSegment']"/>
+    <UIElement name="lineSegment" locatorType="xpath" locatorValue="(//inline-interactive[@desc='One Dimensional']//*[name()='circle'])[1]"/>
+    <UIElement name="length" locatorType="xpath" locatorValue="(//inline-interactive[@desc='One Dimensional']//*[name()='text' and @class='diagram-part-text interactive-unhide'])[1]"/>
+    <UIElement name="lengthInteractive" locatorType="xpath" locatorValue="//span[@data-mouseout='undoDescribeLength']"/>
+    <UIElement name="numberLineInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightNumberLine']"/>
+    <UIElement name="numberLine" locatorType="xpath" locatorValue="(//inline-interactive[@desc='One Dimensional']//*[name()='g' and @class='fade-background'])[3]"/>
+    <UIElement name="describePointInteractive" locatorType="xpath" locatorValue="//span[@data-mouseout='undoDescribePoint']"/>
+    <UIElement name="describePoint" locatorType="xpath" locatorValue="(//inline-interactive[@desc='One Dimensional']//*[name()='circle'])[3]"/>
+    <UIElement name="shapeInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightDiagram']"/>
+    <UIElement name="shape" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Two Dimensional']//*[name()='g' and @class='unhide'])[1]"/>
+    <UIElement name="shapeDimension" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Two Dimensional']//*[name()='g' and @class='rectangle-img'])[1]"/>
+    <UIElement name="lengthWidthInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightLW']"/>
+    <UIElement name="lengthLW" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Two Dimensional']//*[name()='text' and @class='diagram-part-text interactive-unhide'])[1]"/>
+    <UIElement name="width" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Two Dimensional']//*[name()='text' and @class='diagram-part-text interactive-unhide'])[2]"/>
+    <UIElement name="rectCoordinateInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightCoordSystem']"/>
+    <UIElement name="rectCoordinate" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Two Dimensional']//*[name()='g' and @class='fade-background'])[1]"/>
+    <UIElement name="xCoordinateInteractive" locatorType="xpath" locatorValue="(//span[@data-mousein='describe2DXCoord']//span)[5]"/>
+    <UIElement name="yCoordinateInteractive" locatorType="xpath" locatorValue="(//span[@data-mousein='describe2DYCoord']//span)[5]"/>
+    <UIElement name="xyCoordinate" locatorType="xpath" locatorValue="(//span[@data-mousein='describe2DYCoord']//span)[5]"/>
+    <UIElement name="xyCoordinate" locatorType="xpath" locatorValue="(//span[@data-mousein='describe2DYCoord']//span)[5]"/>
+    <UIElement name="xyCoordinateTwoDia" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Two Dimensional']//*[name()='g' and @class='undo-fade-background'])[1]"/>
+    <UIElement name="pointExampleInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightPoints']"/>
+    <UIElement name="pointExample" locatorType="xpath" locatorValue="//span[@data-mousein='highlightPoints']//following::inline-interactive//*[name()='circle']"/>
+    <UIElement name="threeDimInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightPoints']//following::inline-interactive//*[name()='svg' and @class='three-dimensions-example-wrapper']"/>
+    <UIElement name="lineSegmentExampleInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightEdges']"/>
+    <UIElement name="lineSegmentExample" locatorType="xpath" locatorValue="//span[@data-mousein='highlightPoints']//following::inline-interactive//*[name()='text' and @class='cls-5 text-emphasized']"/>
+    <UIElement name="planesInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightFaces']"/>
+    <UIElement name="solidInteractive" locatorType="xpath" locatorValue="//span[@data-mousein='highlightSolid']"/>
+    <UIElement name="solid" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Three Dimensional']//*[name()='g' and @class='hide'])[1]"/>
+    <UIElement name="solidCube" locatorType="xpath" locatorValue="(//inline-interactive[@desc='Three Dimensional']//*[name()='rect'])[1]"/>
+</UIElement>

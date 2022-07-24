@@ -1,0 +1,3 @@
+<UIElements>
+    <UIElement name="btnStart" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_concept_modality_start']/a"/>
+</UIElements>

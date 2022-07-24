@@ -1,0 +1,17 @@
+<UIElements>
+    <UIElement name="linkFlexBook2" locatorType="xpath" locatorValue="(//header[@id='header-new']//div[text()='FlexBooks 2.0'])[2]"/>
+    <UIElement name="iconCk12Logo" locatorType="xpath" locatorValue="(//a[@data-dx-desc='course_header_ck12_logo'])[1]"/>
+    <UIElement name="textStudentName" locatorType="xpath" locatorValue="//*[@data-dx-desc='course_header_user_dropdown_button']"/>
+    <UIElement name="iconDonate" locatorType="cssselector" locatorValue="i[class*='icon-heart']"/>
+    <UIElement name="iconSubjectArrowDown" locatorType="xpath" locatorValue="//span[text()='Subjects']//following-sibling::i"/>
+    <UIElement name="tabStartLearning" locatorType="xpath" locatorValue="(//*[@data-dx-desc='course_landing_get_started_button'])[1]"/>
+    <UIElement name="textWhatDoYouWantToLearnToday" locatorType="xpath" locatorValue="//div[@id='browse-container']//h2"/>
+    <UIElement name="containerMath" locatorType="xpath" locatorValue="//div[@id='math']//b"/>
+    <UIElement name="linkCk12FlexBook" locatorType="xpath" locatorValue="(//a[@data-dx-desc='course_landing_cbook_button'])[1]"/>
+    <UIElement name="textScience" locatorType="xpath" locatorValue="//div[text()='Science']"/>
+    <UIElement name="textCollege" locatorType="xpath" locatorValue="//div[text()='College']"/>
+    <UIElement name="iconSubjectArrowUp" locatorType="xpath" locatorValue="//span[text()='Subjects']//following-sibling::i"/>
+    <UIElement name="linkFlexBook" locatorType="xpath" locatorValue="(//header[@id='header-new']//div[text()='FlexBooks®'])[2]"/>
+    <UIElement name="textCustomizedDigitalFlexBook" locatorType="xpath" locatorValue="//div[@id='fbbrowse-root']//span"/>
+    <UIElement name="tabGetStarted" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_landing_get_started_button']"/>
+</UIElements>

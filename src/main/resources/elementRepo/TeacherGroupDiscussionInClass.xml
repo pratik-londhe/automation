@@ -1,0 +1,29 @@
+<UIElement>
+    <!--<UIElement name="btnEdit" locatorType="xpath" locatorValue="//a[@class='icon-edit pencil-size js-group-detail-edit']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="(//a[@class='js-group-detail-cancel link-green'])[2]"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="(//a[@class='button standard turquoise js-group-detail-save'])[2]"/>-->
+    <UIElement name="btnEdit" locatorType="xpath" locatorValue="//span[@class='pencil ph-header-question-edit icon-edit']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//a[@class='ph-cancel-link hide-small-mob edit']"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//a[@class='button tangerine post-button ph-comment-button edit']"/>
+    <!--<UIElement name="editPlaceHolderQuestion" locatorType="xpath" locatorValue="//span[@class='ph-placeholder']"/>-->
+    <UIElement name="editPlaceHolderQuestion" locatorType="xpath" locatorValue="//div[@id='mce_0']/following-sibling::span"/>
+    <UIElement name="editPlaceHolderQuestionText" locatorType="id" locatorValue="mce_0"/>
+    <UIElement name="iconDelete" locatorType="xpath" locatorValue="//div[@class='comments-editable-container hide-small-mob']//span[4]//span[1]"/>
+    <UIElement name="btnCancelDelete" locatorType="xpath" locatorValue="//span[@class='icon-uikit closeModal']"/>
+    <UIElement name="btnDelete" locatorType="xpath" locatorValue="//div[@class='deletePost button turquoise']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//div[@class='close']"/>
+    <UIElement name="btnQA" locatorType="id" locatorValue="group-discussions-link"/>
+    <UIElement name="linkHowDoesThisWork" locatorType="xpath" locatorValue="//div[@id='group-details-container']//span//a[text()='How does this work?']"/>
+    <UIElement name="btnNoThanks" locatorType="xpath" locatorValue="//div[@class='group-practice-container']//div//a[2]"/>
+    <UIElement name="btnOkShowMe" locatorType="xpath" locatorValue="//div[@class='group-practice-container']//div//a[1]"/>
+    <UIElement name="iconExitClose" locatorType="xpath" locatorValue="//span[@class='exit-close-icon']"/>
+    <UIElement name="btnNowWhatHappen" locatorType="xpath" locatorValue="//a[text()='OK, now what happens?']"/>
+    <UIElement name="btnComment" locatorType="xpath" locatorValue="//input[@class='button dusty-grey ph-postComment-button']"/>
+    <UIElement name="placeHolderAskQuestion" locatorType="xpath" locatorValue="//span[normalize-space()='Ask a question']"/>
+    <UIElement name="placeHolderQuestion" locatorType="id" locatorValue="mce_0"/>
+    <UIElement name="btnPost" locatorType="xpath" locatorValue="//a[normalize-space()='Post']"/>
+    <UIElement name="containerLayout" locatorType="xpath" locatorValue="//div[@class='mce-container-body mce-abs-layout']"/>
+    <UIElement name="txtCommented" locatorType="xpath" locatorValue="//div[@class='ph-content post-type-question']//div[2]"/>
+    <UIElement name="txtInPlaceHolder" locatorType="xpath" locatorValue="//div[@class='ph-editor mce-content-body mce-edit-focus']/p"/>
+    <UIElement name="txtPleaseWriteQuestion" locatorType="xpath" locatorValue="//span[text()='Please write your question.']"/>
+</UIElement>

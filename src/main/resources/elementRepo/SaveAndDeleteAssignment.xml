@@ -1,0 +1,12 @@
+<UIElements>
+    <UIElement name="btnSelect" locatorType="id" locatorValue="toggle-select-quiz"/>
+    <UIElement name="blankCheckBox" locatorType="xpath" locatorValue="//div[@class='custom-box right']//span"/>
+    <UIElement name="selectedCheckbox" locatorType="xpath" locatorValue="//div[@class='custom-box right']//span//i"/>
+    <UIElement name="iconRemoveConcept" locatorType="xpath" locatorValue="//div[@class='row collapse add-concept ']//div[@class='pointer remove-concept js-add-concept-delete']"/>
+    <UIElement name="txtNameAssignment" locatorType="xpath" locatorValue="//div[@class='row collapse']//span[text()='Name Assignment']"/>
+    <UIElement name="btnSaveAssignment" locatorType="xpath" locatorValue="//div[@class='row collapse close-assignment-modal-button-wrapper']//a[@id='close-assignment-modal-save']"/>
+    <UIElement name="btnCancelAssignment" locatorType="xpath" locatorValue="//div[@class='row collapse close-assignment-modal-button-wrapper']//a[@id='close-assignment-modal-back']"/>
+    <UIElement name="txtError" locatorType="xpath" locatorValue="//div[@class='create-error-msg-wrapper']//span[@id='assignment-create-empty-error']"/>
+    <UIElement name="linkUndoAssign" locatorType="xpath" locatorValue="//span[@class='assigned']//a"/>
+    <UIElement name="btnCancelDelete" locatorType="xpath" locatorValue="//div[@class='delete-assignment-content button-wrapper ie8text']//a[2]"/>
+</UIElements>

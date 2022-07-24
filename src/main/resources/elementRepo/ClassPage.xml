@@ -1,0 +1,24 @@
+<UIElements>
+    <UIElement name="linkHome" locatorType="id" locatorValue="group-home-link"/>
+    <UIElement name="linkAssignment" locatorType="id" locatorValue="group-assignments-link"/>
+    <UIElement name="linkReports" locatorType="id" locatorValue="group-reports-link"/>
+    <UIElement name="linkSettings" locatorType="id" locatorValue="group-settings-link"/>
+    <UIElement name="linkQA" locatorType="id" locatorValue="group-discussions-link"/>
+    <UIElement name="linkSharedResources" locatorType="id" locatorValue="group-resources-link"/>
+    <UIElement name="linkMembers" locatorType="id" locatorValue="group-members-link"/>
+    <UIElement name="classImage" locatorType="xpath" locatorValue="//h2[@class='js-activity-time']"/>
+    <UIElement name="btnCreateAssignment" locatorType="id" locatorValue="create-assignment"/>
+    <UIElement name="linkAskQuestion" locatorType="xpath" locatorValue="//span[text()='Ask a question']"/>
+    <UIElement name="labelShareResourcesTitle" locatorType="xpath" locatorValue="//span[text()='Share resources with members.']"/>
+    <UIElement name="imgSampleShare" locatorType="xpath" locatorValue="//img[@alt='sample-share']"/>
+    <UIElement name="btnAddStudent" locatorType="xpath" locatorValue="//div[@data-dx-desc='roster_members_add_students_button']"/>
+    <UIElement name="labelClassLeader" locatorType="id" locatorValue="group-leader"/>
+    <UIElement name="btnDeleteClass" locatorType="xpath" locatorValue="//a[@data-reveal-id='deleteGroupModal']"/>
+    <UIElement name="labelClassCode" locatorType="xpath" locatorValue="//p[text()=' Class Code']"/>
+    <UIElement name="txtJoinClassLink" locatorType="xpath" locatorValue="//input[@class='ck12link-input js-join-group-link text-center']"/>
+    <UIElement name="extendBoxReport" locatorType="xpath" locatorValue="//div[@class='row collapse ie8text extend-view']"/>
+    <UIElement name="linkDownloadCSV" locatorType="xpath" locatorValue="//a[@data-dx-desc='groups_report_csvdownload']"/>
+    <UIElement name="btnTryNewReports" locatorType="linktext" locatorValue="Try new Reports"/>
+</UIElements>
+
+

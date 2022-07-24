@@ -1,0 +1,82 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CK12Automation" parallel="tests">
+
+    <test name="Safari Test" parallel="classes" thread-count="4">
+        <parameter name="browser" value="SAFARI"/>
+
+        <classes>
+            <class name="testscripts.regression.studentlogin.LibraryFeature.CreateFlexBookFeature.CBookCreateDifferentTypeTest"/>
+            <class name="testscripts.regression.studentlogin.FlexBookFeature.FlexBookDetailsPage.CBookDetailsPageStudentTest"/>
+            <class name="testscripts.regression.studentlogin.FlexBookFeature.FlexBookDetailsPage.CBookLandingPageStudentTest"/>
+            <class name="testscripts.regression.studentlogin.FlexBookFeature.ModalityPageFeature.CBookModalityPageStudentTest"/>
+            <class name="testscripts.regression.studentlogin.LibraryFeature.EditFlexBookFeature.CourseBookCreateAndEditTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.ShareMeTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.JoinClassFeature.StudentClassPageTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.QAFeature.StudentGroupDiscussionPageTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentLoginTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentSignOutTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentSignUpTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookDetailsPageTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookHighLightFunctionalityTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookLandingPageTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookModalityPageTest"/>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.CoTeacherFeature.AddCoTeacherInClassTest"/>
+            <class name="testscripts.regression.teacherlogin.CreateNewFeature.CreateNewDropDownFeature.CBookCreationDifferentTypeTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookFeature.LandingPageFeature.CBookLandingPageTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookModalityFeature.ModalityPageFeature.CBookModalityPageTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookFeature.DetailsPageFeature.CBookChooseDroPDownFeatureTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookFeature.DetailsPageFeature.CourseBookDetailsPageTest"/>
+            <class name="testscripts.regression.teacherlogin.LibraryFeature.ManageFolderFeature.FlexBookSortByTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.ForgotPasswordSignInPopUpTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.NewChapterWithoutFillingCBookNameTest"/>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.ShowAndHideClassFeature.ShowAndHideClassFunctionalityTest"/>
+            <class name="testscripts.regression.issue.AddStudentFeature.TeacherAddMultipleStudentInClassTest"/>
+            <class name="testscripts.regression.issue.AddStudentFeature.TeacherAddStudentInClassTest"/>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.GroupDiscussionFeature.TeacherGroupDiscussionInClassTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherLoginTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherSignOutTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherSignUpTest"/>
+        </classes>
+
+    </test>
+
+    <test name="Edge Test" parallel="classes" thread-count="2">
+        <parameter name="browser" value="EDGE"/>
+
+        <classes>
+            <class name="testscripts.regression.studentlogin.LibraryFeature.CreateFlexBookFeature.CBookCreateDifferentTypeTest"/>
+            <class name="testscripts.regression.studentlogin.FlexBookFeature.FlexBookDetailsPage.CBookDetailsPageStudentTest"/>
+            <class name="testscripts.regression.studentlogin.FlexBookFeature.FlexBookDetailsPage.CBookLandingPageStudentTest"/>
+            <class name="testscripts.regression.studentlogin.FlexBookFeature.ModalityPageFeature.CBookModalityPageStudentTest"/>
+            <class name="testscripts.regression.studentlogin.LibraryFeature.EditFlexBookFeature.CourseBookCreateAndEditTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.ShareMeTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.JoinClassFeature.StudentClassPageTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.QAFeature.StudentGroupDiscussionPageTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentLoginTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentSignOutTest"/>
+            <class name="testscripts.regression.studentlogin.AuthenticationFeature.StudentSignUpTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookDetailsPageTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookHighLightFunctionalityTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookLandingPageTest"/>
+            <class name="testscripts.regression.studentlogin.GroupsFeature.NonLoginUserFeature.UserCBookModalityPageTest"/>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.CoTeacherFeature.AddCoTeacherInClassTest"/>
+            <class name="testscripts.regression.teacherlogin.CreateNewFeature.CreateNewDropDownFeature.CBookCreationDifferentTypeTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookFeature.LandingPageFeature.CBookLandingPageTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookModalityFeature.ModalityPageFeature.CBookModalityPageTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookFeature.DetailsPageFeature.CBookChooseDroPDownFeatureTest"/>
+            <class name="testscripts.regression.teacherlogin.FlexBookFeature.DetailsPageFeature.CourseBookDetailsPageTest"/>
+            <class name="testscripts.regression.teacherlogin.LibraryFeature.ManageFolderFeature.FlexBookSortByTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.ForgotPasswordSignInPopUpTest"/>
+            <class name="testscripts.regression.JenkinsBlocker.NewChapterWithoutFillingCBookNameTest"/>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.ShowAndHideClassFeature.ShowAndHideClassFunctionalityTest"/>
+            <class name="testscripts.regression.issue.AddStudentFeature.TeacherAddMultipleStudentInClassTest"/>
+            <class name="testscripts.regression.issue.AddStudentFeature.TeacherAddStudentInClassTest"/>
+            <class name="testscripts.regression.teacherlogin.GroupsFeature.GroupDiscussionFeature.TeacherGroupDiscussionInClassTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherLoginTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherSignOutTest"/>
+            <class name="testscripts.regression.teacherlogin.AuthenticationFeature.TeacherSignUpTest"/>
+        </classes>
+
+    </test>
+</suite>

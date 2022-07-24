@@ -1,0 +1,20 @@
+<UIElements>
+    <UIElement name="textAnnotator" locatorType="xpath" locatorValue="//div[@id='ck12Content']//h4//a"/>
+    <UIElement name="iconIndicatorRing" locatorType="xpath" locatorValue="//div[@class='indicator-circle dxtrack-user-action']//div[@class='indicator-ring']"/>
+    <UIElement name="textRecommendationParagraph" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//h1"/>
+    <UIElement name="textMissedQuestion" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//h3"/>
+    <UIElement name="iconArrowLeft" locatorType="xpath" locatorValue="//div[@class='nav-arrow dxtrack-user-action']//i[@class='icon-arrow3_left']"/>
+    <UIElement name="iconArrowRight" locatorType="xpath" locatorValue="//div[@class='nav-arrow dxtrack-user-action']//i[@class='icon-arrow3_right']"/>
+    <UIElement name="dotActive" locatorType="xpath" locatorValue="//div[@class='nav-dot active dxtrack-user-action']"/>
+    <UIElement name="dotNonActive" locatorType="xpath" locatorValue="//div[@class='nav-dot dxtrack-user-action']"/>
+    <UIElement name="questionMultipleChoice" locatorType="xpath" locatorValue="//div[@id='dataStemContainer']//div[@data-qtype='multiple-choice']//p"/>
+    <UIElement name="questionFillInTheBlanks" locatorType="xpath" locatorValue="//div[@id='dataStemContainer']//div[@data-qtype='fill-in-the-blanks']//p"/>
+    <UIElement name="optionD" locatorType="xpath" locatorValue="//div[@class='response default']//p[text()='all of the above']"/>
+    <UIElement name="iconCheckMark" locatorType="xpath" locatorValue="//div[@class='answer-marker']//i"/>
+    <UIElement name="btnTryAgain" locatorType="id" locatorValue="tryAgain"/>
+    <UIElement name="btnCheckIt" locatorType="xpath" locatorValue="//input[@id='submitResponse']"/>
+    <UIElement name="answerPlaceHolder" locatorType="xpath" locatorValue="//input[@class='fib shortAnswer']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//span[@class='answer-marker']//i"/>
+    <UIElement name="iconQuestionModalClose" locatorType="xpath" locatorValue="//i[@class='question-modal-close icon-close2']"/>
+    <UIElement name="frameElement" locatorType="xpath" locatorValue="//iframe[@src='/assessment/ui/?test/view/previewQuestion/51d8ce0e5aa41337ee0c4837']"/>
+</UIElements>

@@ -1,0 +1,12 @@
+<UIElements>
+    <UIElement name="linkStudyGuide" locatorType="xpath" locatorValue="//select[@id='modality_select']//option[text()='Study Guide']"/>
+    <UIElement name="linkAnswerKey" locatorType="xpath" locatorValue="//select[@id='modality_select']//option[text()='Answer Key']"/>
+    <UIElement name="btnShareWithClasses" locatorType="xpath" locatorValue="//a[@title='Share with Classes']"/>
+    <UIElement name="btnEditDraft" locatorType="xpath" locatorValue="//a[@id='personalize_link']//span"/>
+    <UIElement name="textModalityType" locatorType="xpath" locatorValue="//div[@class='hint_edittitle clear']//span[text()='Modality Type']"/>
+    <UIElement name="iconDisable" locatorType="xpath" locatorValue="//div[@class='hint_edittitle clear']//select[@disabled]"/>
+    <UIElement name="textAnswerKeys" locatorType="xpath" locatorValue="//span[@class='resource-name js-block-title ie8text' and text()='ANSWER KEYS']"/>
+    <UIElement name="sharedAnswerKeyLink" locatorType="xpath" locatorValue="(//div[@class='activity-content small-12 large-10 columns']//a)[1]"/>
+    <UIElement name="btnResources" locatorType="xpath" locatorValue="//a[@title='Show Resources']"/>
+    <UIElement name="textNoResources" locatorType="xpath" locatorValue="//section[@class='resources_container']//div"/>
+</UIElements>

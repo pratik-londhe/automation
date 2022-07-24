@@ -1,0 +1,34 @@
+<UIElements>
+    <UIElement name="btnCreateAnAssignment" locatorType="xpath" locatorValue="//a[@id='create-assignment']//span[2]"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//a[@id='save-assignment']"/>
+    <UIElement name="iconBack" locatorType="xpath" locatorValue="//div[@id='close-assignment-modal']//i[@class]"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//div[@class='course-text-container']//a"/>
+    <UIElement name="iconSearch" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//i[@class='icon-search']"/>
+    <UIElement name="iconCloseSearch" locatorType="xpath" locatorValue="//div[@class='pointer right assignment-search-close js-search-close']//div[@class]"/>
+    <UIElement name="txtEnterKeywords" locatorType="xpath" locatorValue="//div[@id='concept-heading']//p[text()='Please enter keywords.']"/>
+    <UIElement name="placeHolderSearch" locatorType="xpath" locatorValue="//div[@class='row collapse text-center relative']//input[@id='assignment-search-input']"/>
+    <UIElement name="btnSelectAll" locatorType="xpath" locatorValue="//div[@class='row collapse concept-heading-wrapper js-search-heading']//a[@id]"/>
+    <UIElement name="btnSearch" locatorType="xpath" locatorValue="//div[@class='pointer assignment-search-icon-active js-search-content']//i[@class='icon-search']"/>
+    <UIElement name="textMostRecentlyEdited" locatorType="xpath" locatorValue="//span[@id='quiz-sort']"/>
+    <UIElement name="iconSortBy" locatorType="xpath" locatorValue="//i[@class='icon-arrow_down pointer relative js_sort']"/>
+    <UIElement name="iconSortByOpen" locatorType="xpath" locatorValue="//i[@class='icon-arrow_down pointer relative js_sort dropdown_open']"/>
+    <UIElement name="linkMostRecentlyEdited" locatorType="xpath" locatorValue="//ul[@id='quiz-sort-list']//li[2]//a"/>
+    <UIElement name="linkAZ" locatorType="xpath" locatorValue="//ul[@id='quiz-sort-list']//li[3]//a"/>
+    <UIElement name="linkZA" locatorType="xpath" locatorValue="//ul[@id='quiz-sort-list']//li[4]//a"/>
+</UIElements>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

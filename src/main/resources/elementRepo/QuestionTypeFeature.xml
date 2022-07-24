@@ -1,0 +1,42 @@
+<UIElements>
+    <UIElement name="linkCreateNewQuestion" locatorType="xpath" locatorValue="//div[@id='contributeQuestion']"/>
+    <UIElement name="iconNew" locatorType="xpath" locatorValue="//div[@class='header-buttons-container right']//span[@title='New question']"/>
+    <UIElement name="textQuestionType" locatorType="xpath" locatorValue="//div[@class='columns small-6 question-type-container']//div[@class='label-text']"/>
+    <UIElement name="dropDownQuestionType" locatorType="id" locatorValue="qType"/>
+    <UIElement name="linkMultipleChoice" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Multiple Choice']"/>
+    <UIElement name="linkSelectAllThatApply" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Select All That Apply']"/>
+    <UIElement name="linkTrueFalse" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='True/False']"/>
+    <UIElement name="linkShortAnswer" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Short Answer']"/>
+    <UIElement name="linkFillInTheBlanks" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Fill In The Blanks']"/>
+    <UIElement name="linkDragAndDrop" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Drag and Drop']"/>
+    <UIElement name="linkHighLight" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Highlight']"/>
+    <UIElement name="linkDiscussion" locatorType="xpath" locatorValue="//ul[@id='questionFormat']//a[text()='Discussion']"/>
+    <UIElement name="optionFirst" locatorType="xpath" locatorValue="//div[@class='editor-container visible-section question-editor']//div[@class='editor-top initial ui-droppable']"/>
+    <UIElement name="btOK" locatorType="xpath" locatorValue="//div[@class='text-center button-container']//input[@value='OK']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='text-center button-container']//input[@value='Cancel']"/>
+    <UIElement name="iconCloseModal" locatorType="xpath" locatorValue="//div[@class='reveal-modal modal-uikit open']//a"/>
+    <UIElement name="fontItalic" locatorType="xpath" locatorValue="(//button[@role='presentation']//i[@class='mce-ico mce-i-italic'])[1]"/>
+    <UIElement name="linkVariable" locatorType="xpath" locatorValue="//div[@class='wrapper']//span[text()='VARIABLES']"/>
+    <UIElement name="linkProgress" locatorType="xpath" locatorValue="//div[@class='wrapper']//span[@class='totalPercentage bold']"/>
+    <UIElement name="linkAddVariable" locatorType="id" locatorValue="addNewVariable"/>
+    <UIElement name="textVariable" locatorType="xpath" locatorValue="//div[@class='side-content variableContainer']//div[text()='VARIABLES']"/>
+    <UIElement name="iconCloseVariableWrapper" locatorType="xpath" locatorValue="(//div[@class='side-header']//a[@class='close-cross'])[4]"/>
+    <UIElement name="btnAddVariable" locatorType="xpath" locatorValue="//div[@class='columns small-12 text-center button-container']//div[@id='addVariable']"/>
+    <UIElement name="btnCancelModal" locatorType="xpath" locatorValue="//div[@class='columns small-12 text-center button-container']//a[text()='Cancel']"/>
+    <UIElement name="iconCloseVariableModal" locatorType="xpath" locatorValue="(//div[@class='drag-bg']//i//following::a[@class='close-reveal-modal close-modal'])[2]"/>
+    <UIElement name="textErrorMsg" locatorType="id" locatorValue="variableErrorMessage"/>
+    <UIElement name="placeHolderVariableName" locatorType="id" locatorValue="variableName"/>
+    <UIElement name="placeHolderVariableValue" locatorType="id" locatorValue="constVariableValue"/>
+    <UIElement name="constantVariableType" locatorType="xpath" locatorValue="(//span[@class='option-content'])[1]"/>
+    <UIElement name="choseFromSetType" locatorType="xpath" locatorValue="(//span[text()='Chosen from a Set']//preceding::input[@name])[2]"/>
+    <UIElement name="constantVariableTypeChecked" locatorType="xpath" locatorValue="//span[text()='Chosen from a Set']//preceding::input[@name and @checked]"/>
+    <UIElement name="usingArrayVariableType" locatorType="xpath" locatorValue="(//span[@class='option-content']//preceding::input[@name])[3]"/>
+    <UIElement name="checkBoxList" locatorType="xpath" locatorValue="//li[@class='no-padding']//span[@class='option-content' and text()='List' ]"/>
+    <UIElement name="checkBoxRange" locatorType="xpath" locatorValue="//li[@class='no-padding']//input[@value='random_range']"/>
+    <UIElement name="textEnterRule" locatorType="xpath" locatorValue="(//div[@id='ruleVariableRow']//span)[1]"/>
+    <UIElement name="textConstantValue" locatorType="xpath" locatorValue="//span[@class='text-small showAvailableFunction']"/>
+    <UIElement name="iconDragVariable" locatorType="id" locatorValue="drag-variable"/>
+    <UIElement name="textNotEqualTo" locatorType="xpath" locatorValue="//input[@id='listVariableNotEqualValue']//preceding::span[text()='Not equal to']"/>
+    <UIElement name="textWithInterval" locatorType="xpath" locatorValue="//input[@id='rangeVariableIntervalValue']//preceding::span[text()='With interval']"/>
+    <UIElement name="addQues" locatorType="xpath" locatorValue="//i[@class='icon-add']"/>
+</UIElements>

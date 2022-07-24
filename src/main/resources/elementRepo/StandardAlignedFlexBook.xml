@@ -1,0 +1,25 @@
+<UIElements>
+    <UIElement name="linkRecommendBySubjects" locatorType="xpath" locatorValue="//a[@data-dx-desc='Recommended by Subjects']"/>
+    <UIElement name="linkStandardAlignedFlexBook" locatorType="xpath" locatorValue="//a[@data-dx-desc='Standards Aligned Flexbooks']"/>
+    <UIElement name="textTrending" locatorType="xpath" locatorValue="//div[@class='column']//div[text()='Trending']"/>
+    <UIElement name="containerRead" locatorType="xpath" locatorValue="//div[@class='column']//span[text()='Read']"/>
+    <UIElement name="containerPractice" locatorType="xpath" locatorValue="//div[@class='column']//span[text()='Practice']"/>
+    <UIElement name="textStandardAlignedFlexBook" locatorType="xpath" locatorValue="//div[@class='small-12 columns']//span[text()='Standards Aligned FlexBook® TextBooks']"/>
+    <UIElement name="textFilter" locatorType="xpath" locatorValue="//div[@class='small-12 columns']//span[text()='Filter:']"/>
+    <UIElement name="filterContainer" locatorType="xpath" locatorValue="(//div[@class='single-select']//span[@class='arrow-down'])[1]"/>
+    <UIElement name="linkCBSC" locatorType="xpath" locatorValue="(//li[@data-dx-desc='standard_dropdown_option']//following-sibling::li[@data-dx-desc='standard_dropdown_option'])[1]"/>
+    <UIElement name="linkCalifornia" locatorType="xpath" locatorValue="(//li[@data-dx-desc='standard_dropdown_option']//following-sibling::li[@data-dx-desc='standard_dropdown_option'])[2]"/>
+    <UIElement name="linkViewMoreStandards" locatorType="xpath" locatorValue="//li[@class='notclickable more']//span"/>
+    <UIElement name="textInternational" locatorType="xpath" locatorValue="(//li[@class='notclickable'])[1]"/>
+    <UIElement name="textUnitedState" locatorType="xpath" locatorValue="(//li[@class='notclickable'])[2]"/>
+    <UIElement name="linkCollapse" locatorType="xpath" locatorValue="//li[@class='notclickable more']//div[text()='Collapse']"/>
+    <UIElement name="containerSubject" locatorType="xpath" locatorValue="(//div[@class='single-select']//span[@class='arrow-down'])[2]"/>
+    <UIElement name="linkAlgebraSubject" locatorType="xpath" locatorValue="//li[@data-dx-desc='standard_dropdown_option' and text()='algebra']"/>
+    <UIElement name="linkBiologySubject" locatorType="xpath" locatorValue="//li[@data-dx-desc='standard_dropdown_option' and text()='biology']"/>
+    <UIElement name="containerGrade" locatorType="xpath" locatorValue="(//div[@class='single-select']//span[@class='arrow-down'])[3]"/>
+    <UIElement name="link9thGrade" locatorType="xpath" locatorValue="//li[@data-dx-desc='standard_dropdown_option' and text()='9th Grade']"/>
+    <UIElement name="linkFlexBook" locatorType="xpath" locatorValue="(//ul[@id='standardBoardLinks']//h2)[1]"/>
+    <UIElement name="linkCA" locatorType="xpath" locatorValue="(//ul[@id='standardBoardLinks']//span[text()])[1]"/>
+    <UIElement name="iconArrowRight" locatorType="xpath" locatorValue="(//span[@data-dx-desc='Click right arrow button']//i[@class='icon-arrow3_right'])[1]"/>
+    <UIElement name="iconArrowLeft" locatorType="xpath" locatorValue="(//span[@data-dx-desc='Click left arrow button']//i[@class='icon-arrow3_left'])[1]"/>
+</UIElements>

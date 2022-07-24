@@ -1,0 +1,31 @@
+<UIElement>
+    <UIElement name="btnManageFolder" locatorType="linktext" locatorValue="Manage Folders"/>
+    <UIElement name="checkBoxMathematics" locatorType="xpath" locatorValue="//div[@class='js-dropdown-element custom-box label-checkbox-container']//label//div[@title='Mathematics']"/>
+    <UIElement name="checkBoxScience" locatorType="xpath" locatorValue="//div[@class='js-dropdown-element custom-box label-checkbox-container']//label//div[@title='Science']"/>
+    <UIElement name="checkBoxOthers" locatorType="xpath" locatorValue="//div[@class='js-dropdown-element custom-box label-checkbox-container']//label//div[@title='Others']"/>
+    <UIElement name="btnCreate" locatorType="xpath" locatorValue="//div[@class='js-dropdown-element']//div[@id='createLabel']"/>
+    <UIElement name="btnOk" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[@class='button turquoise']"/>
+    <UIElement name="textCount" locatorType="xpath" locatorValue="//label[@class='checkbox']//div[@title]"/>
+    <UIElement name="placeHolderNewFolder" locatorType="xpath" locatorValue="//div[@class='js-dropdown-element']//div[@id='new_label_div']//input"/>
+    <UIElement name="textError" locatorType="xpath" locatorValue="//div[@class='modal-uikit-view modal-uikit  modal-uikit-alert']//div[3]"/>
+    <UIElement name="btnApplyFolder" locatorType="xpath" locatorValue="//div[@class='js-dropdown-element custom-box label-checkbox-container text-center']//div"/>
+    <UIElement name="textLabel" locatorType="xpath" locatorValue="//div[@id='library-items-list']/div[1]//div[4]/span"/>
+    <UIElement name="textFolderCount" locatorType="xpath" locatorValue="//div[@id='label-filter']//div//a[@title]"/>
+    <UIElement name="linkAll" locatorType="xpath" locatorValue="//div[@id='label-filter']//div//a[@title='All']"/>
+    <UIElement name="iconCloseFilter" locatorType="xpath" locatorValue="//div[@class='label-item ']//i"/>
+    <UIElement name="btnRemove" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[1]"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[2]"/>
+</UIElement>
+
+
+
+
+
+
+
+
+
+
+
+
+

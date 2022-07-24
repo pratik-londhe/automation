@@ -1,0 +1,50 @@
+<UIElements>
+    <UIElement name="txtArtifactTitle" locatorType="id" locatorValue="txt_artifacttitle"/>
+    <UIElement name="btnAddContent" locatorType="xpath" locatorValue="//div[@id='sideNav']/a[1]"/>
+    <UIElement name="linkNewChapter" locatorType="xpath" locatorValue="(//a[@class='new_chapter_inline'])[1]"/>
+    <UIElement name="txtChapterTitle" locatorType="id" locatorValue="txt_chapter_title"/>
+    <UIElement name="txtAreaDesc" locatorType="id" locatorValue="txt_chapter_desc"/>
+    <UIElement name="btnSaveChapter" locatorType="id" locatorValue="js_savechapter"/>
+    <UIElement name="btnSave" locatorType="id" locatorValue="btn_save_artifact"/>
+    <!--<UIElement name="optionSearchCK12" locatorType="id" locatorValue="btn_addcontent"/>-->
+    <UIElement name="optionSearchCK12" locatorType="xpath" locatorValue="//div[@class='book_editor_title']//a[@class='search_inline']"/>
+    <UIElement name="inputtextSearchBox" locatorType="id" locatorValue="q"/>
+    <UIElement name="buttonSearch" locatorType="id" locatorValue="btn_search"/>
+    <UIElement name="buttonAddConceptInFlexbook" locatorType="id" locatorValue="js_addartifact"/>
+    <UIElement name="optionModality" locatorType="xpath" locatorValue="//a[normalize-space()='New Read']"/>
+    <!--<UIElement name="buttonSaveModality" locatorType="id" locatorValue="new-modality-save"/>-->
+    <UIElement name="buttonSaveModality" locatorType="id" locatorValue="js_row_lesson_save"/>
+    <UIElement name="buttonGoBackFromModality" locatorType="id" locatorValue="btn_cancel_artifact"/>
+    <UIElement name="buttonDiscardModality" locatorType="id" locatorValue="btn_discard_artifact"/>
+    <UIElement name="buttonConfirmDiscardModality" locatorType="cssselector" locatorValue="div.discard-confirm-modal div.modal-actions div:nth-child(1)"/>
+    <UIElement name="inputtextModalityFlexBook" locatorType="id" locatorValue="txt_artifacttitle"/>-->
+    <UIElement name="inputtextModality" locatorType="xpath" locatorValue="//input[@class='row_artifact_title_input']"/>-->
+    <UIElement name="textArea" locatorType="xpath" locatorValue="//div[@id='edit_metadata']//section//div//textarea"/>
+    <UIElement name="draftLabelOnModality" locatorType="id" locatorValue="draft-label"/>
+    <UIElement name="btnKeepAsDraft" locatorType="id" locatorValue="btn_cancel_artifact"/>
+    <UIElement name="draftLabel" locatorType="xpath" locatorValue="//span[text()='DRAFT']"/>
+    <UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@class='modal-uikit-view modal-uikit draft-walkthrough-modal']//div[4]//div"/>
+    <UIElement name="invalidTitleOnPopUp" locatorType="xpath" locatorValue="//div[text()='Invalid Title']"/>
+    <UIElement name="popUpMessage" locatorType="xpath" locatorValue="//div[normalize-space()='FlexBook 2.0 title cannot be Untitled FlexBook 2.0.']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[text()='Cancel'] | //div[@class='modal-actions']//span[text()='Cancel']"/>
+    <UIElement name="btnCancelNew" locatorType="xpath" locatorValue="(//span[text()='Cancel'])[2]"/>
+    <UIElement name="btnCancelReadMod" locatorType="xpath" locatorValue="(//span[text()='Cancel'])[2]"/>
+    <UIElement name="btnEditTitle" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[text()='Edit Title'] | //div[@class='modal-actions']//span[text()='Edit Title']"/>
+    <UIElement name="btnEditTitleNew" locatorType="xpath" locatorValue="//span[text()='Edit Title']"/>
+    <UIElement name="btnEditTitleReadMod" locatorType="xpath" locatorValue="//span[text()='Edit Title']"/>
+    <UIElement name="linkItemFromSearch" locatorType="xpath" locatorValue="//div[@class='listitemtitle']/input"/>
+    <UIElement name="xpathAddedConcept" locatorType="xpath" locatorValue="//div[@class='row_artifact_title js_artifact_title']"/>
+    <UIElement name="popUpMsgForModalityTitle" locatorType="xpath" locatorValue="//div[text()='Modality title cannot be Untitled Modality.']"/>
+    <UIElement name="iconCross" locatorType="xpath" locatorValue="//div[@class='close']"/>
+    <UIElement name="iconEditModality" locatorType="xpath" locatorValue="//a[@class='js_row_edit']"/>
+    <UIElement name="linkChangeImage" locatorType="xpath" locatorValue="//a[@title='Change Cover Image']"/>
+    <UIElement name="btnUploadImage" locatorType="xpath" locatorValue="//div[@class='cover_image_upload_holder']//div[@id]"/>
+    <UIElement name="txtEnterFileName" locatorType="id" locatorValue="file_coverimage"/>
+    <UIElement name="btnApplyImage" locatorType="id" locatorValue="btn_coveredit_apply"/>
+    <UIElement name="imgAfterUpload" locatorType="xpath" locatorValue="//img[@class='js_coverimage']"/>
+    <UIElement name="cBookImage" locatorType="xpath" locatorValue="//div[@id='course-app']//img"/>
+    <UIElement name="txtFlexBookTitle" locatorType="xpath" locatorValue="//div[@id='breadcrumbWrapper']//a[3]"/>
+    <UIElement name="txtContents" locatorType="xpath" locatorValue="//div[@class='x-ck12-data-concept']//p"/>
+    <UIElement name="tabDetails" locatorType="xpath" locatorValue="//li[@class='ui-state-default ui-corner-top']//a[text()='Details']"/>
+    <UIElement name="placeHolderLearningObjective" locatorType="xpath" locatorValue="//li[@class='ui-state-default ui-corner-top']//a[text()='Edit']"/>
+</UIElements>

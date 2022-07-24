@@ -1,0 +1,32 @@
+<UIElements>
+    <UIElement name="linkAfterGetStarted" locatorType="xpath" locatorValue="//div[@class='rmq-94f12b73']//b[text()='CK-12 Interactive Middle School Math 8']"/>
+    <UIElement name="btnChoose" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_details_choose_dropdown_button']//div | //a[@data-dx-desc='course_details_resume_button']//div)"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_assign_button']"/>
+    <UIElement name="btnAddToLibrary" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_add_to_library_button']"/>
+    <UIElement name="btnCustomize" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_Customize_button']"/>
+    <UIElement name="btnPublish" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_publish_button']"/>
+    <UIElement name="linkAuthor" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_author_button']"/>
+    <UIElement name="linkHowDoFlexBookWork" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_overview_button']//b"/>
+    <UIElement name="txtHelpCenter" locatorType="xpath" locatorValue="//span[@class='hcAfterLogo']//a"/>
+    <UIElement name="tabDetails" locatorType="xpath" locatorValue="(//span[@data-dx-desc='course_course_details_tab_button']//a)[1]"/>
+    <UIElement name="txtGrades" locatorType="xpath" locatorValue="//b[normalize-space()='Grades']"/>
+    <UIElement name="txtDateCreated" locatorType="xpath" locatorValue="//div[normalize-space()='Jul 21, 2018']"/>
+    <UIElement name="tabOverview" locatorType="xpath" locatorValue="(//span[@data-dx-desc='course_course_overview_tab_button']//a)[1]"/>
+    <UIElement name="linkChapters" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_toc_unit_button']"/>
+    <UIElement name="linkConcepts" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_toc_section_button']/span[1]"/>
+    <UIElement name="btnNext" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_concept_navigate_next']"/>
+    <UIElement name="btnStart" locatorType="xpath" locatorValue="//a[text()='Start']"/>
+    <UIElement name="checkBoxCk12ContentDerived" locatorType="xpath" locatorValue="//div[@class='rmq-3176a349']//div//div[2]//li[1]"/>
+    <UIElement name="txtErrorPublish" locatorType="xpath" locatorValue="//div[@class='rmq-3176a349']//div//div[2]//div[text()='Please select a contribution type']"/>
+    <UIElement name="tabPublish" locatorType="xpath" locatorValue="//div[@class='rmq-3176a349']//div//div[2]//div[2]"/>
+    <UIElement name="txtThanksFor" locatorType="xpath" locatorValue="//div[text()='Thanks for your contribution to the CK-12 Community!']"/>
+    <UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_publish_got_it_button']"/>
+    <UIElement name="btnEdit" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_Edit_button']//span[text()]"/>
+    <UIElement name="btnChooseUnits" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_choose_units_button']"/>
+    <UIElement name="checkBoxChooseClass" locatorType="xpath" locatorValue="//input[@id='radio0']"/>
+    <UIElement name="btnChooseDifferentClass" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_back_to_choose_class_button']"/>
+    <UIElement name="txtUnitNames" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_select_unit']//span[1]"/>
+    <UIElement name="dropDownResume" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_resume_button']//following::i[@class='icon-arrow_down']"/>
+    <UIElement name="linkAddToFlexBook" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_add_to_flexbook']//span"/>
+    <UIElement name="textSuccess" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//div[text()='Success!']"/>
+</UIElements>

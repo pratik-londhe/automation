@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation" parallel="tests">
+<test name="Chrome Test" parallel="classes" thread-count="15">
+    <parameter name="browser" value="CHROME"/>
+
+    <packages>
+        <package name="testscripts.regression.studentlogin.DashBoardFeature.SimulationFeatureTest"/>
+        <package name="testscripts.regression.studentlogin.DashBoardFeature.StudyGuideFeature"/>
+        <package name="testscripts.regression.studentlogin.DashBoardFeature.LandingPageFeature"/>
+        <package name="testscripts.regression.studentlogin.DashBoardFeature.StudyGuideFeature"/>
+        <package name="testscripts.regression.studentlogin.DashBoardFeature.SearchFeature"/>
+    </packages>
+</test>
+</suite>

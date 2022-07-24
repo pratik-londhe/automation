@@ -1,0 +1,24 @@
+
+<UIElements>
+    <UIElement name="btnHighlight" locatorType="xpath" locatorValue="//*[@class='toolbar-btn-container btn-highlight']"/>
+    <UIElement name="btnScroll" locatorType="xpath" locatorValue="//span[@class='x-ck12-img-inline']//a"/>
+    <UIElement name="txtConceptText" locatorType="xpath" locatorValue="//p[@id='x-ck12-OTJjZWVkODYyZWFiNzljNzhmZTVkZGIzMDI3ZDJjZTk.-nkb']//strong[2]"/>
+    <UIElement name="txtYellowShade" locatorType="xpath" locatorValue="//span[@class='annotator-hl c4']"/>
+    <UIElement name="btnAddNote" locatorType="xpath" locatorValue="//*[@title='Add Notes']"/>
+    <UIElement name="txtAddNotes" locatorType="xpath" locatorValue="//textarea[@placeholder='Add note here…']"/>
+    <UIElement name="btnAnnotatorCancel" locatorType="xpath" locatorValue="//a[contains(@href,'#cancel')]"/>
+    <UIElement name="btnAnnotatorSave" locatorType="xpath" locatorValue="//a[contains(@href,'#save')]"/>
+    <UIElement name="iconAnnotatorNotes" locatorType="xpath" locatorValue="//p[@id='x-ck12-OTJjZWVkODYyZWFiNzljNzhmZTVkZGIzMDI3ZDJjZTk.-nkb']//strong[2]//i"/>
+    <UIElement name="iconColour" locatorType="xpath" locatorValue="//div[@data-color='c2']"/>
+    <UIElement name="txtSkyBlueShade" locatorType="xpath" locatorValue="//span[@class='annotator-hl c2']"/>
+    <UIElement name="btnEditItem" locatorType="xpath" locatorValue="//div[@class='adder-item edit-note-btn edit-item']"/>
+    <UIElement name="iconRemoveHighlight" locatorType="xpath" locatorValue="//i[@class='icon-remove']"/>
+    <UIElement name="iconHighlight" locatorType="xpath" locatorValue="//div[@id='tool-bar']//span[@title='Notes/Highlights']//div"/>
+    <UIElement name="txtNotesHighlight" locatorType="xpath" locatorValue="//span[normalize-space()='Notes/Highlights']"/>
+    <UIElement name="txtHighlight" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_annotation_scrollto']"/>
+    <UIElement name="txtNotes" locatorType="xpath" locatorValue="//td[normalize-space()='This is important concept']"/>
+    <UIElement name="iconDelete" locatorType="xpath" locatorValue="//table[@class='rmq-70514cf4']//tbody//tr//i"/>
+    <UIElement name="txtHighlightAfterDelete" locatorType="xpath" locatorValue="//table[@class='rmq-70514cf4']//tbody//td[2]"/>
+</UIElements>
+
+

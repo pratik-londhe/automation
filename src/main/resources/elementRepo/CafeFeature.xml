@@ -1,0 +1,29 @@
+<UIElements>
+    <UIElement name="linkCafe" locatorType="xpath" locatorValue="(//header[@id='header-new']//div[text()='Cafe'])[2]"/>
+    <UIElement name="textCafe" locatorType="xpath" locatorValue="//div[@class='page-name-wrapper']//h1"/>
+    <UIElement name="textHelpAskAndShare" locatorType="xpath" locatorValue="//div[@class='page-name-wrapper']//div"/>
+    <UIElement name="tabTakeTheTour" locatorType="xpath" locatorValue="//div[@class='forum-banner-button-container']//div[@class='button tangerine large tour']"/>
+    <UIElement name="linkCk12Guideline" locatorType="xpath" locatorValue="//div[@class='forum-banner-button-container']//div[@class='guideline-link']"/>
+    <UIElement name="iconCloseGuideLine" locatorType="xpath" locatorValue="//div[@id='showGuidelines']//a[@class='close-reveal-modal close hide-for-small']"/>
+    <UIElement name="textCafeGuideLine" locatorType="xpath" locatorValue="//div[@id='showGuidelines']//div[@class='guideline-title']"/>
+    <UIElement name="btnTakeTheTour" locatorType="xpath" locatorValue="//div[@class='button tangerine standard start-tour']"/>
+    <UIElement name="btnSkipTour" locatorType="xpath" locatorValue="//div[@class='cancel-tour']"/>
+    <UIElement name="linkSkipTour" locatorType="xpath" locatorValue="//div[@class='tutorial__modal fall-down']//div[@class='tutorial__modal__bottom-row__skip__text']"/>
+    <UIElement name="btnContinue" locatorType="xpath" locatorValue="//div[@class='tutorial__modal fall-down']//button[@class='button tangerine standard tutorial__modal__bottom-row__next__button']"/>
+    <UIElement name="btnDone" locatorType="xpath" locatorValue="//div[@class='tutorial__modal fall-down']//button[@class='button tangerine standard tutorial__modal__bottom-row__end__button']"/>
+    <UIElement name="containerStudent" locatorType="xpath" locatorValue="//div[@class='filters-container']//a[@class='filter student']"/>
+    <UIElement name="containerTeacher" locatorType="xpath" locatorValue="//div[@class='filters-container']//a[@class='filter teacher']"/>
+    <UIElement name="containerAll" locatorType="xpath" locatorValue="//div[@class='filters-container']//a[@class='filter all']"/>
+    <UIElement name="containerStudentActive" locatorType="xpath" locatorValue="//div[@class='filters-container']//a[@class='filter student active']"/>
+    <UIElement name="containerTeacherActive" locatorType="xpath" locatorValue="//div[@class='filters-container']//a[@class='filter teacher active']"/>
+    <UIElement name="containerAllActive" locatorType="xpath" locatorValue="//div[@class='filters-container']//a[@class='filter all active']"/>
+    <UIElement name="btnFollow" locatorType="xpath" locatorValue="(//div[@class='actions-info-container']//div//div)[1]"/>
+    <UIElement name="btnFollowing" locatorType="xpath" locatorValue="//div[@class='actions-info-container']//div[@class='btn-following button btn-forum small']"/>
+    <UIElement name="iconThread" locatorType="xpath" locatorValue="(//div[@class='icon-background thread']//div[@class='image-container'])[1]"/>
+    <UIElement name="iconAnswer" locatorType="xpath" locatorValue="(//div[@class='icon-background answer']//div[@class='image-container'])[1]"/>
+    <UIElement name="linkForum" locatorType="xpath" locatorValue="(//div[@class='content-container']//a[@class='title forum-title-link'])[1]"/>
+    <UIElement name="textAnswerCount" locatorType="xpath" locatorValue="(//div[@class='actions-info-container']//div[@class='count last'])[1]"/>
+    <UIElement name="textThreadCount" locatorType="xpath" locatorValue="(//div[@class='actions-info-container']//div[@class='count'])[1]"/>
+    <UIElement name="textForumName" locatorType="xpath" locatorValue="//div[@id='home-header']//span[@class='forum-name']"/>
+    <UIElement name="linkForumGoBack" locatorType="xpath" locatorValue="//div[@class='go-back-nav hide-for-small']//span//a"/>
+</UIElements>

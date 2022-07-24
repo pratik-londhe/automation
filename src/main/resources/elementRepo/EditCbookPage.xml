@@ -1,0 +1,3 @@
+<UIElements>
+    <UIElement name="xpathAddedChapter" locatorType="xpath" locatorValue="//span[@class='draft-chapter-title']"/>
+</UIElements>

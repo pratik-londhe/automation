@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CK12Automation" parallel="tests">
+    <parameter name="browser" value="CHROME"/>
+    <suite-files>
+        <suite-file path="TeacherExploreRegressionSuite.xml"/>
+        <suite-file path="TeacherDashBoardRegressionSuite.xml"/>
+        <suite-file path="TeacherAuthenticationRegressionSuite.xml"/>
+        <!--<suite-file path="TeacherGroupsRegressionSuite.xml"/>
+        <suite-file path="TeacherFlexBookRegressionSuite.xml"/>
+        <suite-file path="TeacherFlexBookModalityRegressionSuite.xml"/>-->
+        <suite-file path="TeacherLibraryRegressionSuite.xml"/>
+        <suite-file path="TeacherCreateNewRegressionSuite.xml"/>
+        <!-- <suite-file path="TeacherReportsRegressionSuite.xml"/>
+ -->
+    </suite-files>
+    <!--<packages>
+        <package name="testscripts.regression.teacherlogin.AuthenticationFeature"/>
+        <package name="testscripts.regression.teacherlogin.GroupsFeature.*"/>
+        <package name="testscripts.regression.teacherlogin.FlexBookFeature.*"/>
+        <package name="testscripts.regression.teacherlogin.FlexBookModalityFeature.*"/>
+        <package name="testscripts.regression.teacherlogin.CreateNewFeature.*"/>
+    </packages>-->
+</suite>

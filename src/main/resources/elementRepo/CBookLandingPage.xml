@@ -1,0 +1,62 @@
+<UIElements>
+    <UIElement name="linkFlexBook" locatorType="xpath" locatorValue="(//div[text()='FlexBooks® 2.0'])[2]"/>
+    <UIElement name="iconSignIn" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_header_signin_button']//span"/>
+    <UIElement name="btnSignIn" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_header_ck12_signin_button']"/>
+    <UIElement name="iconAccount" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_header_user_dropdown_button']"/>
+    <UIElement name="linkDashboard" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_dashboard_button']"/>
+    <UIElement name="linkClasses" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_my_classes_button']"/>
+    <UIElement name="linkLibrary" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_my_library_button']"/>
+    <UIElement name="linkLibraryProd" locatorType="xpath" locatorValue="(//a[text()='Library'])[1]"/>
+    <UIElement name="linkSetting" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_settings_button']"/>
+    <UIElement name="linkSignOut" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_header_signout_button']"/>
+    <UIElement name="tabGetStarted" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_landing_get_started_button']"/>
+    <UIElement name="linkAfterGetStarted" locatorType="xpath" locatorValue="//div[@class='rmq-4064374f']"/>
+    <UIElement name="tabBrowsePhysics" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_landing_flexbook1_browse_button']"/>
+    <UIElement name="tabSubject" locatorType="xpath" locatorValue="//select[@name='Subject']"/>
+    <UIElement name="tabGrade" locatorType="xpath" locatorValue="//select[@name='Grade']"/>
+    <UIElement name="btnSearchFlexBook" locatorType="xpath" locatorValue="//div[@id='fbbrowse-root']//div[text()='Search FlexBooks®']"/>
+    <UIElement name="availableFlexBook" locatorType="xpath" locatorValue="//div[@class='cover']"/>
+    <UIElement name="dropDownSubject" locatorType="xpath" locatorValue="//select[@name='Subject']"/>
+    <UIElement name="dropDownGrade" locatorType="xpath" locatorValue="//select[@name='Grade']"/>
+    <UIElement name="tabMiddleSchool" locatorType="xpath" locatorValue="//div[@class='filter-select Grade']//select//option[text()='Middle School']"/>
+    <UIElement name="tabHighSchool" locatorType="xpath" locatorValue="//div[@class='filter-select Grade']//select//option[text()='High School']"/>
+    <UIElement name="tabArithmeticSubject" locatorType="xpath" locatorValue="//div[@class='filter-select Subject']//select//option[text()='Geometry']"/>
+    <UIElement name="iconFeedBack" locatorType="xpath" locatorValue="(//div[@id='_hj-f5b2a1eb-9b07_poll']//span[@class='_hj-f5b2a1eb-9b07_widget_icon'])[1]"/>
+    <UIElement name="iconYes" locatorType="xpath" locatorValue="(//div[@id='_hj-f5b2a1eb-9b07_poll']//span[@class='_hj-f5b2a1eb-9b07_widget_icon'])[2]"/>
+    <UIElement name="linkGoToDashboard" locatorType="linktext" locatorValue="Go to Dashboard"/>
+    <UIElement name="linkCK12LandingPage" locatorType="xpath" locatorValue="//header[@id='header-new']//a[@title='CK-12 Foundation Home']"/>
+    <UIElement name="tabContent" locatorType="xpath" locatorValue="(//div[@class='column small-7 scss-components-ControlCenter__titles___1tEt-'])[3]"/>
+    <UIElement name="tapClasses" locatorType="xpath" locatorValue="(//div[@class='column small-7 scss-components-ControlCenter__titles___1tEt-'])[4]"/>
+    <UIElement name="linkWhyCK12" locatorType="xpath" locatorValue="//a[@data-dx-desc='hero-why-ck12-clicked']"/>
+    <UIElement name="ck12Video" locatorType="xpath" locatorValue="//div[@class='ytp-cued-thumbnail-overlay']//button"/>
+    <UIElement name="drpdwnSelectLanguage" locatorType="xpath" locatorValue="//div[@class='goog-te-gadget-simple']"/>
+    <UIElement name="linkLangMarathi" locatorType="xpath" locatorValue="//span[text()='Marathi']"/>
+    <UIElement name="textMarathiLanguage" locatorType="xpath" locatorValue="(//div[@id='content-container' ]//font)[2]"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="(//div[@id='overviewVideoModal']//div)[1]"/>
+    <UIElement name="iFrame" locatorType="xpath" locatorValue="//iframe[contains(@class,'goog-te-menu-frame')]"/>
+    <UIElement name="textExplore" locatorType="xpath" locatorValue="//div[@class='large-10 small-12 columns standards_select-text-wrapper']//h5"/>
+    <UIElement name="flipOverlaySimulation" locatorType="xpath" locatorValue="(//div[@class='flip-wrapper'])[1]"/>
+    <UIElement name="flipOverlayPlix" locatorType="xpath" locatorValue="(//div[@class='flip-wrapper'])[2]"/>
+    <UIElement name="flipOverlayAdaptivePractice" locatorType="xpath" locatorValue="(//div[@class='flip-wrapper'])[3]"/>
+    <UIElement name="flipOverlayStudyGuide" locatorType="xpath" locatorValue="(//div[@class='flip-wrapper'])[4]"/>
+    <UIElement name="textFlipOverlaySimulation" locatorType="xpath" locatorValue="(//div[@class='overlay-text'])[1]"/>
+    <UIElement name="textFlipOverlayPlix" locatorType="xpath" locatorValue="(//div[@class='overlay-text'])[2]"/>
+    <UIElement name="textFlipOverlayAdaptive" locatorType="xpath" locatorValue="(//div[@class='overlay-text'])[3]"/>
+    <UIElement name="textFlipOverlayStudyGuide" locatorType="xpath" locatorValue="(//div[@class='overlay-text'])[4]"/>
+    <UIElement name="ck12HeaderText" locatorType="xpath" locatorValue="//span[@class='ck-12-mission-header text-center']"/>
+    <UIElement name="ck12MissionText" locatorType="xpath" locatorValue="//span[@class='ck-12-mission-text text-center']"/>
+    <UIElement name="linkGrade1To5" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_algebra_i'])[1]"/>
+    <UIElement name="dataGrade1" locatorType="xpath" locatorValue="//li[@class='js-grade' and @data-grade='1']"/>
+    <UIElement name="dataGrade2" locatorType="xpath" locatorValue="//li[@class='js-grade' and @data-grade='2']"/>
+    <UIElement name="dataGrade3" locatorType="xpath" locatorValue="//li[@class='js-grade' and @data-grade='3']"/>
+    <UIElement name="dataGrade4" locatorType="xpath" locatorValue="//li[@class='js-grade' and @data-grade='4']"/>
+    <UIElement name="dataGrade5" locatorType="xpath" locatorValue="//li[@class='js-grade' and @data-grade='5']"/>
+    <UIElement name="linkArithmetic" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_arithmetic'])[1]"/>
+    <UIElement name="linkMeasurement" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_measurement'])[1]"/>
+    <UIElement name="linkAlgebra" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_algebra'])[1]"/>
+    <UIElement name="linkGeometry" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_geometry'])[2]"/>
+    <UIElement name="linkProbability" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_probability'])[1]"/>
+    <UIElement name="linkStatistics" locatorType="xpath" locatorValue="(//a[@data-dx-elementinfo='browse_link_statistics'])[1]"/>
+    <UIElement name="linkRecentlyViewedSubjects" locatorType="xpath" locatorValue="//span[@data-dx-desc='show_recently_viewed_subjects_link']"/>
+    <UIElement name="btnExplore" locatorType="xpath" locatorValue="(//a[@title='Explore'])[1]"/>
+</UIElements>

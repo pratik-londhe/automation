@@ -1,0 +1,21 @@
+<UIElements>
+    <UIElement name="textTeacherProfile" locatorType="id" locatorValue="header_user_dropdown"/>
+    <UIElement name="btnEdit" locatorType="xpath" locatorValue="(//span[@class='scss-components-ZModification__editText___5uqa8' or text()='Edit'])[2]"/>
+    <UIElement name="textWelcomeToCk12" locatorType="xpath" locatorValue="//div[@class='row align-center']//strong[text()='Welcome to CK-12']"/>
+    <UIElement name="btnChangeLocation" locatorType="xpath" locatorValue="//div[@class='row align-center']//span[text()='Change Location']"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//div[@class='row align-center']//span[text()='Close']"/>
+    <UIElement name="dropdownGrade" locatorType="xpath" locatorValue="//div[@class='row align-center']//strong[text()='grades']"/>
+    <UIElement name="dropdownSubjects" locatorType="xpath" locatorValue="//div[@class='row align-center']//strong[text()='subjects']"/>
+    <UIElement name="linkKindergarten" locatorType="xpath" locatorValue="//div[@class='row align-center']//label[text()='Kindergarten']"/>
+    <UIElement name="containerScience" locatorType="xpath" locatorValue="//div[@class='scss-components-SubjectsPicker__branchName___2oTgZ' and text()='Science']"/>
+    <UIElement name="containerMath" locatorType="xpath" locatorValue="//div[text()='Math']"/>
+    <UIElement name="containerEnglish" locatorType="xpath" locatorValue="//div[text()='English']"/>
+    <UIElement name="checkBoxEarthScience" locatorType="xpath" locatorValue="//label[@for='earth-science']"/>
+    <UIElement name="checkBoxLifeCycle" locatorType="xpath" locatorValue="//label[@for='life-science']"/>
+    <UIElement name="checkBoxGrade1" locatorType="xpath" locatorValue="//label[@for='elementary-math-grade-1']"/>
+    <UIElement name="checkBoxGrade2" locatorType="xpath" locatorValue="//label[@for='elementary-math-grade-2']"/>
+    <UIElement name="checkBoxSpelling" locatorType="xpath" locatorValue="//label[@for='spelling']"/>
+    <UIElement name="userNamePlaceHolder" locatorType="xpath" locatorValue="//input[@name='userName']"/>
+    <UIElement name="btnUpdateProfile" locatorType="xpath" locatorValue="//button[@data-dx-desc='Update User Profile']"/>
+    <UIElement name="textEnterYourName" locatorType="xpath" locatorValue="//input[@name='userName']"/>
+</UIElements>

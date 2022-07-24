@@ -1,0 +1,35 @@
+<UIElements>
+<UIElement name="btnAssignments" locatorType="xpath" locatorValue="//a[@data-dx-desc='Go to Group assignments']//i[1]"/>
+<UIElement name="txtClassAssignment" locatorType="xpath" locatorValue="//div[@class='section-container auto group-assignments-wrapper']//section[1]//p[1]"/>
+<UIElement name="btnCreateAssignment" locatorType="xpath" locatorValue="//div[@class='small-12 large-6 columns hide-for-small push-6']//following-sibling::a[@id='create-assignment']"/>
+<UIElement name="iconCloseHeadsUp" locatorType="xpath" locatorValue="//div[@class='large-centered columns large-9']//div[@class='modal close-walkthrough']"/>
+<UIElement name="btnAssign" locatorType="xpath" locatorValue="//div[@class='course-text-container']//a"/>
+<UIElement name="iconArrowBack" locatorType="xpath" locatorValue="//div[@id='close-assignment-modal']//i"/>
+<UIElement name="btnJoinPlus" locatorType="xpath" locatorValue="//div[@class='row collapse relative assignment-top-nav']//div[3]//span"/>
+<UIElement name="btnCreateQuiz" locatorType="xpath" locatorValue="//span[@class='pointer']//span"/>
+<UIElement name="btnBack" locatorType="xpath" locatorValue="//a[@class='back-button icon-arrow2_left text-center']"/>
+<UIElement name="checkBoxFirst" locatorType="xpath" locatorValue="//label[@class='checkbox']//span"/>
+<UIElement name="btnSaveFirst" locatorType="xpath" locatorValue="//div[@class='row collapse relative assignment-top-nav']//a[@id]"/>
+<UIElement name="txtNameOfQuiz" locatorType="xpath" locatorValue="//h1[@class='concept_link']//span[@id]"/>
+<UIElement name="iconConceptInfo" locatorType="xpath" locatorValue="//span[@class='concept-name']//i"/>
+<UIElement name="btnSave" locatorType="xpath" locatorValue="//div[@class='row collapse close-assignment-modal-button-wrapper']//a[@id='close-assignment-modal-save']"/>
+<UIElement name="checkBoxClassName" locatorType="xpath" locatorValue="//div[@id='close-assignment-assign-to-class-wrapper']//input[@id='close-assignment-assign-to-class']"/>
+<UIElement name="checkBoxShowCorrectAnswer" locatorType="xpath" locatorValue="//div[@id='close-assignment-assign-to-class-wrapper']//input[@id='show-correct-answer']"/>
+<UIElement name="iconAnswerInfo" locatorType="xpath" locatorValue="//div[@id='close-assignment-assign-to-class-wrapper']//i"/>
+<UIElement name="placeHolderAssignmentName" locatorType="xpath" locatorValue="//input[@id='assignment-name-input']"/>
+<UIElement name="iconArrowRight" locatorType="xpath" locatorValue="(//div[@class='assignment-group-header']//i)[1]"/>
+<UIElement name="txtNamesOfAssignment" locatorType="xpath" locatorValue="//i[@class='icon-arrow_right leader-assignment-arrow-icon']"/>
+<UIElement name="txtNamesOfQuiz" locatorType="xpath" locatorValue="//span[@class='concept-name']//span"/>
+<UIElement name="txtQuizName" locatorType="xpath" locatorValue=" //div[@class='small-10 large-8 push-1 columns']//span"/>
+<UIElement name="txtConceptAndQuizzes" locatorType="xpath" locatorValue="//div[@id='add-concept-container']//span[text()='Concepts and Quizzes']"/>
+<UIElement name="btnRemoveConcept" locatorType="xpath" locatorValue="//div[@class='row collapse add-concept ']//div[3]"/>
+<UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='row collapse close-assignment-modal-button-wrapper']//a[@id='close-assignment-modal-back']"/>
+<UIElement name="btnDeleteAssignment" locatorType="xpath" locatorValue="//a[@class='js-delete-assignment']"/>
+<UIElement name="btnUndoAssign" locatorType="xpath" locatorValue="//div[@class='assignment-assigned']//span//a"/>
+<UIElement name="btnYesDeleteAssignment" locatorType="xpath" locatorValue="//div[@class='delete-assignment-content button-wrapper ie8text']//a[1]"/>
+<UIElement name="btnCancelDeleteAssignment" locatorType="xpath" locatorValue="//div[@class='delete-assignment-content button-wrapper ie8text']//a[2]"/>
+<UIElement name="btnAssignment" locatorType="xpath" locatorValue="//div[@class='group-activity']//ul//a[@id='group-assignments-link']"/>
+<UIElement name="txtSpanAssignmentNames" locatorType="xpath" locatorValue="//div[@class='member-assignment-name']//a"/>
+<UIElement name="btnStartNow" locatorType="xpath" locatorValue="//div[@id='group-details-container']//a[@id='create-assignment']"/>
+</UIElements>
+

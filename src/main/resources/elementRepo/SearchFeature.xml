@@ -1,0 +1,26 @@
+<UIElements>
+    <UIElement name="iconSearch" locatorType="xpath" locatorValue="(//button[@data-dx-desc='course_search_execute_button'])[2] | (//i[@data-dx-desc='course_search_execute_button'])[2]"/>
+    <UIElement name="placeHolderSearch" locatorType="xpath" locatorValue="//input[@id='searchBox']"/>
+    <UIElement name="textWhatDoYouWantToLearn" locatorType="xpath" locatorValue="//input[@id='searchBox' and @placeholder]"/>
+    <UIElement name="loadingIcon" locatorType="xpath" locatorValue="//span[@id='loading-search']"/>
+    <UIElement name="listOfItem" locatorType="xpath" locatorValue="//li[@class='autocomplete-list ui-menu-item']"/>
+    <UIElement name="listSearchItem" locatorType="xpath" locatorValue="(//div[@class='listitemtitlewrapper']//a)[1]"/>
+    <UIElement name="textSearchResult" locatorType="xpath" locatorValue="//div[@id='search-result-header']//span[text()='Search Results']"/>
+    <UIElement name="tabCk12Content" locatorType="xpath" locatorValue="//div[@id='content-filter']//a[text()='CK-12 Content']"/>
+    <UIElement name="tabCommunityContributed" locatorType="xpath" locatorValue="//div[@id='content-filter']//span[text()='Community']"/>
+    <UIElement name="tabMyLibrary" locatorType="xpath" locatorValue="//div[@id='content-filter']//a[text()='My Library']"/>
+    <UIElement name="linkPreviousSearch" locatorType="xpath" locatorValue="//li[@id='previousResults']//a"/>
+    <UIElement name="textGrades" locatorType="xpath" locatorValue="//div[@data-filter='GRADES']//span[text()='GRADES']"/>
+    <UIElement name="linkGrade" locatorType="xpath" locatorValue="//div[@id='grade-filter']//label[@for='grade10_large']"/>
+    <UIElement name="linkAllGrades" locatorType="xpath" locatorValue="//div[@id='grade-filter']//label[text()]"/>
+    <UIElement name="textGrade10" locatorType="xpath" locatorValue="(//div[@class='modality_details_wrapper']//div)[1]"/>
+    <UIElement name="btnClearAll" locatorType="xpath" locatorValue="//div[@class='row collapse filter-text-container']//a"/>
+    <UIElement name="btnSupport" locatorType="xpath" locatorValue="//button[@class='supportButton']"/>
+    <UIElement name="btnSearchFilter" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_search_filter_menu_button']//div"/>
+    <UIElement name="btnMath" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_search_dropdown_menu_Math_button']"/>
+    <UIElement name="btnScience" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_search_dropdown_menu_Science_button']"/>
+    <UIElement name="btnMathSubMenu" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_search_dropdown_submenu_button'])[1]"/>
+    <UIElement name="btnScienceSubMenu" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_search_dropdown_submenu_button'])[1]"/>
+    <UIElement name="textFilterSelected" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_search_filter_menu_button']//div)[1]"/>
+    <UIElement name="iconRemoveFilter" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_search_filter_menu_button']//div)[2]"/>
+  </UIElements>

@@ -1,0 +1,5 @@
+<UIElements>
+    <UIElement name="btnTOC" locatorType="id" locatorValue="toc-container"/>
+    <UIElement name="btnBackToFlexbook" locatorType="xpath" locatorValue="//span[@class='icon-arrow3_left']"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//span[text()='Assign']"/>
+</UIElements>

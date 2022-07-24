@@ -1,0 +1,48 @@
+<UIElement>
+    <UIElement name="tabAddAssessment" locatorType="id" locatorValue="greenPracticeButtonText"/>
+    <UIElement name="btnAddPractice" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_add_a_practice']"/>
+    <UIElement name="btnAddQuiz" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_add_a_quiz']"/>
+    <UIElement name="iconCloseCreateModality" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_create_not_available_close']"/>
+    <UIElement name="textWhatWouldLikeToAdd" locatorType="xpath" locatorValue="//span[text()='Would you like to add one?']"/>
+    <UIElement name="linkWhatsTheDifference" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_modality_whats_the_difference']"/>
+    <UIElement name="btnWhatsDifferenceClose" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_whats_the_difference_close']"/>
+    <UIElement name="textPractice" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_modality_whats_the_difference_close']//following::b)[1]"/>
+    <UIElement name="textQuizzes" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_modality_whats_the_difference_close']//following::b)[2]"/>
+    <UIElement name="textPrimaryConcept" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_add_practice']//following::span//b"/>
+    <UIElement name="btnChooseConcept" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_choose_a_concept_button']"/>
+    <UIElement name="iconBackArrow" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_add_practice']//i"/>
+    <UIElement name="btnSearch" locatorType="id" locatorValue="btn_search"/>
+    <UIElement name="iconCloseSearch" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_search_for_a_concept_close']"/>
+    <UIElement name="placeHolderSearch" locatorType="id" locatorValue="input_concept_node"/>
+    <UIElement name="textSearchResultFor" locatorType="xpath" locatorValue="//span[text()='Search Results for: ']"/>
+    <UIElement name="linkNoDataFound" locatorType="xpath" locatorValue="(//div[@data-dx-elementinfo='selectconcept-result-list']//following::span)[3]"/>
+    <UIElement name="linkResultBiology" locatorType="xpath" locatorValue="(//div[@data-dx-elementinfo='selectconcept-result-list']//following::div//span)[2]"/>
+    <UIElement name="linkResultChemistry" locatorType="xpath" locatorValue="(//div[@data-dx-elementinfo='selectconcept-result-list']//following::div//span)[1]"/>
+    <UIElement name="textCurrentConcept" locatorType="xpath" locatorValue="//span[text()='Current Concept:']"/>
+    <UIElement name="btnChangeConcept" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_change_concept_button']"/>
+    <UIElement name="btnSavePractice" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_save_practice_button']"/>
+    <UIElement name="btnAdd" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_add_quiz']"/>
+    <UIElement name="btnSaveQuiz" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_add_quiz']"/>
+    <UIElement name="iconSelectQuiz" locatorType="xpath" locatorValue="(//div[@data-dx-desc='course_modality_quiz_list_refresh']//following::div)[1]"/>
+    <UIElement name="btnCreateNewQuiz" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_add_new_quiz']"/>
+    <UIElement name="iconBackQuiz" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_add_quiz']//i"/>
+    <UIElement name="btnRefresh" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_quiz_list_refresh']//span"/>
+    <UIElement name="linkOfQuizzes" locatorType="xpath" locatorValue="//span[@class='SelectQuizComponent__quizTitle___1gJ56']"/>
+    <UIElement name="textDropDownSelectedValue" locatorType="xpath" locatorValue="(//button[@data-dx-elementinfo='addquiz-create-new']//following::span)[1]"/>
+    <UIElement name="iconDropDownContainer" locatorType="xpath" locatorValue="//i[@class='icon-create-quiz']//following::i[@class='icon-arrow_down']"/>
+    <UIElement name="linkAlphabetically" locatorType="xpath" locatorValue="//li[@title='Alphabetically']//span"/>
+    <UIElement name="linkMostRecentlyEdited" locatorType="xpath" locatorValue="//li[@title='Most Recently Edited']//span"/>
+    <UIElement name="btnViewPractice" locatorType="id" locatorValue="greenPracticeButtonText"/>
+    <UIElement name="textEstimatedTime" locatorType="xpath" locatorValue="//div[@class='practiceNotAttempted']//div[@class='prcgoalmsg prcgoalmsgfirst']"/>
+    <UIElement name="btnPreview" locatorType="xpath" locatorValue="//span[@id='greenPracticeButtonText']"/>
+    <UIElement name="btnChooseDifferentPractice" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_choose_a_different_practice_button']"/>
+    <UIElement name="btnSwitchToQuiz" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_switch_to_quiz']"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_save_practice_button']"/>
+    <UIElement name="iconCreatePracticeClose" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_create_practice_close']"/>
+    <UIElement name="iconCreateQuizClose" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_modality_create_quiz_close']"/>
+    <UIElement name="btnViewQuiz" locatorType="id" locatorValue="greenPracticeButtonText"/>
+    <UIElement name="btnChooseDifferentQuiz" locatorType="xpath" locatorValue="//button[@data-dx-desc='course_modality_choose_a_different_quiz_button']"/>
+    <UIElement name="btnSwitchToPractice" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_switch_to_practice']"/>
+    <UIElement name="linkLatestVersion" locatorType="xpath" locatorValue="//a[text()='latest revision']"/>
+    <UIElement name="containerAdaptivePractice" locatorType="xpath" locatorValue=""/>
+</UIElement>

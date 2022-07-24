@@ -1,0 +1,14 @@
+<UIElements>
+    <UIElement name="linkAddDescription" locatorType="xpath" locatorValue="//div[@class='group-title-wrapper']//div[@id='no-description-conatiner']"/>
+    <UIElement name="btnSaveDescription" locatorType="xpath" locatorValue="//div[@class='group-title-edit hide-small']//a[@id='description-save']"/>
+    <UIElement name="btnCancelDescription" locatorType="xpath" locatorValue="//div[@class='group-title-edit hide-small']//a[@class='js-group-detail-cancel link-green']"/>
+    <UIElement name="placeHolderDescription" locatorType="xpath" locatorValue="//div[@class='group-title-edit hide-small']//div//textarea[@class='js-group-description-field']"/>
+    <UIElement name="textDescription" locatorType="xpath" locatorValue="//div[@class='group-title-wrapper']//span[@id='group-description']"/>
+    <UIElement name="iconEditClass" locatorType="xpath" locatorValue="//div[@class='activity-header show-small-title']//a[@class='icon-edit pencil-size js-group-detail-edit']"/>
+    <UIElement name="btnSaveClassName" locatorType="xpath" locatorValue="//div[@class='columns small-12 group-name-editor large-4']//a[@class='button standard turquoise js-group-detail-save']"/>
+    <UIElement name="btnCancelClassName" locatorType="xpath" locatorValue="//div[@class='columns small-12 group-name-editor large-4']//a[@class='js-group-detail-cancel link-green']"/>
+    <UIElement name="txtErrorMessage" locatorType="xpath" locatorValue="//div[@class='edit-error-msg-wrapper']//span[@id='group-edit-empty-error']"/>
+    <UIElement name="placeHolderClassName" locatorType="xpath" locatorValue="//div[@class='columns small-11 group-name-editor large-8']//input[@id='group-name-edit']"/>
+    <UIElement name="txtClassName" locatorType="xpath" locatorValue="//div[@class='group-title-text']//h1[@id='group-name']"/>
+    <UIElement name="iconEditDescription" locatorType="xpath" locatorValue="//div[@class='group-title show-small-title']//a[@title]"/>
+</UIElements>

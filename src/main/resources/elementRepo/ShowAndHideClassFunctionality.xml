@@ -1,0 +1,17 @@
+<UIElements>
+    <UIElement name="btnRecentClassActivity" locatorType="xpath" locatorValue="//li[@class='column shrink scss-components-PageSubmenu__active___NdZKw']//a"/>
+    <UIElement name="dropDownMoreOption" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__groupCardTopMenu___1nOdY']//span"/>
+    <UIElement name="linkHideFromDashBoard" locatorType="xpath" locatorValue="//div[@class='scss-components-common-Tooltip__tooltipContent___3pvFD']//span"/>
+    <UIElement name="dropDownShowClasses" locatorType="xpath" locatorValue="//div[@class='row']//select"/>
+    <UIElement name="btnCurrentClasses" locatorType="xpath" locatorValue="//div[@class='row']//option[@value='Current Classes']"/>
+    <UIElement name="btnHiddenClasses" locatorType="xpath" locatorValue="//div[@class='row']//option[@value='Hidden Classes']"/>
+    <UIElement name="btnHide" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__hideBoxButtonCont___gKrPC ']//button[1]"/>
+    <UIElement name="btnCancelHide" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__hideBoxButtonCont___gKrPC ']//button[2]"/>
+    <UIElement name="linkDisplayOnDashBoard" locatorType="xpath" locatorValue="//div[@class='scss-components-common-Tooltip__tooltipContent___3pvFD']//span"/>
+    <UIElement name="linkWhatAreHiddenClasses" locatorType="xpath" locatorValue="//div[@class='row']//span[text()='What are hidden classes?']"/>
+    <UIElement name="txtHiddenClassInformation" locatorType="xpath" locatorValue="//div[@class='row align-center']//div[1]//div[normalize-space()='You can hide classes from previous years as shown below. Once hidden, such classes are available by selecting ‘Hidden Classes’ option.']"/>
+    <UIElement name="btnDisplay" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__hideBoxButtonCont___gKrPC ']//button[1]"/>
+    <UIElement name="btnDisplayCancel" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__hideBoxButtonCont___gKrPC ']//button[2]"/>
+    <UIElement name="txtYouHaveNoHiddenClasses" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupsCards__NoClassMsg___2-aOR']//span[text()='You have no hidden classes']"/>
+    <UIElement name="linkCurrentClasses" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupsCards__NoClassMsg___2-aOR']//span[2]//span"/>
+</UIElements>

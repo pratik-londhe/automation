@@ -1,0 +1,21 @@
+<UIElement>
+    <UIElement name="btnAssignAssignment" locatorType="xpath" locatorValue="(//div[@class='text-center right assignment-message-assign assignment-assign']//span)[1]"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//a[@id='assign-modal-assign']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='row collapse assign-modal-button-wrapper']//a[2]"/>
+    <UIElement name="txtAssignmentName" locatorType="xpath" locatorValue="//div[@class='row collapse']//p//b[@id='assign-modal-assignment-name']"/>
+    <UIElement name="placeHolderDueDate" locatorType="id" locatorValue="assignDue"/>
+    <UIElement name="dueDate" locatorType="xpath" locatorValue="//a[@class='ui-state-default ui-state-highlight']"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//div[@id='assignAssignmentModal']//a[@class='close-reveal-modal close']"/>
+    <UIElement name="iconEditTitle" locatorType="xpath" locatorValue="//div[@class='left assignment-functionality-container']//i[@title]"/>
+    <UIElement name="txtInstruction" locatorType="xpath" locatorValue="//div[@class='left assignment-functionality-container']//div//b"/>
+    <UIElement name="placeholderInstruction" locatorType="xpath" locatorValue="//div[@class='left assignment-functionality-container']//div//textarea"/>
+    <UIElement name="txtDescription" locatorType="xpath" locatorValue="//div[@class='left assignment-functionality-container']//div[1]//span[@class]"/>
+    <UIElement name="btnEdit" locatorType="xpath" locatorValue="//div[@class='hide-for-small ']//a"/>
+    <UIElement name="btnContinueEditing" locatorType="xpath" locatorValue="//div[@class='edit-assignment-content button-wrapper ie8text']//a[1]"/>
+    <UIElement name="btnCancelEditing" locatorType="xpath" locatorValue="//div[@class='edit-assignment-content button-wrapper ie8text']//a[2]"/>
+    <UIElement name="linkUndoAssign" locatorType="linktext" locatorValue="Undo Assign"/>
+    <UIElement name="btnYesRemove" locatorType="xpath" locatorValue="//div[@class='row collapse unassign-assignment-modal-button-wrapper']//a[1]"/>
+    <UIElement name="btnCancelRemove" locatorType="xpath" locatorValue="//div[@class='row collapse unassign-assignment-modal-button-wrapper']//a[2]"/>
+    <UIElement name="txtUndoAssignmentName" locatorType="xpath" locatorValue="//div[@class='row collapse unassign-assignment-modal-name-wrapper']//b"/>
+    <UIElement name="loadingIcon" locatorType="xpath" locatorValue="//img[@src='/media/common/images/icon_loading.gif']"/>
+</UIElement>

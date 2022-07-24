@@ -1,0 +1,21 @@
+<UIElements>
+    <UIElement name="checkBoxFlexBookTextBook" locatorType="xpath" locatorValue="//label[@for='category_book']"/>
+    <UIElement name="checkBoxFlexBook" locatorType="xpath" locatorValue="//label[@for='category_cbook']"/>
+    <UIElement name="checkBoxWorkBook" locatorType="xpath" locatorValue="//label[@for='category_workbook']"/>
+    <UIElement name="checkBoxRead" locatorType="xpath" locatorValue="//label[@for='category_text']"/>
+    <UIElement name="checkBoxQuiz" locatorType="xpath" locatorValue="//label[@for='category_assessment']"/>
+    <UIElement name="textFilterByType" locatorType="xpath" locatorValue="//div[@id='library_categories_container']//span[text()='FILTER BY TYPE']"/>
+    <UIElement name="textTitle" locatorType="xpath" locatorValue="//span[@class='artifacttype']"/>
+    <UIElement name="listOfLibraryItem" locatorType="xpath" locatorValue="//div[@id='library-items-list']//a[@class='bold ']"/>
+    <UIElement name="textNoItemsInLibrary" locatorType="xpath" locatorValue="//div[@class='empty-filter-content text-center']"/>
+    <UIElement name="linkMore" locatorType="id" locatorValue="moreLink"/>
+    <UIElement name="checkBoxVideo" locatorType="xpath" locatorValue="//label[@for='category_multimedia']"/>
+    <UIElement name="checkBoxStudyAids" locatorType="xpath" locatorValue="//label[@for='category_study_resource']"/>
+    <UIElement name="btnClear" locatorType="xpath" locatorValue="//span[@class='filter-clear-wrap']//a"/>
+    <UIElement name="btnClearAll" locatorType="xpath" locatorValue="//div[@id='library-filters-container']//a[text()='clear all']"/>
+    <UIElement name="checkBoxCreatedByMe" locatorType="xpath" locatorValue="//label[@for='ownership_self']"/>
+    <UIElement name="checkBoxDraft" locatorType="xpath" locatorValue="//label[@for='ownership_draft_self']"/>
+    <UIElement name="checkBoxFinalize" locatorType="xpath" locatorValue="//label[@for='ownership_finalized_self']"/>
+    <UIElement name="checkBoxOthers" locatorType="xpath" locatorValue="//label[@for='ownership_others']"/>
+    <UIElement name="textCreateName" locatorType="xpath" locatorValue="(//span[@class='creator'])[1]"/>
+</UIElements>

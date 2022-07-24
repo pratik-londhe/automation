@@ -1,0 +1,16 @@
+<UIElements>
+    <UIElement name="iconAccount" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_header_user_dropdown_button']"/>
+    <UIElement name="btnStartCourseDetail" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_resume_button']"/>
+    <UIElement name="txtLastModified" locatorType="xpath" locatorValue="//b[text()='Last Modified']"/>
+    <UIElement name="txtConceptLink" locatorType="xpath" locatorValue="//div[@class='rmq-48f6f47e rmq-e43a51e4 rmq-cf75198a rmq-492888a9']//div[2]//ul//li[3]"/>
+    <UIElement name="linkConcept" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_toc_section_button']"/>
+    <UIElement name="txtOtherWaysToLearn" locatorType="xpath" locatorValue="//span[text()='Other Ways to Learn:']"/>
+    <UIElement name="linkOtherWaysToLearn" locatorType="xpath" locatorValue="//div[@class='rmq-73631b8 rmq-ec301e2d']"/>
+    <UIElement name="linkBackToFlexBook" locatorType="xpath" locatorValue="//span[@class='icon-arrow3_left']"/>
+    <UIElement name="btnViewPractice" locatorType="xpath" locatorValue="//span[@data-dx-desc='course_modality_practice_badge']//span[2]"/>
+    <UIElement name="btnKeepPracticing" locatorType="xpath" locatorValue="//*[@data-dx-elementinfo='quiz-Practice-button']//b"/>
+    <UIElement name="txtNameOfConcept" locatorType="xpath" locatorValue="//span[@idx='2']"/>
+    <UIElement name="nextIcon" locatorType="xpath" locatorValue="//div[@id='nextButtonDiv']"/>
+    <UIElement name="insightPopUp" locatorType="xpath" locatorValue="//div[contains(@class,'insights-popup__CloseIconContainer')]"/>
+</UIElements>
+

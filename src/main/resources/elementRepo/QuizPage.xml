@@ -1,0 +1,47 @@
+<UIElements>
+    <UIElement name="moduleTitle" locatorType="id" locatorValue="mode_title"/>
+    <UIElement name="privacyLink" locatorType="linktext" locatorValue="Privacy"/>
+    <UIElement name="linkAddQuiz" locatorType="xpath" locatorValue="//div[@id='add-quizes']//a"/>
+    <UIElement name="linkAddQuizProd" locatorType="xpath" locatorValue="//span[text()='Create a Quiz for your Class']"/>
+    <UIElement name="linkCreateNewLink" locatorType="xpath" locatorValue="//span[@class='js_create_quiz create-quiz']"/>
+    <UIElement name="btnBack" locatorType="xpath" locatorValue="//a[@class='back-button icon-arrow2_left text-center']//span"/>
+    <UIElement name="btnCreate" locatorType="xpath" locatorValue="//div[@class='create-quiz-btn right']//span[@id='createTest']"/>
+    <UIElement name="iconAlert" locatorType="xpath" locatorValue="//div[@class='columns small-12 feedback-container-msg']//span[@class='icon-notification alert-icon']"/>
+    <UIElement name="txtQuestionRequired" locatorType="xpath" locatorValue="//div[@class='columns small-12 feedback-container-msg']//span[2]"/>
+    <UIElement name="placeHolderTitle" locatorType="xpath" locatorValue="//div[@class='columns small-9 visible-section test-title-cont']//input"/>
+    <UIElement name="iconAddQuestion" locatorType="xpath" locatorValue="//span[@class='add-icon-cont']//i"/>
+    <UIElement name="textChooseConcept" locatorType="xpath" locatorValue="//div[@class='columns small-12']//div[text()='Choose a Concept']"/>
+    <UIElement name="btnSelect" locatorType="id" locatorValue="selectConcept"/>
+    <UIElement name="placeHolderSearchConcept" locatorType="xpath" locatorValue="//div[@class='search-ip']//input"/>
+    <UIElement name="iconCloseSearchConcept" locatorType="xpath" locatorValue="//div[@id='closeSearchConcept']//i"/>
+    <UIElement name="iconSearch" locatorType="xpath" locatorValue="//div[@class='search-icn-cnt']//i"/>
+    <UIElement name="chkBoxSearchResult" locatorType="xpath" locatorValue="//span[@class='select custom-box']//label[1]"/>
+    <UIElement name="textSearchResult" locatorType="xpath" locatorValue="//li[@id='search_MAT_GEO_205_09']/span[3]"/>
+    <UIElement name="btnGotIt" locatorType="xpath" locatorValue="//div[@class='button-container text-right']//div"/>
+    <UIElement name="iconRemove" locatorType="xpath" locatorValue="//ul[@id='exerciseContainer']//span[3]/i"/>
+    <UIElement name="btnPreview" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//span[@class='button standard tangerine quiz-preview-button user-select-none']"/>
+    <UIElement name="btnBackToAssignment" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//span[2]"/>
+    <UIElement name="textQuizCreated" locatorType="xpath" locatorValue="//div[@id='createUpdateSuccessModal']//div[1]"/>
+    <UIElement name="textPreview" locatorType="xpath" locatorValue="//div[@class='preview-header']//span[1]"/>
+    <UIElement name="textDeskTop" locatorType="xpath" locatorValue="//div[@class='preview-header']//span[2]"/>
+    <UIElement name="btnUpdate" locatorType="xpath" locatorValue="//div[@class='create-quiz-btn right']//span[@id='createTest']"/>
+    <UIElement name="btnClose" locatorType="xpath" locatorValue="//div[@class='row collapse text-center']//span[3]"/>
+    <UIElement name="iconEdit" locatorType="xpath" locatorValue="//ul[@id='exerciseContainer']//span[2]//span[1]//i"/>
+    <UIElement name="btnAddQuestion" locatorType="xpath" locatorValue="//div[@id='questionListMainContent']//input[@id='addQuestion']"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@id='questionListMainContent']//input[@id='closeQuestionPage']"/>
+    <UIElement name="btnSave" locatorType="xpath" locatorValue="//div[@id='questionListMainContent']//input[@id='saveQuestions']"/>
+    <UIElement name="btnSaveProd" locatorType="xpath" locatorValue="//a[@id='save-assignment']"/>
+    <UIElement name="iconBackToPrevious" locatorType="xpath" locatorValue="//div[@title='To previous page']"/>
+    <UIElement name="textConceptName" locatorType="id" locatorValue="defaultConceptName"/>
+    <UIElement name="textEditQuiz" locatorType="xpath" locatorValue="//div[@id='createworkbookwrapper']//span[@id]"/>
+    <UIElement name="NamesOfAssignments" locatorType="xpath" locatorValue="//span[@class='concept-name']//span"/>
+    <UIElement name="iconCreateNewQuestions" locatorType="xpath" locatorValue="//div[@class='new-question']//i"/>
+    <UIElement name="headerText" locatorType="xpath" locatorValue="(//h3[@class='heading'])[2]"/>
+    <UIElement name="assignmentName" locatorType="xpath" locatorValue="//input[@id='assignment-name-input']"/>
+    <UIElement name="selectClass" locatorType="xpath" locatorValue="//input[@id='close-assignment-assign-to-class']"/>
+    <UIElement name="saveAssignment" locatorType="xpath" locatorValue="//a[@id='close-assignment-modal-save']"/>
+    <UIElement name="score" locatorType="xpath" locatorValue="//div[contains(@class,'ReportCell__Wrapper')]"/>
+    <UIElement name="dueDate" locatorType="xpath" locatorValue="//input[@id='close-assignment-due-date']"/>
+    <UIElement name="currentDate" locatorType="xpath" locatorValue="//td[@class=' ui-datepicker-days-cell-over  ui-datepicker-current-day ui-datepicker-today']//a"/>
+
+</UIElements>

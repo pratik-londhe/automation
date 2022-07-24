@@ -1,0 +1,38 @@
+<UIElements>
+    <UIElement name="textShow" locatorType="xpath" locatorValue="//div[@class='row']//span[text()='Show:']"/>
+    <UIElement name="iconClassMenu" locatorType="xpath" locatorValue="(//div[@class='row']//span[text()='...'])[1]"/>
+    <UIElement name="linkHideFromDashBoard" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__gtMenuItem___2OZWx']//span"/>
+    <UIElement name="textHideFromDashBoard" locatorType="xpath" locatorValue="//div[@class='column small-11']//div[text()='Hide from Dashboard']"/>
+    <UIElement name="btnHide" locatorType="xpath" locatorValue="//button[@data-dx-desc='Hide Class Button clicked. ']"/>
+    <UIElement name="linkCreateNewOne" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupsCards__NoClassMsg___2-aOR']//span[text()='create a new one']"/>
+    <UIElement name="textCreateNewClass" locatorType="xpath" locatorValue="//div[@class='column']//strong[text()='Create a new class']"/>
+    <UIElement name="iconClose" locatorType="xpath" locatorValue="//i[@data-dx-desc='Close button modal']"/>
+    <UIElement name="linkHiddenClasses" locatorType="xpath" locatorValue="//select[@class='scss-components-GroupsFilter__HideDropDown___3yk_I']"/>
+    <UIElement name="linkDisplayOnDashBoard" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__gtMenuItem___2OZWx']//span"/>
+    <UIElement name="textDisplayOnDashBoard" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupCard__hideTextBoxHeading___3_Ol0 ']"/>
+    <UIElement name="btnDisplay" locatorType="xpath" locatorValue="//button[@data-dx-desc='Hide Class Button clicked. ']"/>
+    <UIElement name="linkCurrentClasses" locatorType="xpath" locatorValue="//div[@class='scss-components-GroupsCards__NoClassMsg___2-aOR']//span[text()='current classes']"/>
+    <UIElement name="textClassName" locatorType="xpath" locatorValue="//h1[@id='group-name']"/>
+    <UIElement name="textEmailNotification" locatorType="xpath" locatorValue="//div[@class='settings-wrapper hide-for-small']//div[text()='Email Notifications']"/>
+    <UIElement name="deleteClassButton" locatorType="xpath" locatorValue="/div[@class='setting-button-wrapper js-only-leader js-only-creator']//a//span"/>
+    <UIElement name="textClassAdmin" locatorType="xpath" locatorValue="//div[@id='group-leader']//h1[text()='Class Admins']"/>
+    <UIElement name="btnAddStudent" locatorType="xpath" locatorValue="//div[normalize-space()='Add Students']"/>
+    <UIElement name="textReports" locatorType="xpath" locatorValue="//a[@id='group-reports-link']"/>
+    <UIElement name="linkHowDoesThisWork" locatorType="xpath" locatorValue="//div[@id='ck12-peer-help']//a[text()='How does this work?']"/>
+    <UIElement name="btnChoose" locatorType="xpath" locatorValue="//div[@data-dx-desc='course_details_choose_dropdown_button']//div[text()='Choose']"/>
+    <UIElement name="btnShareToClass" locatorType="xpath" locatorValue="//a[@data-dx-desc='course_details_share_to_class']//b[text()='Share to Class']"/>
+    <UIElement name="textYouDoNotOwnAnyClass" locatorType="xpath" locatorValue="//div[@id='class-list']//span[text()]"/>
+    <UIElement name="btnAssign" locatorType="xpath" locatorValue="//span[@data-dx-desc='open_assign_modal_assign_button']"/>
+    <UIElement name="iconCk12" locatorType="xpath" locatorValue="//div[@data-dx-desc='platform_select_ck-12_card']//img"/>
+    <UIElement name="linkCreateNewClass" locatorType="xpath" locatorValue="//div[@class='ReactModal__Content ReactModal__Content--after-open']//div[text()='Create New Class']"/>
+    <UIElement name="btnAssignToClass" locatorType="xpath" locatorValue="//ul[@id='modalitysidebarMenu']//a[@title='Assign to Class']"/>
+    <UIElement name="btnShareWithClasses" locatorType="xpath" locatorValue="//ul[@id='modalitysidebarMenu']//a[@title='Share with Classes']"/>
+    <UIElement name="btnCreateAClass" locatorType="xpath" locatorValue="//div[@class='text-center']//a[@title='Create a Class']"/>
+    <UIElement name="linkCreateClass" locatorType="xpath" locatorValue="//span[text()='Create New class']"/>
+    <UIElement name="btnCreateAssignment" locatorType="id" locatorValue="create-assignment"/>
+    <UIElement name="textFirstClassName" locatorType="xpath" locatorValue="(//a[@data-dx-desc='Go to group page']//span)[1]"/>
+    <UIElement name="textSecondClassName" locatorType="xpath" locatorValue="(//a[@data-dx-desc='Go to group page']//span)[3]"/>
+    <UIElement name="buttonAssign" locatorType="xpath" locatorValue="//div[text()='Assign to Class']"/>
+    <UIElement name="btnTurnIn" locatorType="xpath" locatorValue="//div[@id='assignment-banner']//span[@data-dx-desc='turn_in_button_due']"/>
+    <UIElement name="iconCk12ImageAgain" locatorType="xpath" locatorValue="//div[@data-dx-desc='assign_to_ck12']//span"/>
+</UIElements>

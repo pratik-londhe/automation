@@ -1,0 +1,10 @@
+<UIElement>
+    <UIElement name="linkClass" locatorType="xpath" locatorValue="//div[@class='widget-group-activity-header js-group-header']//span[1]"/>
+    <UIElement name="txtMemberName" locatorType="xpath" locatorValue="//span[@class='member-name']"/>
+    <UIElement name="textStartDate" locatorType="xpath" locatorValue="(//div[@class='left member-assignment-start hide-for-small']//span)[2]"/>
+    <UIElement name="textProgress" locatorType="xpath" locatorValue="(//div[@class='right text-center member-assignment-progess']//span)[3]"/>
+    <UIElement name="textTitle" locatorType="xpath" locatorValue="//div[@class='columns large-11 member-header-title']//div[@title]"/>
+    <UIElement name="textLatestAssignmentScore" locatorType="xpath" locatorValue="//div[@class='columns large-11 member-header-title']//p"/>
+    <UIElement name="textClassAdmin" locatorType="xpath" locatorValue="//div[@id='group-leader']//h1"/>
+    <UIElement name="textEmailNotification" locatorType="xpath" locatorValue="//div[@class='settings-wrapper hide-for-small']//div[@class='settings-header']"/>
+</UIElement>

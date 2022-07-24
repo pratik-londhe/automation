@@ -1,0 +1,8 @@
+<UIElements>
+<UIElement name="btnCreateAssignment" locatorType="xpath" locatorValue="//span[text()='Create Assignment']"/>
+<UIElement name="className" locatorType="xpath" locatorValue="//span[@title='Class1']"/>
+<UIElement name="checkboxHeatMap" locatorType="xpath" locatorValue="(//div[contains(@class,'HeatMapButton__')]//span)[1]"/>
+<UIElement name="iconDownloadCsv" locatorType="xpath" locatorValue="//div[@data-dx-desc='downloadCSV']"/>
+<UIElement name="linkReadReport" locatorType="xpath" locatorValue="//div[@data-dx-desc='read reports tutorial']"/>
+<UIElement name="tableReport" locatorType="xpath" locatorValue="(//div[contains(@class,'ReportsTable__')])[1]"/>
+</UIElements>

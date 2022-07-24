@@ -1,0 +1,41 @@
+<UIElements>
+    <UIElement name="placeHolderEdit" locatorType="xpath" locatorValue="//body[@id='tinymce']"/>
+    <UIElement name="btnKeepAsDraft" locatorType="id" locatorValue="btn_save_artifact"/>
+    <UIElement name="btnFinalize" locatorType="xpath" locatorValue="//div[@class='modal-actions']//div[2]"/>
+    <UIElement name="textHighlightText" locatorType="xpath" locatorValue="//section[@class='myAnnotations-container']//th[2]"/>
+    <UIElement name="buttonAddToFlexBook" locatorType="id" locatorValue="add_to_book"/>
+    <UIElement name="btnCancel" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//button[1]//span[text()='Cancel']"/>
+    <UIElement name="btnOK" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//button[2]//span[text()='OK']"/>
+    <UIElement name="textError" locatorType="xpath" locatorValue="//div[@id='js_dialog_basic']//div[1]"/>
+    <UIElement name="btnOkOfErrorMsg" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//button[1]//span[text()='OK']"/>
+    <UIElement name="iconPlus" locatorType="xpath" locatorValue="//span[@class='create-new-book-wrapper']//i"/>
+    <UIElement name="dataText" locatorType="xpath" locatorValue="//div[@id='modality_content']//p//strong"/>
+    <UIElement name="textInHighlightSection" locatorType="xpath" locatorValue="//section[@class='myAnnotations-container']//td[text()='Data']"/>
+    <UIElement name="placeHolderAddNote" locatorType="xpath" locatorValue="//li[@id='ck12annotation-noteEditor']//textarea[@placeholder='Add note here…']"/>
+    <UIElement name="textInNotesSection" locatorType="xpath" locatorValue="//section[@class='myAnnotations-container']//td[text()='Important']"/>
+    <UIElement name="textNotesHighlight" locatorType="xpath" locatorValue="//section[@class='myAnnotations-container']//h3"/>
+    <UIElement name="deleteIcon" locatorType="xpath" locatorValue="//section[@class='myAnnotations-container']//td//span[@class='delete-btn-container']"/>
+    <UIElement name="dropDownShowResources" locatorType="xpath" locatorValue="//h3[@class=' js_block_toggle js_resources_toggle']//span[1]"/>
+    <UIElement name="dropDownHideResources" locatorType="xpath" locatorValue="//h3[@class=' js_block_toggle js_resources_toggle']//span[2]"/>
+    <UIElement name="dropDownFlexBookVersion" locatorType="xpath" locatorValue="//span[@id='versionSelect']//div//div"/>
+    <UIElement name="linkFlexBookSecondVersion" locatorType="xpath" locatorValue="//ul[@id='version-dropdown']//li[2]"/>
+    <UIElement name="textFlexBookSecondVersion" locatorType="xpath" locatorValue="//div[@class='js_atb_book inlineblock newbook']//span[text()='2.0']"/>
+    <UIElement name="txtPlaceHolder" locatorType="xpath" locatorValue="//div[@class='titlewrap']//input[@id]"/>
+    <UIElement name="btnNotesAndHighlight" locatorType="xpath" locatorValue="//li[@data-magellan-arrival='myAnnotations']//a"/>
+    <UIElement name="textNotesAndHighlight" locatorType="xpath" locatorValue="//section[@class='myAnnotations-container']//h3"/>
+    <UIElement name="linkPublish" locatorType="xpath" locatorValue="//li[@class='book_unpublished']//a"/>
+    <UIElement name="btnPublish" locatorType="xpath" locatorValue="//div[@class='ui-dialog-buttonset']//button//span[text()='Publish']"/>
+    <UIElement name="textContributionTypeErrorMsg" locatorType="xpath" locatorValue="//div[@class='contribution-type']//div[@class='contribution-type-error']"/>
+    <UIElement name="checkBoxCK12ContributionType" locatorType="xpath" locatorValue="//div[@class='custom-box']//label[@for='contribution_type2']//span"/>
+    <UIElement name="textModalityPublished" locatorType="xpath" locatorValue="//span[@class='ui-dialog-title' and @id='ui-dialog-title-js_publish_artifact_dialog']"/>
+    <UIElement name="tagBold" locatorType="xpath" locatorValue="(//button[@role='presentation']//i[@class='mce-ico mce-i-bold'])[1]"/>
+    <UIElement name="textNoResources" locatorType="xpath" locatorValue="//div[@class='artifact_attachment_container js_resource_container']//div"/>
+    <UIElement name="btnResources" locatorType="xpath" locatorValue="//a[@title='Show Resources']"/>
+    <UIElement name="btnEdit" locatorType="xpath" locatorValue="//a[@title='Edit This Modality']"/>
+    <UIElement name="" locatorType="xpath" locatorValue=""/>
+    <UIElement name="" locatorType="xpath" locatorValue=""/>
+    <UIElement name="" locatorType="xpath" locatorValue=""/>
+    <UIElement name="" locatorType="xpath" locatorValue=""/>
+    <UIElement name="" locatorType="xpath" locatorValue=""/>
+</UIElements>
+
