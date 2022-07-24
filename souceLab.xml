@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mobile sanity suite" parallel="tests" thread-count="2">
+    <test name="Android Test">
+        <parameter name="platformVersion" value="8.1"></parameter>
+        <parameter name="platformName" value="android"></parameter>
+        <parameter name="deviceName" value="Samsung Galaxy S6 GoogleAPI Emulator"></parameter>
+        <parameter name="portNumber" value="80"></parameter>
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="testscriptsmobile.loginfeatures">
+            </package>
+        </packages>
+    </test>
+    <test name="iPhone Test">
+        <parameter name="platformVersion" value="12.2"></parameter>
+        <parameter name="platformName" value="ios"></parameter>
+        <parameter name="deviceName" value="iPhone 6 Simulator"></parameter>
+        <parameter name="portNumber" value="80"></parameter>
+        <parameter name="browser" value="Safari"></parameter>
+        <packages>
+            <package name="testscriptsmobile.loginfeatures">
+            </package>
+        </packages>
+    </test>
+</suite>

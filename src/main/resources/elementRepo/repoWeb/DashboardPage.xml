@@ -1,0 +1,47 @@
+<UIElements>
+    <UIElement name="spanCSUser" locatorType="id" locatorValue="adminCSUser"/>
+    <UIElement name="profileDropdown" locatorType="xpath" locatorValue="//button[@class='btnprofile dropdown-toggle']"/>
+    <UIElement name="profileDropdownSignOut" locatorType="xpath" locatorValue="(//button[@class='btnprofile dropdown-toggle']//following::span[text()='Sign Out'])"/>
+    <UIElement name="buttonProfileDropdown" locatorType="id" locatorValue="//li[@id='header_user_dropdown']//i"/>
+    <UIElement name="spanCsClient" locatorType="id" locatorValue="adminCSClient"/>
+    <UIElement name="spanConfigure" locatorType="id" locatorValue="adminConfigure"/>
+    <UIElement name="imgConstructSecure" locatorType="xpath" locatorValue="(//a[@id='logo']//img)[1]"/>
+    <UIElement name="footerCopyrightText" locatorType="xpath" locatorValue="//div[@class='whfooter']"/>
+    <UIElement name="profileDropdownProfile" locatorType="xpath" locatorValue="(//button[@class='btnprofile dropdown-toggle']//following::button)[1]"/>
+    <UIElement name="spanChangePassword" locatorType="id" locatorValue="adminProfileChangePassword"/>
+    <UIElement name="dropdownLanguage" locatorType="xpath" locatorValue="//button[@class='btnlanguage dropdown-toggle']"/>
+    <UIElement name="optionChinese" locatorType="xpath" locatorValue="(//div[@class='dropdown-menu show']//following::button)[2]"/>
+    <UIElement name="optionEnglish" locatorType="xpath" locatorValue="//button[@value='en']"/>
+    <UIElement name="footerEmailUs" locatorType="xpath" locatorValue="//a[text()='Email Us']"/>
+    <UIElement name="footerTermsAndConditions" locatorType="xpath" locatorValue="//a[text()='Terms and Conditions']"/>
+    <UIElement name="menuUserRole" locatorType="id" locatorValue="clienUserRole"/>
+    <UIElement name="menuUsers" locatorType="id" locatorValue="clienAllUsers"/>
+    <UIElement name="menuOSHAExperience" locatorType="id" locatorValue="subSFOsha"/>
+    <UIElement name="menuSafetyProgramElements" locatorType="id" locatorValue="subSFSPE"/>
+    <UIElement name="menuSpecialElements" locatorType="id" locatorValue="subSFSE"/>
+    <UIElement name="menuSMS" locatorType="id" locatorValue="subSFSMS"/>
+    <UIElement name="menuFPFLR" locatorType="id" locatorValue="subFinLegalReq"/>
+    <UIElement name="menuFPLFI" locatorType="id" locatorValue="subLaborForceInfo"/>
+    <UIElement name="menuFPProjectExp" locatorType="id" locatorValue="subProjExp"/>
+    <UIElement name="menuFPFA" locatorType="id" locatorValue="subFinAnalysis"/>
+    <UIElement name="menuSPInsurance" locatorType="id" locatorValue="subSFInsIllness"/>
+    <UIElement name="client" locatorType="xpath" locatorValue="//tr[1]//td[2]//a"/>
+    <!--CS Inspect-->
+    <UIElement name="menuContractors" locatorType="id" locatorValue="clientInsContractors"/>
+    <UIElement name="menuInsConfigure" locatorType="id" locatorValue="clientInsConfigure"/>
+    <UIElement name="menuInsChecklist" locatorType="id" locatorValue="clienInsChecklist"/>
+    <UIElement name="menuInspections" locatorType="id" locatorValue="clientInspection"/>
+    <UIElement name="menuDropDowns" locatorType="id" locatorValue="clienInsDropdowns"/>
+    <UIElement name="menuContacts" locatorType="id" locatorValue="clientInsContacts"/>
+    <UIElement name="menuInspectionChecklist" locatorType="id" locatorValue="adminInsChecklist"/>
+    <UIElement name="menuFinProfile" locatorType="id" locatorValue="finProfile"/>
+    <UIElement name="menuSafetyProfile" locatorType="id" locatorValue="safetyProfile"/>
+    <UIElement name="menuFinancialDocumentation" locatorType="id" locatorValue="subFinDoc"/>
+    <UIElement name="menuAdminQC" locatorType="id" locatorValue="adminQC"/>
+    <UIElement name="tapCSProjects" locatorType="xpath" locatorValue="//a[@id='csProject']"/>
+    <UIElement name="tabWeighting" locatorType="id" locatorValue="clienInsWeighting"/>
+    <UIElement name="tabCSTracker" locatorType="xpath" locatorValue="//a[@id='csTracker']"/>
+    <UIElement name="viewContractor" locatorType="xpath" locatorValue="//a[@id='adminContractors']"/>
+    <UIElement name="tabIncident" locatorType="xpath" locatorValue="//a[@id='clientTrackerIncidents']"/>
+    <UIElement name="tabOutreach" locatorType="xpath" locatorValue="//a[@id='outreach']"/>
+</UIElements>

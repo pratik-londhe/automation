@@ -1,0 +1,14 @@
+<UIElements>
+    <UIElement name="signInLink" locatorType="xpath" locatorValue="//span[text()='sign in']"/>
+    <UIElement name="inputTextEmail" locatorType="xpath" locatorValue="//input[@name='login']"/>
+    <UIElement name="inputTextPassword" locatorType="xpath" locatorValue="//input[@name='token']"/>
+    <UIElement name="buttonSignIn" locatorType="xpath" locatorValue="//input[@type='button']"/>
+    <UIElement name="messageContent" locatorType="xpath" locatorValue="//div[@class='ui-toast-message-content']"/>
+    <!--Multi Factor Authentication-->
+    <UIElement name="buttonSend" locatorType="xpath" locatorValue="//button[text()=' SEND ']"/>
+    <UIElement name="inputTextVerificationCode" locatorType="xpath" locatorValue="//input[@name='verificationCode']"/>
+    <UIElement name="buttonContinue" locatorType="xpath" locatorValue="((//div[@class='form-group'])//following::button)[1]"/>
+    <UIElement name="labelEnterAVerificationCode" locatorType="xpath" locatorValue="//div[@class='panelHeader' and text()='Enter a verification code']"/>
+    <UIElement name="btnRadioContractor" locatorType="xpath" locatorValue="(//p-radiobutton[@formcontrolname='isContractor'])[1]"/>
+    <UIElement name="btnContinue" locatorType="xpath" locatorValue="//button[@class='btn btn-primary-color btn-common']"/>
+</UIElements>

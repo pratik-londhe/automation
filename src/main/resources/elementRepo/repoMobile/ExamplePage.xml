@@ -1,0 +1,15 @@
+<UIElement>
+    <UIElement name="linkSignIn" locatorType="id" locatorValue="login-splash-button"/>
+    <UIElement name="userNameTextField" locatorType="id" locatorValue="login_username"/>
+    <UIElement name="passwordTextField" locatorType="xpath" locatorValue="//input[@id='login_password']"/>
+    <UIElement name="loginButton" locatorType="id" locatorValue="login_btn"/>
+    <UIElement name="glamBagTab" locatorType="xpath" locatorValue="//li[@id='glambag-elem']"/>
+    <UIElement name="shopperTab" locatorType="xpath" locatorValue="//li[@id='shop-elem']"/>
+    <UIElement name="pointsTab" locatorType="xpath" locatorValue="//li[@id='points-elem']"/>
+    <UIElement name="accountTab" locatorType="xpath" locatorValue="//li[@id='account-elem']"/>
+    <UIElement name="logOut" locatorType="xpath" locatorValue="//h6[text()='Log Out']"/>
+    <UIElement name="ipsyCareOption" locatorType="xpath" locatorValue="//h6[text()='Log Out']"/>
+
+    #Android App elementRepo.webRepo.locators
+    <UIElement name="search" locatorType="id" locatorValue="com.android.vending:id/search_bar_text_input"/>
+</UIElement>

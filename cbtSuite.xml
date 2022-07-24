@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ConstructSecure sanity suite" parallel="tests" thread-count="3">
+    <test name="csTests" parallel="classes">
+        <parameter name="browser" value="chrome"/>
+        <packages>
+            <package name="webtestscripts.logintest">
+            </package>
+        </packages>
+    </test>
+
+    <test name="csTests" parallel="classes">
+        <parameter name="browser" value="firefox"/>
+        <packages>
+            <package name="webtestscripts.logintest">
+            </package>
+        </packages>
+    </test>
+</suite>

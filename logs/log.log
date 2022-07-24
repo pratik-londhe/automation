@@ -1,0 +1,261 @@
+2021-02-17 11:35:36 INFO  BaseTestScriptWeb:45 - Executing @BeforeSuite code
+2021-02-17 11:35:36 INFO  BaseTestScriptWeb:51 - Executing @BeforeTest code
+2021-02-17 11:35:36 INFO  BaseTestScriptWeb:53 - Inside Before suite
+2021-02-17 11:35:36 INFO  BaseTestScriptWeb:63 - Executing @BeforeClass code
+2021-02-17 11:35:36 INFO  BaseTestScriptWeb:73 - Browser is:chrome
+2021-02-17 11:35:38 INFO  BaseTestScriptWeb:83 - Executing @BeforeMethod code
+2021-02-17 11:40:37 INFO  BaseTestScriptWeb:45 - Executing @BeforeSuite code
+2021-02-17 11:40:37 INFO  BaseTestScriptWeb:51 - Executing @BeforeTest code
+2021-02-17 11:40:37 INFO  BaseTestScriptWeb:53 - Inside Before suite
+2021-02-17 11:40:37 INFO  BaseTestScriptWeb:63 - Executing @BeforeClass code
+2021-02-17 11:40:37 INFO  BaseTestScriptWeb:73 - Browser is:chrome
+2021-02-17 11:41:23 INFO  BaseTestScriptWeb:83 - Executing @BeforeMethod code
+2021-02-17 11:41:23 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:41:23 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:41:23 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49810}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4230015d93405bf320d1c11e74c514f8
+*** Element info: {Using=xpath, value=(//span[@class='usericonspan']//following::input)[1]}
+2021-02-17 11:41:24 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:41:24 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49810}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4230015d93405bf320d1c11e74c514f8
+*** Element info: {Using=xpath, value=(//span[@class='usericonspan']//following::input)[1]}
+2021-02-17 11:53:48 INFO  BaseTestScriptWeb:45 - Executing @BeforeSuite code
+2021-02-17 11:53:48 INFO  BaseTestScriptWeb:51 - Executing @BeforeTest code
+2021-02-17 11:53:48 INFO  BaseTestScriptWeb:53 - Inside Before suite
+2021-02-17 11:53:48 INFO  BaseTestScriptWeb:63 - Executing @BeforeClass code
+2021-02-17 11:53:48 INFO  BaseTestScriptWeb:73 - Browser is:chrome
+2021-02-17 11:54:04 INFO  BaseTestScriptWeb:83 - Executing @BeforeMethod code
+2021-02-17 11:54:04 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:54:04 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:04 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d790ff8855ad5b79a630102e8e6befc8
+*** Element info: {Using=xpath, value=//input[@name='login']}
+2021-02-17 11:54:05 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:54:05 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:54:07 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:54:07 INFO  LoginPage:26 - Clicked on the email test field.
+2021-02-17 11:54:07 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:54:07 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:08 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:54:10 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:54:10 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:54:10 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:10 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:54:12 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:54:12 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:12 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d790ff8855ad5b79a630102e8e6befc8
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:13 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:54:13 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d790ff8855ad5b79a630102e8e6befc8
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:14 INFO  GuiControlWeb:224 - Waiting for element display....1
+2021-02-17 11:54:14 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d790ff8855ad5b79a630102e8e6befc8
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:15 INFO  GuiControlWeb:224 - Waiting for element display....2
+2021-02-17 11:54:15 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d790ff8855ad5b79a630102e8e6befc8
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:16 INFO  GuiControlWeb:224 - Waiting for element display....3
+2021-02-17 11:54:16 INFO  LoginTest:26 - User successfully logged in and on dashboard page.
+2021-02-17 11:54:16 INFO  BaseTestScriptWeb:96 - Executing @AfterMethod code
+2021-02-17 11:54:16 INFO  BaseTestScriptWeb:115 - Executing @AfterClass code
+2021-02-17 11:54:18 INFO  BaseTestScriptWeb:126 - Executing @AfterTest code
+2021-02-17 11:54:18 INFO  BaseTestScriptWeb:131 - Executing @AfterSuite code
+2021-02-17 11:54:21 INFO  EmailUtils:99 - javax.mail.AuthenticationFailedException
+2021-02-17 11:54:26 INFO  BaseTestScriptWeb:45 - Executing @BeforeSuite code
+2021-02-17 11:54:26 INFO  BaseTestScriptWeb:51 - Executing @BeforeTest code
+2021-02-17 11:54:26 INFO  BaseTestScriptWeb:53 - Inside Before suite
+2021-02-17 11:54:26 INFO  BaseTestScriptWeb:63 - Executing @BeforeClass code
+2021-02-17 11:54:26 INFO  BaseTestScriptWeb:73 - Browser is:chrome
+2021-02-17 11:54:39 INFO  BaseTestScriptWeb:83 - Executing @BeforeMethod code
+2021-02-17 11:54:39 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:54:39 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:39 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fefcb2bf0e59fe218e53d8275570ddfd
+*** Element info: {Using=xpath, value=//input[@name='login']}
+2021-02-17 11:54:40 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:54:40 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:54:42 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:54:42 INFO  LoginPage:26 - Clicked on the email test field.
+2021-02-17 11:54:42 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:54:42 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:42 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:54:45 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:54:45 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:54:45 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:45 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:54:47 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:54:47 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:54:47 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fefcb2bf0e59fe218e53d8275570ddfd
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:48 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:54:48 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fefcb2bf0e59fe218e53d8275570ddfd
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:49 INFO  GuiControlWeb:224 - Waiting for element display....1
+2021-02-17 11:54:49 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fefcb2bf0e59fe218e53d8275570ddfd
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:50 INFO  GuiControlWeb:224 - Waiting for element display....2
+2021-02-17 11:54:50 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50252}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fefcb2bf0e59fe218e53d8275570ddfd
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:54:51 INFO  GuiControlWeb:224 - Waiting for element display....3
+2021-02-17 11:54:51 INFO  LoginTest:26 - User successfully logged in and on dashboard page.
+2021-02-17 11:54:51 INFO  BaseTestScriptWeb:96 - Executing @AfterMethod code
+2021-02-17 11:54:51 INFO  BaseTestScriptWeb:115 - Executing @AfterClass code
+2021-02-17 11:54:52 INFO  BaseTestScriptWeb:126 - Executing @AfterTest code
+2021-02-17 11:54:52 INFO  BaseTestScriptWeb:131 - Executing @AfterSuite code
+2021-02-17 11:54:56 INFO  EmailUtils:99 - javax.mail.AuthenticationFailedException
+2021-02-17 11:55:27 INFO  BaseTestScriptWeb:45 - Executing @BeforeSuite code
+2021-02-17 11:55:27 INFO  BaseTestScriptWeb:51 - Executing @BeforeTest code
+2021-02-17 11:55:27 INFO  BaseTestScriptWeb:53 - Inside Before suite
+2021-02-17 11:55:27 INFO  BaseTestScriptWeb:63 - Executing @BeforeClass code
+2021-02-17 11:55:27 INFO  BaseTestScriptWeb:73 - Browser is:chrome
+2021-02-17 11:55:49 INFO  BaseTestScriptWeb:83 - Executing @BeforeMethod code
+2021-02-17 11:55:49 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:55:49 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:55:49 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='login']"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48eb0fe2542e6bd4b4d3a8663dbe9188
+*** Element info: {Using=xpath, value=//input[@name='login']}
+2021-02-17 11:55:50 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:55:50 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:55:53 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:55:53 INFO  LoginPage:26 - Clicked on the email test field.
+2021-02-17 11:55:53 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:55:53 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:55:53 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:55:55 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:55:55 INFO  GuiControlWeb:281 - Inside waitUntilClickableAndClick method
+2021-02-17 11:55:55 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:55:55 INFO  GuiControlWeb:218 - Element display: true
+2021-02-17 11:55:57 INFO  GuiControlWeb:289 - Element is clicked at: 0
+2021-02-17 11:55:57 INFO  GuiControlWeb:211 - inside Wait for display
+2021-02-17 11:55:58 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48eb0fe2542e6bd4b4d3a8663dbe9188
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:55:59 INFO  GuiControlWeb:224 - Waiting for element display....0
+2021-02-17 11:56:03 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48eb0fe2542e6bd4b4d3a8663dbe9188
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:56:04 INFO  GuiControlWeb:224 - Waiting for element display....1
+2021-02-17 11:56:18 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48eb0fe2542e6bd4b4d3a8663dbe9188
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:56:19 INFO  GuiControlWeb:224 - Waiting for element display....2
+2021-02-17 11:56:19 INFO  GuiControlWeb:222 - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\/\/li\[\@id\=\'header_user_dropdown\'\]\/\/i"}
+  (Session info: chrome=88.0.4324.150)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-3BQS32E', ip: '192.168.43.41', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\PRATIK~1.LON\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50350}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48eb0fe2542e6bd4b4d3a8663dbe9188
+*** Element info: {Using=id, value=//li[@id='header_user_dropdown']//i}
+2021-02-17 11:56:20 INFO  GuiControlWeb:224 - Waiting for element display....3
+2021-02-17 11:56:20 INFO  LoginTest:26 - User successfully logged in and on dashboard page.
+2021-02-17 11:56:20 INFO  BaseTestScriptWeb:96 - Executing @AfterMethod code
+2021-02-17 11:56:20 INFO  BaseTestScriptWeb:115 - Executing @AfterClass code
+2021-02-17 11:56:21 INFO  BaseTestScriptWeb:126 - Executing @AfterTest code
+2021-02-17 11:56:21 INFO  BaseTestScriptWeb:131 - Executing @AfterSuite code
+2021-02-17 11:56:23 INFO  EmailUtils:99 - javax.mail.AuthenticationFailedException

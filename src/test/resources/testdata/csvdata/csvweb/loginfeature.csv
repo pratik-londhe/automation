@@ -1,0 +1,6 @@
+LoginTest,testLogin,isProfileDropDownVisible,User successfully logged in and on dashboard page.
+LoginTest,testLoginNegative,isProfileDropDownVisible,User successfully logged in and on dashboard page.
+LoginTest1,testLoginNegative,isProfileDropDownVisible,User successfully logged in and on dashboard page.
+LoginTest2,testLoginNegative,isProfileDropDownVisible,User successfully logged in and on dashboard page.
+LoginTest,testLoginNegative,isProfileDropDownVisible,User successfully logged in and on dashboard page.
+LoginTest,testLoginNegative,isProfileDropDownVisible,User successfully logged in and on dashboard page.
